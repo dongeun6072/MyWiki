@@ -7,6 +7,8 @@ for H in pre-commit pre-push; do
 #!/bin/sh
 ROOT=$(git rev-parse --show-toplevel) || exit 1
 cd "$ROOT" || exit 1
+# GUI 앱(Obsidian Git, IDE)은 PATH에 Homebrew가 없어 pdftotext를 못 찾고 PDF가 전부 "검사 불가"가 된다
+PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"; export PATH
 OUT=$(/usr/bin/env python3 _meta/security-scan.py 2>&1)
 CODE=$?
 if [ $CODE -ne 0 ]; then

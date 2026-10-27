@@ -21,7 +21,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26
 tier: core
 created: 2026-10-26T09:31:30+09:00
-updated: 2026-10-26T09:31:30+09:00
+updated: 2026-10-27T15:30:00+09:00
 snapshots:
   - "[[_raw/_archived/README|README]]"
   - "[[_raw/_archived/동행맵 Repo 구조도.png|동행맵 Repo 구조도.png]]"
@@ -63,6 +63,23 @@ snapshots:
 
 - 2026년 메일(수주, 컨소시엄 R&R, 앱 이관, 실내 내비 역 확정): [[seoul-donghaengmap-mail-2026]]
 
+### 슬랙 채널 (2026-07~10, 2026-10-27 반영)
+
+| 채널 | 페이지 |
+|---|---|
+| `#005_서울동행맵_dev` (내부 개발) | [[seoul-donghaengmap-dev-slack-process-2026]] (AI-flow, 저장소 구조, WBS·Jira, 감리, 스토어·계정, 정책 결정), [[seoul-donghaengmap-dev-slack-tech-2026]] (CMP 스택, OpenAPI·인증·암호화, 시연 연동 29개 API) |
+| `#10_prj-서울동행맵고도화` (PM·기획) | [[seoul-donghaengmap-pm-slack-2026]] (서울시 협의 연표, 기획서 v0.7~v1.0, 백엔드 협업 방식, Mapxus) |
+| `#ext-서울동행맵-컨소시엄-협업` | [[seoul-donghaengmap-consortium-slack-2026]] (LBS테크 SDK·음성 규격, 브로디언 DB·API·역할 분담, 감리 문서) |
+| `#ext-서울동행맵-파파야-협업` | [[seoul-donghaengmap-papaya-slack-2026]] (측위 SDK·Fusion SDK, 판교역 테스트 이슈, 시청역 시연 대비) |
+
+## 진행 현황 요약 (2026-10-27 기준, 슬랙)
+
+- 일정: 서울시 시연용 앱 통합 11-13, 단위 기능 개발 완료 목표 12-18, 교통과장 보고 11월 3주차, 시청역 사전 점검 11-11~12, 2차 앱스토어 등록 2027-06-14~16으로 변경.
+- 감리: 설계 단계 1차 감리를 10-7~15에 진행했고 최종 결과 보고서가 10-26에 나왔다.
+- 앱: Compose Multiplatform(Kotlin 2.4, AGP 9.3), Android 10/iOS 16 이상, 지도는 사내 iNavi Maps SDK. 가로 모드는 삭제, 1:1 문의는 '의견 보내기'(수집 전용)로 복원.
+- 서버: 백엔드 협력사(브로디언)와 역할을 나눠 앱은 아이나비 App Server만 호출한다. 시연은 29개 API 중 14개 실연동, 11개 목업, 나머지 구현 대기.
+- 실내 내비: 파파야 측위·경로탐색 API로 판교역을 시험 중이며 위치 오차, 층 전환 지연, 승강장 POI 부재가 남아 있다. 서울시에 "Android만 가능한 이유" 설명이 필요하다.
+
 ## 협업 저장소 구조
 
 팀은 **위키를 중심에 두고 각자의 AI(Claude)가 위키를 읽어 역할별 산출물을 만드는 방식**으로 일한다. 저장소 구조도(`동행맵 협업 Repo 구조`)는 다음과 같다.
@@ -83,6 +100,8 @@ snapshots:
 
 ## Open Questions
 
+- 시연 직결 쟁점: 경로탐색·통합검색 API 규격, 3사 POI ID 체계 통일, 대중교통 구간 안내 주체(SDK 대 앱), 외부망 접속과 HTTPS. 상세는 [[seoul-donghaengmap-dev-slack-tech-2026]].
+- 서울시 10-28 미팅 결과(설계 변경안, 추가 구축 역사 15개 여부, 2027-01 시범 서비스 범위)는 슬랙에 아직 없다.
 - 이 vault는 `_raw/articles/project-seoul/`의 일부(핵심 프로젝트 문서)만 정리했다. 대형 규정집과 화면기획서 구버전은 아직 수집하지 않았다.
 
 ## Sources
@@ -90,3 +109,4 @@ snapshots:
 - [[_raw/_archived/Outlook_2026.md]] — 2026 업무 메일(동행맵 수주·진행)
 - [[_raw/_archived/README.md]] — 외부 전달 자료 폴더 안내
 - [[_raw/_archived/동행맵 Repo 구조도.png]] — 협업 저장소 구조도
+- 슬랙 `#005_서울동행맵_dev`, `#10_prj-서울동행맵고도화`, `#ext-서울동행맵-컨소시엄-협업`, `#ext-서울동행맵-파파야-협업` 전체(2026-07~10-27) — 2026-10-27 반영. 서버·계정·키·토큰·링크 미수록

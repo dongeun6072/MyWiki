@@ -38,3 +38,4 @@ title: Wiki Log
 - [2026-10-27T13:22:20+09:00] INGEST source="slack:#모빌리티개발셀_tech_talk 전체(2026-01~10)" pages_created=3 pages_updated=3 mode=full
 - [2026-10-27T13:30:01+09:00] INGEST source="slack:#011_삼성생명_드로잉런_dev 전체(2026-02~10)" pages_created=2 pages_updated=2 mode=full
 - [2026-10-27T13:41:49+09:00] INGEST source="slack:#10_prj-flutter-sdk-dev 전체(2026-05~07)" pages_created=1 pages_updated=2 mode=full
+- [2026-10-27T15:30:49+09:00] INGEST source="slack:#005_서울동행맵_dev·#10_prj-서울동행맵고도화·#ext-서울동행맵-컨소시엄-협업·#ext-서울동행맵-파파야-협업 전체(2026-07~10)" pages_created=5 pages_updated=1 mode=full

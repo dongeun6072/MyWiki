@@ -1,0 +1,14 @@
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+.graph-cache.json
+.DS_Store
+
+# Office 임시 잠금 파일
+~$*
+.env
+*.pem
+*.p12
+*.jks
+token.json

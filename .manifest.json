@@ -1,0 +1,1151 @@
+{
+  "sources": {
+    "_raw/_archived/API 명세.md": {
+      "content_hash": "63fe7770eb898e8a35f54f244ebeb78ba3c6b487f1682a4c8f47768fcb8f5023",
+      "last_ingested": "2026-10-26T02:24:53.718628+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/inavi-air-api-overview.md"
+      ]
+    },
+    "_raw/_archived/API 상세명세.md": {
+      "content_hash": "ca44d7db34ce51471b019fcfc0ddb62ad852e3540cf43db0430fb66874f25e5e",
+      "last_ingested": "2026-10-26T00:17:38.301863+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/inavi-air-api-detail-spec.md",
+        "projects/inavi-air/inavi-air.md"
+      ]
+    },
+    "_raw/_archived/Push Curl.md": {
+      "content_hash": "445dd26a439cab8c52578f2845e0584f3b3b1a38e1389321da6f31af084e82bd",
+      "last_ingested": "2026-10-26T02:09:02.114571+00:00",
+      "pages_produced": [
+        "projects/inavi-air/concepts/air-push-notification.md",
+        "projects/inavi-air/inavi-air.md"
+      ]
+    },
+    "_raw/_archived/[포맷]MR(X1, 통신향)_v5.0_221123.docx": {
+      "content_hash": "e82821eb29aabbf5155088669ea93ea096e7592c2a16ba4a1dc3b1bfe866274a",
+      "last_ingested": "2026-10-26T00:17:38.440000+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/inavi-mr-format-spec.md",
+        "projects/inavi-air/concepts/inavi-mr-smr-network-data.md",
+        "projects/inavi-air/inavi-air.md"
+      ]
+    },
+    "_raw/_archived/[프로토콜]Routing(Neon)_v2.2.11.docx": {
+      "content_hash": "0ecf4d224b9ec378fd057ad92950c4edd8bf1d03ab38b855dd0824d1d8882e72",
+      "last_ingested": "2026-10-26T00:17:38.509574+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/inavi-routing-neon-protocol.md",
+        "projects/inavi-air/inavi-air.md"
+      ]
+    },
+    "_raw/_archived/sMR_Format_v2_0.doc": {
+      "content_hash": "aaf103ec087a2fdf461a70e65ed9a64ae57d3472fd127438883b9de6524ef38d",
+      "last_ingested": "2026-10-26T00:17:38.575979+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/inavi-smr-format-spec.md",
+        "projects/inavi-air/concepts/inavi-mr-smr-network-data.md",
+        "projects/inavi-air/inavi-air.md"
+      ]
+    },
+    "_raw/_archived/대구 신호교차로 Protocol_v0.4.docx": {
+      "content_hash": "443da82f6a49be05c99f94b89121ce4b475e21ba2eca1440347a34e9ae3e9776",
+      "last_ingested": "2026-10-26T00:17:38.643798+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/daegu-traffic-light-protocol.md",
+        "projects/inavi-air/inavi-air.md"
+      ]
+    },
+    "_raw/_archived/대구신호등목록.xlsx": {
+      "content_hash": "8890e325e62fd3fcfa2bafdf8ab4b40e6ba7d35fb2bad163ec00d040e1484a04",
+      "last_ingested": "2026-10-26T00:17:38.710414+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/daegu-traffic-light-protocol.md",
+        "projects/inavi-air/inavi-air.md"
+      ]
+    },
+    "_raw/_archived/아이나비에어 그룹주행 설계서.pdf": {
+      "content_hash": "02acae20ba66e14de2d450ccfee63396aeae07f8bfe7f11512b6f8abdac650d9",
+      "last_ingested": "2026-10-26T00:17:38.779046+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/inavi-air-group-driving-design.md",
+        "projects/inavi-air/concepts/group-driving-location-permission.md",
+        "projects/inavi-air/inavi-air.md"
+      ]
+    },
+    "_raw/_archived/2026_상반기_목표_주요업무_정리.md": {
+      "content_hash": "1840e68714c6a65e0245ae6505b702676d9a42f9bc9f81065bea22fcba7fa1f4",
+      "last_ingested": "2026-10-26T00:22:44.586870+00:00",
+      "pages_produced": [
+        "projects/orbis-sdk/orbis-sdk.md",
+        "projects/drawing-run-sdk/drawing-run-sdk.md",
+        "projects/inavi-air/references/inavi-air-feature-history.md",
+        "concepts/kmp-cmp-adoption.md",
+        "concepts/ai-doc-first-development.md",
+        "references/2026-goals-and-checkins.md"
+      ]
+    },
+    "_raw/_archived/2026_상반기_성과점검_이동은.md": {
+      "content_hash": "86327f3ca42517e7b05f2514c3f8101b9c8f9b1f2747d584caeb2a23509858fd",
+      "last_ingested": "2026-10-26T00:22:44.668027+00:00",
+      "pages_produced": [
+        "projects/orbis-sdk/orbis-sdk.md",
+        "concepts/kmp-cmp-adoption.md",
+        "concepts/ai-doc-first-development.md",
+        "references/2026-performance-review-selfeval.md"
+      ]
+    },
+    "_raw/_archived/2026_1분기_성과점검_이동은.md": {
+      "content_hash": "39c357e2cd617376e78fd5ce3729147f4252128c0f524dcfc820556ae4c60f16",
+      "last_ingested": "2026-10-26T00:22:44.748027+00:00",
+      "pages_produced": [
+        "concepts/ai-doc-first-development.md",
+        "references/2026-performance-review-selfeval.md"
+      ]
+    },
+    "_raw/_archived/2026_직무 기술서_이동은.docx": {
+      "content_hash": "c5af0c2bfb7d71e191654468116c2da4e670f5a57b2be5b205673a59457c74c9",
+      "last_ingested": "2026-10-26T00:22:44.826392+00:00",
+      "pages_produced": [
+        "projects/orbis-sdk/orbis-sdk.md",
+        "projects/drawing-run-sdk/drawing-run-sdk.md",
+        "references/job-description-2023-2026.md",
+        "entities/이동은.md"
+      ]
+    },
+    "_raw/_archived/직무기술_이동은.doc": {
+      "content_hash": "d0414929d8412a86851e41d84db7b3c3012aacca9863705e3470a2fca9d21bb3",
+      "last_ingested": "2026-10-26T00:22:44.904922+00:00",
+      "pages_produced": [
+        "references/job-description-2023-2026.md",
+        "entities/이동은.md"
+      ]
+    },
+    "_raw/_archived/2025년 정기승진 추천서(이동은).pptx": {
+      "content_hash": "8f6e3de6c876a7e46220208eff07346a69a3eeddbba50c237be38c5c3d050fd9",
+      "last_ingested": "2026-10-26T00:22:44.984074+00:00",
+      "pages_produced": [
+        "entities/이동은.md"
+      ]
+    },
+    "_raw/_archived/개인업무수행실적입력양식(2022).xlsx": {
+      "content_hash": "b515c2fda8ab1661422a645cc8c38c92aa6071f701f2d1784b2245c465fc058a",
+      "last_ingested": "2026-10-26T00:22:45.070172+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/inavi-air-feature-history.md"
+      ]
+    },
+    "_raw/_archived/개인업무수행실적입력양식(2023).xlsx": {
+      "content_hash": "bb6c6595968368754b19415ac2acbed6f245f57176ce033139482f1fd5f7096b",
+      "last_ingested": "2026-10-26T00:22:45.149023+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/inavi-air-feature-history.md"
+      ]
+    },
+    "_raw/_archived/INAVI_RouteServer_for_Taiwan_RouteDataLib_Guide_And_Reference_v1_0_1_4.pdf": {
+      "content_hash": "e918076d2fd2f8b78a3a6e0c4b272fe93b0e83d4e3fef2c274af694ead745d1c",
+      "last_ingested": "2026-10-26T00:27:18.531958+00:00",
+      "pages_produced": [
+        "projects/orbis-sdk/references/orbis-route-data-lib.md",
+        "projects/orbis-sdk/concepts/orbis-routing-stack.md",
+        "projects/orbis-sdk/concepts/vehicle-restriction-routing.md"
+      ]
+    },
+    "_raw/_archived/ORBISMAP API DOCS (Agent, Swagger).md": {
+      "content_hash": "19dcfcbdeea28962811e4575cb632e2f12582fd2deefdc73b6ff05810afc9a5b",
+      "last_ingested": "2026-10-26T02:09:02.532429+00:00",
+      "pages_produced": [
+        "projects/orbis-sdk/references/orbismap-api-docs.md",
+        "projects/orbis-sdk/concepts/orbis-routing-stack.md"
+      ]
+    },
+    "_raw/_archived/네트워크 활성화.md": {
+      "content_hash": "522e5fadac89f39e42b190a14117fea377d6af4c3c2e37b0ccfcf77bf22e60eb",
+      "last_ingested": "2026-10-26T00:27:18.985814+00:00",
+      "pages_produced": [
+        "skills/st1-device-network-activation.md"
+      ]
+    },
+    "_raw/_archived/README.md": {
+      "content_hash": "d2f69c05f80363d1a7074880d102d761b90bf812c14c54a5616dd66a0a4a3f63",
+      "last_ingested": "2026-10-26T00:36:59.867287+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/seoul-donghaengmap.md"
+      ]
+    },
+    "_raw/_archived/동행맵 Repo 구조도.png": {
+      "content_hash": "39c8e05ef2bca9b90daf8828fb50a0bec2b15080f938ad8462a73bcd6a19926e",
+      "last_ingested": "2026-10-26T00:36:59.945317+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/seoul-donghaengmap.md"
+      ]
+    },
+    "_raw/_archived/1. 제안요청서_서울시 교통약자지원 통합플랫폼(서울동행맵) 고도화 구축 사업.pdf": {
+      "content_hash": "e0546b3259e0c60e06a3284eed872a3dc91be2b789542357c486502e08a58b3f",
+      "last_ingested": "2026-10-26T00:37:00.020621+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-rfp.md"
+      ]
+    },
+    "_raw/_archived/서울동행맵_기술협상서_20260611(서울시 의견 반영).pdf": {
+      "content_hash": "c1c32d6c2761a1ad818cbbad9a341c469f83949c31f7738ffb10f7e30144b00d",
+      "last_ingested": "2026-10-26T00:37:00.104763+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-negotiation-kickoff.md"
+      ]
+    },
+    "_raw/_archived/★260701_서울동행맵 고도화 사업 착수보고 결과.pdf": {
+      "content_hash": "9f872d033e66a29e81abe40c9f158e0e90b7181c96afb76d78bc071129e42c1b",
+      "last_ingested": "2026-10-26T00:37:00.213520+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-negotiation-kickoff.md"
+      ]
+    },
+    "_raw/_archived/서울동행맵-기존앱-기능정의.md": {
+      "content_hash": "bcfb8f336e6b46096c4e75c1dbf5951a118bafc584bba672afcafd92ea7f0c4a",
+      "last_ingested": "2026-10-26T00:37:00.308420+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-existing-app-v2.md"
+      ]
+    },
+    "_raw/_archived/기능명세서_서울동행맵_아이나비시스템즈_v0.5.xlsx": {
+      "content_hash": "fdebb0ab4538dbb00c35d46495815b68761a0d6289aedacbd35739976f9a39a6",
+      "last_ingested": "2026-10-26T00:37:00.387645+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-functional-spec.md"
+      ]
+    },
+    "_raw/_archived/백엔드 및 SDK 기능명세.xlsx": {
+      "content_hash": "fe446ab2baee652a3a8bf41d320850262a37f9e4b03604ab97f57bc5a633d8f0",
+      "last_ingested": "2026-10-26T00:37:00.471942+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-functional-spec.md"
+      ]
+    },
+    "_raw/_archived/서울동행맵 고도화_화면기획서_v1.0_260923_공유.pdf": {
+      "content_hash": "72a988bb161ccf8783e322ac52d03f9abd2b9e69b0f15a251e2c79fc129a4d46",
+      "last_ingested": "2026-10-26T00:37:00.661279+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-screen-design.md"
+      ]
+    },
+    "_raw/_archived/서울동행맵 고도화_화면기획서_v1.0_260930.pptx": {
+      "content_hash": "8c78172a358115e686e56999aba1244a806d25b022cd6b91e47616f989438b2a",
+      "last_ingested": "2026-10-26T00:37:00.755326+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-screen-design.md"
+      ]
+    },
+    "_raw/_archived/서울동행맵_화면기획서_아로정보기술_v0.5.pptx": {
+      "content_hash": "4e1708011d162e37cc133d02dc57f12276cf5b72e6ab6c6d5d62b06842b3a78d",
+      "last_ingested": "2026-10-26T00:37:00.946384+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-screen-design.md"
+      ]
+    },
+    "_raw/_archived/백엔드 개발 환경_아이나비시스템즈.pdf": {
+      "content_hash": "56b52aeb56fc10fea43e4315f2eab88430f8e37ff2ea2a5c7634b2e2bf22207d",
+      "last_ingested": "2026-10-26T00:37:01.085543+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-backend-env.md"
+      ]
+    },
+    "_raw/_archived/서울동행맵_Table 명세서_아이나비시스템즈_20260909.xlsx": {
+      "content_hash": "40166df004638360491a8837952c9f736284e1e206ec0922d72779aab2720917",
+      "last_ingested": "2026-10-26T00:37:01.722648+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-backend-env.md"
+      ]
+    },
+    "_raw/_archived/내비게이션_서버 DB_규격서.pdf": {
+      "content_hash": "634b242cb2b462171d2b3f4a635f8b1b5335870e38879246ced59758816032e8",
+      "last_ingested": "2026-10-26T00:37:02.023937+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-lbs-collaboration.md"
+      ]
+    },
+    "_raw/_archived/내비게이션_참고문서.pdf": {
+      "content_hash": "aeeb65156b07060457555c67810467aeb22d533770b5a64040fa9a721343ca75",
+      "last_ingested": "2026-10-26T00:37:02.273274+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-lbs-collaboration.md"
+      ]
+    },
+    "_raw/_archived/openapi.json": {
+      "content_hash": "5f3f87a397d16478f54fe4576116f6608346cf8349a18f487929835432c0f6bd",
+      "last_ingested": "2026-10-26T00:37:02.498076+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-lbs-collaboration.md"
+      ]
+    },
+    "_raw/_archived/2026 서울동행맵 WBS_(주)엘비에스테크.xlsx": {
+      "content_hash": "d7b73f54c7e11874cc00644fec1b301e7bd2ce025193f9f27a939904e89e216e",
+      "last_ingested": "2026-10-26T00:37:02.745093+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-lbs-collaboration.md",
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-wbs.md"
+      ]
+    },
+    "_raw/_archived/서울동행맵_고도화_작업분할표(통합)_v0.8_260902.xlsm": {
+      "content_hash": "053b59d91d89f66a07cf199528deda2124ac8b53f0c046ca5fb0679974a826c8",
+      "last_ingested": "2026-10-26T02:27:03.817705+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-wbs.md"
+      ]
+    },
+    "_raw/_archived/Seoul_Donghaeng_DesignGuide_261013.pptx": {
+      "content_hash": "fd812d5f4107f8755bcf67aa3e778edd500ef7635ed389c091392119ee6829b5",
+      "last_ingested": "2026-10-26T00:37:02.909560+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-design-system.md"
+      ]
+    },
+    "_raw/_archived/서울동행맵_디자인_시각장애인용_v0.9_260918.pptx": {
+      "content_hash": "71f864a28dbcf3b87e03c757f6c1a1389599d750a45612ad3b2adab655598d43",
+      "last_ingested": "2026-10-26T00:37:02.995671+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-design-system.md"
+      ]
+    },
+    "_raw/_archived/서울동행맵_디자인컨셉_v1.0_260820.pptx": {
+      "content_hash": "afff80bc4ef6db9420e26cd8aed70083ef3f7e3e18cfa2b9828029d89f99652d",
+      "last_ingested": "2026-10-26T00:37:03.070818+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-design-system.md"
+      ]
+    },
+    "_raw/_archived/01.서울시 지하철역 등급체계 현황_260630.xlsx": {
+      "content_hash": "363ff233a2796f36cc97f87110b0e44990865a68dc6590f900a552b0905f32c6",
+      "last_ingested": "2026-10-26T00:37:03.148364+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-subway-station-grade.md"
+      ]
+    },
+    "_raw/_archived/02.서울시 지하철역 등급체계 정의서_260630.html": {
+      "content_hash": "14fd7704f91ec21d33767a31b72422ed7a6433310db8fa708324c22b09633d86",
+      "last_ingested": "2026-10-26T00:37:03.234539+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-subway-station-grade.md"
+      ]
+    },
+    "_raw/_archived/서울시 동행맵 고도화 사업_감리수행결과보고서(설계단계)_취합_v0.90.docx": {
+      "content_hash": "a595b3952fcedaabcb8d2ef8cfddb5501146855e4f54a9d982a18c5ef0a51fa1",
+      "last_ingested": "2026-10-26T00:37:03.316218+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-design-audit.md"
+      ]
+    },
+    "_raw/_archived/(모바일) 02. 서울동행맵_And 모바일 앱 취약점 진단 결과보고서.pdf": {
+      "content_hash": "d11570a16538495c8c04f5762ff5d230c31274ec04ba138e7fc0da6dd7b4893b",
+      "last_ingested": "2026-10-26T00:37:03.404762+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-app-vulnerability-reports.md"
+      ]
+    },
+    "_raw/_archived/(모바일) 03. 서울동행맵_iOS 모바일 앱 취약점 진단 결과보고서.pdf": {
+      "content_hash": "33a92dcb234501aec4d78c601df2a7523b92075a1943d287d2d0de53b6b2ff06",
+      "last_ingested": "2026-10-26T00:37:03.493177+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-app-vulnerability-reports.md"
+      ]
+    },
+    "_raw/_archived/TC-전체_260914.xlsx": {
+      "content_hash": "13ed2b9e9440a536d8ac2e84b1427136e9b2b4882111a6003a733a8893ad6950",
+      "last_ingested": "2026-10-26T00:37:03.570809+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-testcases.md"
+      ]
+    },
+    "_raw/_archived/디지털포용법(법률)(제20672호)(20260122).pdf": {
+      "content_hash": "28930901a6b8ae67b0237d965849a4039466be03fe709cdea58def416b673bda",
+      "last_ingested": "2026-10-26T00:37:03.655996+00:00",
+      "pages_produced": [
+        "concepts/korean-public-mobile-app-compliance.md"
+      ]
+    },
+    "_raw/_archived/호환성확인_가이드라인_20260622.pdf": {
+      "content_hash": "b167dfa9a7d20e143dab664bf90b43821cd68d183e3b776a68c8f25b4f26ced2",
+      "last_ingested": "2026-10-26T00:37:03.736250+00:00",
+      "pages_produced": [
+        "concepts/korean-public-mobile-app-compliance.md"
+      ]
+    },
+    "_raw/_archived/모바일 전자정부 서비스 관리 지침(행정안전부예규)(제366호)(20260512).pdf": {
+      "content_hash": "8a58f6a6ff62c37b4b7c23628f31371bc85d8918951eb82fa032852448c4debb",
+      "last_ingested": "2026-10-26T00:37:03.815329+00:00",
+      "pages_produced": [
+        "concepts/korean-public-mobile-app-compliance.md"
+      ]
+    },
+    "_raw/_archived/[별표 1] 모바일 서비스 앱 대상 보안취약점 점검기준(모바일 전자정부 서비스 관리 지침).pdf": {
+      "content_hash": "c9744437262949b6e2ec17f12e85c8f636c00e0f7036fe78ca907d18048dcac2",
+      "last_ingested": "2026-10-26T00:37:03.899305+00:00",
+      "pages_produced": [
+        "concepts/korean-public-mobile-app-compliance.md"
+      ]
+    },
+    "_raw/_archived/[별표 4] 모바일 행정서비스 성과측정 지표(모바일 전자정부 서비스 관리 지침).pdf": {
+      "content_hash": "74bba7781ea6100b61eb52db002b715cf8cfd5baf422a326a31e8a63ffe12ee4",
+      "last_ingested": "2026-10-26T00:37:03.975655+00:00",
+      "pages_produced": [
+        "concepts/korean-public-mobile-app-compliance.md"
+      ]
+    },
+    "_raw/_archived/[별표 3] 모바일 앱 보안약점 점검기준(모바일 전자정부 서비스 관리 지침).pdf": {
+      "content_hash": "3369f537a9c68f0e3cef34d237d5792d6bdfc156e849d97ee186ad88ada834f5",
+      "last_ingested": "2026-10-26T00:37:04.052667+00:00",
+      "pages_produced": [
+        "concepts/korean-public-mobile-app-compliance.md"
+      ]
+    },
+    "_raw/_archived/[별표 5] 모바일 대민서비스 성과측정 지표(모바일 전자정부 서비스 관리 지침).pdf": {
+      "content_hash": "7b1de1781aa15ca8a1eb742abdf71d7d52ab51b7d98b46ddd29148d9a05983c7",
+      "last_ingested": "2026-10-26T00:37:04.130881+00:00",
+      "pages_produced": [
+        "concepts/korean-public-mobile-app-compliance.md"
+      ]
+    },
+    "_raw/_archived/[별표 2] 모바일 서비스 서버(웹·앱) 대상 보안취약점 점검기준(모바일 전자정부 서비스 관리 지침).pdf": {
+      "content_hash": "065b91c0f089ecae2cdc1870228a1627189404724dd68c24e494fed8fb9b9fd4",
+      "last_ingested": "2026-10-26T00:37:04.209621+00:00",
+      "pages_produced": [
+        "concepts/korean-public-mobile-app-compliance.md"
+      ]
+    },
+    "_raw/_archived/Outlook_2022.md": {
+      "content_hash": "d0ae15736ae139b3d6e24f03af25c811043ef9bbc8de488e2729f40155091dd0",
+      "last_ingested": "2026-10-26T02:09:02.294307+00:00",
+      "pages_produced": [
+        "references/inavi-2022-mail-overview.md"
+      ]
+    },
+    "_raw/_archived/Outlook_2023.md": {
+      "content_hash": "2c9b9f85877ab307d9e8682858185ba42db16a3dd56d67d2b8041a061da553c6",
+      "last_ingested": "2026-10-26T02:18:37.708061+00:00",
+      "pages_produced": [
+        "references/inavi-2023-mail-overview.md"
+      ]
+    },
+    "url:https://inavisystems.atlassian.net/wiki/spaces/INaviAIR/pages/670433348/OrbisMap+NaviSDK": {
+      "ingested_at": "2026-10-26T10:19:01+09:00",
+      "source_url": "https://inavisystems.atlassian.net/wiki/spaces/INaviAIR/pages/670433348/OrbisMap+NaviSDK",
+      "source_type": "url",
+      "stub": false,
+      "project": "orbis-sdk",
+      "promotion_status": "orbis-sdk",
+      "pages_created": [
+        "projects/orbis-sdk/references/orbis-navisdk-poc-prep-2025.md"
+      ],
+      "pages_updated": [
+        "projects/orbis-sdk/orbis-sdk.md"
+      ]
+    },
+    "_raw/_archived/Outlook_2024.md": {
+      "content_hash": "ac3264986ac6c1f0c5e7df8a967161d1b64fbde06cf78c118d42c2569c99a0bf",
+      "last_ingested": "2026-10-26T05:52:05.838305+00:00",
+      "pages_produced": []
+    },
+    "url:https://inavisystems.atlassian.net/wiki/spaces/INaviAIR/overview": {
+      "ingested_at": "2026-10-26T12:56:00+09:00",
+      "source_url": "https://inavisystems.atlassian.net/wiki/spaces/INaviAIR/overview",
+      "source_type": "url",
+      "stub": false,
+      "project": "orbis-sdk,inavi-air",
+      "promotion_status": "project",
+      "pages_created": [
+        "projects/inavi-air/references/air-2025-plan.md",
+        "projects/inavi-air/references/air-ai-crosswalk-scrums-2023.md",
+        "projects/inavi-air/references/air-android-ios-developer-docs.md",
+        "projects/inavi-air/references/air-app-tech-research-2024-11.md",
+        "projects/inavi-air/references/air-app-version-notes-2023.md",
+        "projects/inavi-air/references/air-app-version-notes-2024.md",
+        "projects/inavi-air/references/air-app-version-notes-2025.md",
+        "projects/inavi-air/references/air-app-version-notes-2026.md",
+        "projects/inavi-air/references/air-apptech-survey-meetings-2024.md",
+        "projects/inavi-air/references/air-cash-accrual-policy-discussion-2023.md",
+        "projects/inavi-air/references/air-cash-advancement-planning-history-2023.md",
+        "projects/inavi-air/references/air-cash-reward-design-2023-2024.md",
+        "projects/inavi-air/references/air-cash-stamp-release-2023.md",
+        "projects/inavi-air/references/air-cash-welcome-mission-table-2024.md",
+        "projects/inavi-air/references/air-chatgpt-usecases-and-dev-spec-2024.md",
+        "projects/inavi-air/references/air-competitor-service-research-1-2.md",
+        "projects/inavi-air/references/air-confluence-scrum-and-voice-2023-2024.md",
+        "projects/inavi-air/references/air-data-analysis-2023-10-2024-09.md",
+        "projects/inavi-air/references/air-external-integration-android-spec.md",
+        "projects/inavi-air/references/air-external-integration-ios-spec.md",
+        "projects/inavi-air/references/air-feature-ideation-scrum-2024.md",
+        "projects/inavi-air/references/air-feature-planning-hub.md",
+        "projects/inavi-air/references/air-feature-upgrade-scrums-2023.md",
+        "projects/inavi-air/references/air-ga-logging-events.md",
+        "projects/inavi-air/references/air-genai-airbot-review-2024.md",
+        "projects/inavi-air/references/air-genai-and-ideation-hub.md",
+        "projects/inavi-air/references/air-genai-model-research-and-cost-2024.md",
+        "projects/inavi-air/references/air-genai-scrum-2024.md",
+        "projects/inavi-air/references/air-growth-research-hub.md",
+        "projects/inavi-air/references/air-growth-sprint-minutes-2024-q4.md",
+        "projects/inavi-air/references/air-growth-strategy-and-metrics-2024.md",
+        "projects/inavi-air/references/air-home-history-and-scrum-process.md",
+        "projects/inavi-air/references/air-hud-and-stabilization-scrums-2023-12.md",
+        "projects/inavi-air/references/air-hud-launch-stabilization-scrums-2024.md",
+        "projects/inavi-air/references/air-hypothesis-phase1-phase2.md",
+        "projects/inavi-air/references/air-image-hud-review-2025.md",
+        "projects/inavi-air/references/air-internal-docs-and-integration-hub.md",
+        "projects/inavi-air/references/air-lab-and-report-renewal-2023.md",
+        "projects/inavi-air/references/air-login-induction-experiment-2024-q4.md",
+        "projects/inavi-air/references/air-mission-ideation-and-referral-2024-12.md",
+        "projects/inavi-air/references/air-my-places-renewal-2023.md",
+        "projects/inavi-air/references/air-new-voice-preference-2023-09.md",
+        "projects/inavi-air/references/air-onavi-shutdown-user-acquisition-plan.md",
+        "projects/inavi-air/references/air-perplexity-and-llama-evaluation-2024.md",
+        "projects/inavi-air/references/air-point-home-new-cash-button-2023-2024.md",
+        "projects/inavi-air/references/air-prd-v1-v2-app-tech-navigation.md",
+        "projects/inavi-air/references/air-quiz-result-analysis.md",
+        "projects/inavi-air/references/air-release-and-resource-log-hub.md",
+        "projects/inavi-air/references/air-resource-deploy-log-2023-h1.md",
+        "projects/inavi-air/references/air-resource-deploy-log-2023-h2.md",
+        "projects/inavi-air/references/air-resource-deploy-log-2024-2026.md",
+        "projects/inavi-air/references/air-scrum-records-hub.md",
+        "projects/inavi-air/references/air-server-data-analysis-2023-11-2024-11.md",
+        "projects/inavi-air/references/air-server-data-correlation-analysis-2024-09.md",
+        "projects/inavi-air/references/air-service-stability-release-notes-2023-2026.md",
+        "projects/inavi-air/references/air-skp-ad-scrums-2024.md",
+        "projects/inavi-air/references/air-small-features-and-notices-2023-2025.md",
+        "projects/inavi-air/references/air-store-release-target-dates.md",
+        "projects/inavi-air/references/air-store-review-analysis.md",
+        "projects/inavi-air/references/air-testing-guide.md",
+        "projects/inavi-air/references/air-usability-improvement-scrums-2024-h1.md",
+        "projects/inavi-air/references/air-usability-stats-and-release-notes-2024.md",
+        "projects/orbis-sdk/concepts/orbis-guidance-and-voice-spec.md",
+        "projects/orbis-sdk/references/apple-map-display-comparison.md",
+        "projects/orbis-sdk/references/demo-exhibition-app-scrums-2025.md",
+        "projects/orbis-sdk/references/dp-mmc-engine-maplibre-scrums-2025.md",
+        "projects/orbis-sdk/references/genesis-vs-orbis-search-api-review-taiwan.md",
+        "projects/orbis-sdk/references/google-navigation-guidance-and-map-level-analysis.md",
+        "projects/orbis-sdk/references/inavi-sdk-android-controller-init-map-search.md",
+        "projects/orbis-sdk/references/inavi-sdk-android-controller-misc-and-truck.md",
+        "projects/orbis-sdk/references/inavi-sdk-android-controller-route-and-driving.md",
+        "projects/orbis-sdk/references/inavi-sdk-android-error-codes.md",
+        "projects/orbis-sdk/references/inavi-sdk-android-guide-hub.md",
+        "projects/orbis-sdk/references/inavi-sdk-android-interface-structure-define-reference.md",
+        "projects/orbis-sdk/references/inavi-sdk-android-revision-history.md",
+        "projects/orbis-sdk/references/inavi-sdk-android-scenario-examples.md",
+        "projects/orbis-sdk/references/inavi-sdk-android-setup-and-permissions.md",
+        "projects/orbis-sdk/references/inavi-sdk-android-shi-edition-diff.md",
+        "projects/orbis-sdk/references/inavi-sdk-ios-controller-reference.md",
+        "projects/orbis-sdk/references/inavi-sdk-ios-guide-hub.md",
+        "projects/orbis-sdk/references/inavi-sdk-ios-guide-setup.md",
+        "projects/orbis-sdk/references/inavi-sdk-ios-guide-shi-edition-differences.md",
+        "projects/orbis-sdk/references/inavi-sdk-ios-structures-defines-and-codes.md",
+        "projects/orbis-sdk/references/inavi-sdk-ios-swift-scenarios.md",
+        "projects/orbis-sdk/references/map-sdk-commercialization-scrums-2026.md",
+        "projects/orbis-sdk/references/mapssdk-engine-platform-differences.md",
+        "projects/orbis-sdk/references/navi-sdk-improvement-scrums-2026.md",
+        "projects/orbis-sdk/references/navi-sdk-truck-scrums-2026.md",
+        "projects/orbis-sdk/references/navisdk-api-coverage-and-domestic-sdk-guide.md",
+        "projects/orbis-sdk/references/navisdk-commercialization-scrums-2025-2026.md",
+        "projects/orbis-sdk/references/navisdk-confluence-sprint-timeline-2024-2026.md",
+        "projects/orbis-sdk/references/navisdk-flutter-plugin-plan-detail.md",
+        "projects/orbis-sdk/references/navisdk-inavicontroller-unimplemented-status.md",
+        "projects/orbis-sdk/references/navisdk-scrum-snapshots-2024-10-to-2025-12.md",
+        "projects/orbis-sdk/references/navisdk-ui-state-flow-detail.md",
+        "projects/orbis-sdk/references/new-navisdk-plan-detail.md",
+        "projects/orbis-sdk/references/orbis-design-and-review-hub.md",
+        "projects/orbis-sdk/references/orbis-guidance-engine-dev-spec.md",
+        "projects/orbis-sdk/references/orbis-i18n-units-notation-and-translation-resources.md",
+        "projects/orbis-sdk/references/orbis-navisdk-architecture-and-flutter-plan.md",
+        "projects/orbis-sdk/references/orbis-navisdk-kdoc-and-mkdocs-guide.md",
+        "projects/orbis-sdk/references/orbis-onesky-translation-process.md",
+        "projects/orbis-sdk/references/orbis-specout-rr-and-misc-pages.md",
+        "projects/orbis-sdk/references/orbis-tile-map-style-analysis.md",
+        "projects/orbis-sdk/references/orbis-voice-phrase-combinations.md",
+        "projects/orbis-sdk/references/orbismap-navisdk-dev-spec-and-poc-prep.md",
+        "projects/orbis-sdk/references/orbismap-route-and-tomtom-sdk-review-2025.md",
+        "projects/orbis-sdk/references/orbismap-route-review-detail.md",
+        "projects/orbis-sdk/references/sdk-development-progress-board-and-2026-scrums.md",
+        "projects/orbis-sdk/references/sdk-flutter-scrums-2026.md",
+        "projects/orbis-sdk/references/sdk-maintenance-scrums-2026.md",
+        "projects/orbis-sdk/references/sdk-scrum-common-items-2026.md",
+        "projects/orbis-sdk/references/sdk-sprint-driving-feature-api-2025-02.md",
+        "projects/orbis-sdk/references/sdk-sprint-engine-api-integration-2025-03-05.md",
+        "projects/orbis-sdk/references/sdk-sprint-initial-map-display-2024-q4.md",
+        "projects/orbis-sdk/references/sdk-sprint-initial-setup-architecture-modules-2024-q4.md",
+        "projects/orbis-sdk/references/sdk-sprint-internal-api-design-2024-12.md",
+        "projects/orbis-sdk/references/sdk-sprint-kmp-base-logic-2025-01.md",
+        "projects/orbis-sdk/references/sdk-sprint-main-state-and-screens-2025-05-06.md",
+        "projects/orbis-sdk/references/sdk-sprint-taiwan-plan-and-structure-2025-03.md",
+        "projects/orbis-sdk/references/sdk-sprints-2024-2025-hub.md",
+        "projects/orbis-sdk/references/sdk-sprints-2024-2025-timeline.md",
+        "projects/orbis-sdk/references/sdk-sprints-2025-2026-hub.md",
+        "projects/orbis-sdk/references/taiwan-field-evaluation-2025.md",
+        "projects/orbis-sdk/references/taiwan-field-evaluation-detail.md",
+        "projects/orbis-sdk/references/tomtom-maps-sdk-api-review-detail.md"
+      ],
+      "pages_updated": [
+        "projects/orbis-sdk/orbis-sdk.md",
+        "projects/inavi-air/inavi-air.md"
+      ],
+      "page_count_fetched": 419,
+      "detail_pass": "2026-10-26 상세 반영(압축 해제), 419/419 페이지 ID 반영"
+    },
+    "_raw/_archived/Outlook_2025.md": {
+      "content_hash": "a7ca7a1b6b9dbe66755cb331fcb1857fd3aa4f609574215f787652c38bd601ed",
+      "last_ingested": "2026-10-26T02:04:26.413577+00:00",
+      "pages_produced": [
+        "projects/orbis-sdk/references/orbis-navisdk-development-2025.md",
+        "projects/orbis-sdk/references/orbis-taiwan-business-2025.md",
+        "projects/inavi-air/references/air-operations-2025.md",
+        "references/nav-service-features-2025.md",
+        "references/inavi-2025-mail-overview.md",
+        "projects/tsd-a01/tsd-a01.md",
+        "projects/orbis-sdk/orbis-sdk.md",
+        "projects/inavi-air/inavi-air.md",
+        "entities/이동은.md",
+        "references/inavi-2024-mail-overview.md"
+      ]
+    },
+    "url:https://inavisystems.atlassian.net/wiki/spaces/2Ozy8QblnTwf/overview": {
+      "content_hash": "sha256:c0f7081d8ca8dc5069b6852f9f6bf8aa4201984d189bfc93b17ba1307cbdb0d8",
+      "last_ingested": "2026-10-26T14:42:48+09:00",
+      "pages_produced": [
+        "projects/drawing-run-sdk/references/drawing-run-poc-course-generation-review-2026.md",
+        "projects/drawing-run-sdk/references/drawing-run-sdk-launch-scope-and-data-items-2026.md",
+        "projects/drawing-run-sdk/references/drawing-run-sdk-scrum-2026-04-to-05.md",
+        "projects/drawing-run-sdk/references/plus-run-external-tech-review-2026.md",
+        "projects/drawing-run-sdk/references/drawing-run-course-guidance-data-flow-2026.md",
+        "projects/drawing-run-sdk/references/drawing-run-phase2-voice-guidance-and-meetings-2026.md",
+        "projects/drawing-run-sdk/references/drawing-run-sdk-release-history-2026.md",
+        "projects/drawing-run-sdk/drawing-run-sdk.md"
+      ],
+      "source_type": "document",
+      "project": "drawing-run-sdk"
+    },
+    "_raw/_archived/Outlook_2026.md": {
+      "content_hash": "7075d88a89dc348ef878a5ff2c601eee3a09c77fa48287f883e81d707130f8c2",
+      "last_ingested": "2026-10-26T05:49:24.347801+00:00",
+      "pages_produced": [
+        "references/inavi-2026-mail-overview.md",
+        "projects/orbis-sdk/references/orbis-taiwan-development-2026.md",
+        "projects/inavi-air/references/air-operations-2026.md",
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-mail-2026.md"
+      ]
+    },
+    "_raw/_archived/별첨_대만향 naviSDK 침해위험특허 대응방안_법무지재팀.docx": {
+      "content_hash": "3f1b15b08601a41c9a7df952c9b4f5e84e35960303908f60a5377696e157b463",
+      "last_ingested": "2026-10-26T06:07:06.229955+00:00",
+      "pages_produced": [
+        "projects/orbis-sdk/references/taiwan-navisdk-fto-patent-review-2025.md"
+      ]
+    },
+    "_raw/_archived/[아이나비시스템즈] 대만향 NaviSDK 서비스_침해검토보고서_MAPS_최종.docx": {
+      "content_hash": "c4e2fa227c9f3e66e96923c8031d435d1342e2606f0a709fb9f2c056e01e2a93",
+      "last_ingested": "2026-10-26T06:07:06.377000+00:00",
+      "pages_produced": [
+        "projects/orbis-sdk/references/taiwan-navisdk-fto-patent-review-2025.md"
+      ]
+    },
+    "_raw/_archived/다국어+음성+발성+조합.doc": {
+      "content_hash": "a15d3b6f23254a62daaa81d1f38cc83bab8b5ccd96876a4810078f7649bc7946",
+      "last_ingested": "2026-10-26T06:07:06.523037+00:00",
+      "pages_produced": [
+        "projects/orbis-sdk/references/orbis-voice-phrase-combinations.md"
+      ]
+    },
+    "_raw/_archived/INAVI_RouteServer_for_Taiwan_RouteDataLib_Guide_And_Reference_v1_0_0_2.pdf": {
+      "content_hash": "3430a641c99d2353924eca18d991d2ad02b0514d57736ad83724f57860142337",
+      "last_ingested": "2026-10-26T06:07:06.661189+00:00",
+      "pages_produced": [
+        "projects/orbis-sdk/references/orbis-route-data-lib.md"
+      ]
+    },
+    "_raw/_archived/TT traffic flow_inquiries_inavi_11thMar2025_tt.xlsx": {
+      "content_hash": "635afc8dba1122946bb32c1cf777051d043df0591446ca897ccc0b162e065be0",
+      "last_ingested": "2026-10-26T06:07:06.793784+00:00",
+      "pages_produced": [
+        "projects/orbis-sdk/references/tomtom-traffic-flow-openlr-inquiries-2024.md"
+      ]
+    },
+    "_raw/_archived/04 MH300L_TSD_Web_Manual_KOR_Navi.pptx": {
+      "content_hash": "6bae9c4d26bcab773d7c5f662336d994fce3c6ee914f47d6ba2be20247178832",
+      "last_ingested": "2026-10-26T06:07:06.931126+00:00",
+      "pages_produced": [
+        "projects/tsd-a01/tsd-a01.md"
+      ]
+    },
+    "_raw/_archived/05 MH300L_TSD_Web_Manual_KOR_Map_240102.pdf": {
+      "content_hash": "eab5106dcfa1c93a5392d957b0ae2f4a10766cbc650df2b4538691d42a821c2c",
+      "last_ingested": "2026-10-26T06:07:07.073248+00:00",
+      "pages_produced": [
+        "projects/tsd-a01/tsd-a01.md"
+      ]
+    },
+    "_raw/_archived/3rd party apps_GUI_design_guide_0818.pdf": {
+      "content_hash": "5de48c867536f2a04d470016b55f72953d4b32e7f623da553725cc180ae6deaf",
+      "last_ingested": "2026-10-26T06:07:07.217673+00:00",
+      "pages_produced": [
+        "projects/tsd-a01/tsd-a01.md"
+      ]
+    },
+    "_raw/_archived/a01_network.pptx": {
+      "content_hash": "17423c835c40f9a50866cdbea138cac85aeeb91d7caa2bd800b6ad6d530cdc79",
+      "last_ingested": "2026-10-26T06:07:07.356173+00:00",
+      "pages_produced": [
+        "projects/tsd-a01/tsd-a01.md"
+      ]
+    },
+    "_raw/_archived/ISA 평가루트.xlsx": {
+      "content_hash": "509b314a177b6866d4085a695aada6b7e8229c4d5ebd0fd96e7c3b8f332cf9c3",
+      "last_ingested": "2026-10-26T06:07:07.495171+00:00",
+      "pages_produced": [
+        "projects/tsd-a01/tsd-a01.md"
+      ]
+    },
+    "_raw/_archived/TomTom Definition of Issue Severity.pdf": {
+      "content_hash": "6b791a557b2c37150af2e98366c60bbb9d8cdd9f928f10130f95aacf1a2ac889",
+      "last_ingested": "2026-10-26T06:07:07.635648+00:00",
+      "pages_produced": [
+        "projects/tsd-a01/tsd-a01.md"
+      ]
+    },
+    "_raw/_archived/TomTom Jira Ticket Report Template.pdf": {
+      "content_hash": "4a97b0b32e0d4c97a11c41953ff3fb65788577288fd8415d8213e399604b8555",
+      "last_ingested": "2026-10-26T06:07:07.771463+00:00",
+      "pages_produced": [
+        "projects/tsd-a01/tsd-a01.md"
+      ]
+    },
+    "_raw/_archived/ConnectedServicesPlatformGuide (2).pdf": {
+      "content_hash": "bdbfa79313c7b7c4e5a0f86f17d42e089bb0ffe9a3f72c8fe7d5d969d4f2a075",
+      "last_ingested": "2026-10-26T06:07:07.905471+00:00",
+      "pages_produced": [
+        "projects/tsd-a01/references/tomtom-connected-services-and-hazard-warnings-spec.md",
+        "projects/tsd-a01/tsd-a01.md"
+      ]
+    },
+    "_raw/_archived/TomTom-HazardsService-TechnicalSpecification-B2B-1.3.pdf": {
+      "content_hash": "42430c0c9777bdbca71cbaa3f5b23350ae81efaeaadd10d091ebf3adc046f3e4",
+      "last_ingested": "2026-10-26T06:07:08.104836+00:00",
+      "pages_produced": [
+        "projects/tsd-a01/references/tomtom-connected-services-and-hazard-warnings-spec.md",
+        "projects/tsd-a01/tsd-a01.md"
+      ]
+    },
+    "_raw/_archived/hazards-udf-schema-v1.0.1 (2).zip": {
+      "content_hash": "81d31356cf075e65544834ee25a1179bfc77bb59444b7b143299a0af5d4041aa",
+      "last_ingested": "2026-10-26T06:07:08.308234+00:00",
+      "pages_produced": [
+        "projects/tsd-a01/references/tomtom-connected-services-and-hazard-warnings-spec.md",
+        "projects/tsd-a01/tsd-a01.md"
+      ]
+    },
+    "_raw/_archived/TSD_A01_유럽향_VR_Navi_연동규격서_v0.6.xlsx": {
+      "content_hash": "fc1f409297ab10d6844a4604c007c21fe389bcd6ad7c15ac129b292eed31368b",
+      "last_ingested": "2026-10-26T06:07:08.513731+00:00",
+      "pages_produced": [
+        "projects/tsd-a01/references/tsd-a01-vr-navi-interface-spec.md",
+        "projects/tsd-a01/tsd-a01.md"
+      ]
+    },
+    "_raw/_archived/TSD_A01_유럽향_VR_Navi_연동규격서_v0.93.xlsx": {
+      "content_hash": "b18ebf67c96ec9ad648514e054c64aa45edf7890a71a7abf59eb077d085fa8bc",
+      "last_ingested": "2026-10-26T06:07:08.727114+00:00",
+      "pages_produced": [
+        "projects/tsd-a01/references/tsd-a01-vr-navi-interface-spec.md",
+        "projects/tsd-a01/tsd-a01.md"
+      ]
+    },
+    "_raw/_archived/서울동행맵 고도화_화면기획서_v0.7_260824.pptx": {
+      "content_hash": "b36ec2d1b006879572ab3d2fbc8e45f195a332f388c8f796dd85fa977cb2a61d",
+      "last_ingested": "2026-10-26T06:07:49.156522+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-screen-design.md",
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-screen-design-revisions.md"
+      ]
+    },
+    "_raw/_archived/서울동행맵 고도화_화면기획서_v0.7_260827_r1.pptx": {
+      "content_hash": "3de7caf70e82df1e2686e91c06d2b6518bc966f89bedb336d47853df4e74993d",
+      "last_ingested": "2026-10-26T06:07:49.364749+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-screen-design.md",
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-screen-design-revisions.md"
+      ]
+    },
+    "_raw/_archived/서울동행맵 고도화_화면기획서_v0.8_260903.pptx": {
+      "content_hash": "ec9329805a770f2faa780dc5b9fd2b33fc14ee3f2e5aecb8e14668bebe303859",
+      "last_ingested": "2026-10-26T06:07:49.573597+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-screen-design.md",
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-screen-design-revisions.md"
+      ]
+    },
+    "_raw/_archived/서울동행맵 고도화_화면기획서_v0.8_260904.pptx": {
+      "content_hash": "fc8054f71ee9db1c9eb67e4abcd6b9a7c0cf3f93ecbbc2e06085e6001d46223d",
+      "last_ingested": "2026-10-26T06:07:49.774892+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-screen-design.md",
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-screen-design-revisions.md"
+      ]
+    },
+    "_raw/_archived/서울동행맵 고도화_화면기획서_v0.8_260908.pptx": {
+      "content_hash": "3f288802dee1a8cf4b33f24eda2186251fca1e71689551eacd93714ce9d9bb9a",
+      "last_ingested": "2026-10-26T06:07:49.972841+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-screen-design.md",
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-screen-design-revisions.md"
+      ]
+    },
+    "_raw/_archived/서울동행맵 고도화_화면기획서_v0.8.1_260914.pptx": {
+      "content_hash": "35dd36ee9a09c5a410ed31e56fbf1e3bbda1193f1292ae2b7a313ff2d47d5991",
+      "last_ingested": "2026-10-26T06:07:50.177107+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-screen-design.md",
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-screen-design-revisions.md"
+      ]
+    },
+    "_raw/_archived/서울동행맵 고도화_화면기획서_v1.0_260928.pptx": {
+      "content_hash": "fce28885040111375abfb10433523f415d96b2974366808934d2fc469e6e0276",
+      "last_ingested": "2026-10-26T06:07:50.380108+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-screen-design.md",
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-screen-design-revisions.md"
+      ]
+    },
+    "_raw/_archived/Seoul_Donghaeng_Concept_260820.pptx": {
+      "content_hash": "085fe46a3198371e639e9a278f1f4f9e6565f4575a7b4c1a46fb44c1d6e90fff",
+      "last_ingested": "2026-10-26T06:07:50.579209+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-design-system.md",
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-design-concept-evolution.md"
+      ]
+    },
+    "_raw/_archived/Seoul_Donghaeng_Concept_260820_수정.pptx": {
+      "content_hash": "2104a883a0044f933bf263a8b29060f6f98312982cfc302cb90cfcee24e70e40",
+      "last_ingested": "2026-10-26T06:07:50.776946+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-design-system.md",
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-design-concept-evolution.md"
+      ]
+    },
+    "_raw/_archived/[포맷]MR(X1, 통신향)_v5.1.docx": {
+      "content_hash": "f1a1b1bfa91d99a675fbe4d6bfd0993b51667f2977cc7781ea307f196202624a",
+      "last_ingested": "2026-10-26T06:07:50.896944+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/inavi-mr-format-spec.md"
+      ]
+    },
+    "_raw/_archived/서울동행맵_디자인컨셉_초안_260716.pptx": {
+      "content_hash": "d917c99e14bd2c97596bdf938e09cbb7be55c9f27f9d3978cba2f42951e5b339",
+      "last_ingested": "2026-10-26T06:07:53.832345+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-design-system.md"
+      ]
+    },
+    "_raw/_archived/[포맷]MR(X1, 통신향)_v5.2.docx": {
+      "content_hash": "8d8885877052945c69d67d3561da1bd7ce6d869f0911561c76a5149b2c91a868",
+      "last_ingested": "2026-10-26T06:07:51.049537+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/inavi-mr-format-spec.md"
+      ]
+    },
+    "_raw/_archived/[아이나비스탬프-오르다]아이나비 에어 서비스 연계방안.pdf": {
+      "content_hash": "454dedb991de4b57b5ba49decc4c0818621df5a2f34ed11cfe942001287883fd",
+      "last_ingested": "2026-10-26T06:07:51.195590+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/air-orda-stamp-integration-proposal-2025.md"
+      ]
+    },
+    "_raw/_archived/서울시 동행맵 고도화 사업_감리수행결과보고서(설계단계)_취합_v0.84.docx": {
+      "content_hash": "ebe94fad9ce8dc2ad9e16e371035a5c82ff129b557bd123634b4884caefe2d05",
+      "last_ingested": "2026-10-26T06:07:51.229431+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/references/seoul-donghaengmap-design-audit.md"
+      ]
+    },
+    "_raw/_archived/INavi_HUD.pdf": {
+      "content_hash": "761de7e987825d65d81a22f7f8b26ae6471af45e84b7aa6ac2c5b06eccb1c21d",
+      "last_ingested": "2026-10-26T06:07:51.347577+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/air-hud-data-class-and-bluetooth-spec.md"
+      ]
+    },
+    "_raw/_archived/HUD 랜덤 값(221115).xlsx": {
+      "content_hash": "44f688ee6f76a36e93ac80afc7a88d02533ef34ada52772a5b36e225b7380d4b",
+      "last_ingested": "2026-10-26T06:07:51.503092+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/air-hud-integration-2023.md"
+      ]
+    },
+    "_raw/_archived/(포맷정의서)신호등정보_V.1.1.2.pdf": {
+      "content_hash": "7d9c46d4fda8e81f88475fb83a15b56a01f0cb178a0d7c7bc5d37ce6364cbff7",
+      "last_ingested": "2026-10-26T06:07:51.652574+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/daegu-traffic-light-protocol.md"
+      ]
+    },
+    "_raw/_archived/우회전 보행자 정보 연계기능 테스트시나리오.hwp": {
+      "content_hash": "10a9d0d5659f8672f4e4ba0368b2c6c47b9f4ba262d89e6386cddfc8c8ada9dc",
+      "last_ingested": "2026-10-26T06:07:51.810927+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/air-right-turn-pedestrian-alert-test-2023.md"
+      ]
+    },
+    "_raw/_archived/우회전 보행자 정보 연계기능 테스트시나리오_231004.pdf": {
+      "content_hash": "386fef22add2603a098d3930736ecaf25e6251118b20df67f6c249399f383975",
+      "last_ingested": "2026-10-26T06:07:51.965682+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/air-right-turn-pedestrian-alert-test-2023.md"
+      ]
+    },
+    "_raw/_archived/아이나비 규격_전달용 bb11884f4f3541e1bff7938092dd4ecb.pdf": {
+      "content_hash": "45838b190186ebdacd2a05bb193135feec4e7b26083d5ad85356e21339f6c504",
+      "last_ingested": "2026-10-26T06:07:52.110183+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/air-hud-data-class-and-bluetooth-spec.md"
+      ]
+    },
+    "_raw/_archived/아이나비 규격 데이터 예시.pdf": {
+      "content_hash": "27ccb9128d34488ad9c99e1a8c6a461268664fa0c55c6109a0005e7c0d1d4e4c",
+      "last_ingested": "2026-10-26T06:07:52.258624+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/air-hud-data-class-and-bluetooth-spec.md"
+      ]
+    },
+    "_raw/_archived/아이나비 규격.pdf": {
+      "content_hash": "45838b190186ebdacd2a05bb193135feec4e7b26083d5ad85356e21339f6c504",
+      "last_ingested": "2026-10-26T06:07:52.403660+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/air-hud-data-class-and-bluetooth-spec.md"
+      ]
+    },
+    "_raw/_archived/2023_VOC반영리스트_2310Air.pptx": {
+      "content_hash": "757265989b41f9fb220f36fe3be238e3345d1f10c5bca9502a32ebdf3d17e56a",
+      "last_ingested": "2026-10-26T06:07:52.547767+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/air-map-data-and-safety-guidance-2023.md"
+      ]
+    },
+    "_raw/_archived/0620_신호등정보.xlsx": {
+      "content_hash": "97c6b7d9e2594afbd39cc6099e9c835e6d9ab08e8264a3712e99a8c9bd82306a",
+      "last_ingested": "2026-10-26T06:07:52.691450+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/daegu-traffic-light-protocol.md"
+      ]
+    },
+    "_raw/_archived/아이나비_에어_기본음성리스트_230711_현행화.xlsx": {
+      "content_hash": "2e7f1defaf56f81e04434185cb6b5a6c2e415cb4e044cbe25106da968d803dc0",
+      "last_ingested": "2026-10-26T06:07:52.828339+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/air-confluence-scrum-and-voice-2023-2024.md"
+      ]
+    },
+    "_raw/_archived/아이나비에어DP고도화1차TEST.pdf": {
+      "content_hash": "42a1ffd7443f146a2efbc07a1ed2b8b07e99b0aefc472fefe248f05954593de6",
+      "last_ingested": "2026-10-26T06:07:52.970031+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/inavi-air-map-style-upgrade-2022.md"
+      ]
+    },
+    "_raw/_archived/2023_안전운행반영리스트_2310Air.pptx": {
+      "content_hash": "f05155dbb495ab7670ef92dc2fe236a56fba00e37e8642f6a13501feef027b94",
+      "last_ingested": "2026-10-26T06:07:53.135325+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/air-map-data-and-safety-guidance-2023.md"
+      ]
+    },
+    "_raw/_archived/T_LIGHT.TXT": {
+      "content_hash": "e2c5bcfe0b22cf2e589416522f8d6a9d3f5fe13f0d244e7690b809fbe55974c1",
+      "last_ingested": "2026-10-26T06:07:53.276172+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/daegu-traffic-light-protocol.md"
+      ]
+    },
+    "_raw/_archived/Bluetooth Data_Mapping.xlsx": {
+      "content_hash": "3225893c382c058543b5c32f075315c914e16bbe4eb916f1704e2b8526affb60",
+      "last_ingested": "2026-10-26T06:07:53.415084+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/air-hud-data-class-and-bluetooth-spec.md"
+      ]
+    },
+    "_raw/_archived/마을주민보호&장애인보호구역_위치공유.pptx": {
+      "content_hash": "2e302d14915ccd38d34e68496b6114aac9053a315c068ea11aa6bf89efb14d66",
+      "last_ingested": "2026-10-26T06:07:53.548593+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/air-map-data-and-safety-guidance-2023.md"
+      ]
+    },
+    "_raw/_archived/대구 신호교차로 Protocol_v0.8.docx": {
+      "content_hash": "9c6f8f749e540607de9b05d607a60279f8662fd2776bcf050485a189763d1cb1",
+      "last_ingested": "2026-10-26T06:07:53.689336+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/daegu-traffic-light-protocol.md"
+      ]
+    },
+    "_raw/_archived/대구 신호교차로 Protocol_v0.9.docx": {
+      "content_hash": "07c48e924bff001e2315f7cc2d186f8ce19770083d8d64d8fce14aa562175e8a",
+      "last_ingested": "2026-10-26T06:07:53.842608+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/daegu-traffic-light-protocol.md"
+      ]
+    },
+    "_raw/_archived/CTT_list_20250305_2504a.txt": {
+      "content_hash": "bf929527b84b1274fa62af0bfade5f568aac17359226272eda1293b595c40b75",
+      "last_ingested": "2026-10-26T06:07:53.989649+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/daegu-traffic-light-protocol.md"
+      ]
+    },
+    "_raw/_archived/아이허드_라이브러리_개발계획_20250331.pptx": {
+      "content_hash": "2a1213bb06db08091ec2175fe0ce5dcd515433f6f085c2a881a3e5150ceae205",
+      "last_ingested": "2026-10-26T06:07:54.139476+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/air-hud-data-class-and-bluetooth-spec.md"
+      ]
+    },
+    "_raw/_archived/아이나비에어 제안.pdf": {
+      "content_hash": "98eed2319da19c9228beaa9270996d39b4c97f8c85e9cf43427b0449601f8072",
+      "last_ingested": "2026-10-26T06:07:54.282166+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/air-skp-ad-scrums-2024.md"
+      ]
+    },
+    "_raw/_archived/디지털 정부서비스 UIUX 가이드라인(2025.08).pdf": {
+      "content_hash": "ea63bc306b510085b7b5e5fa26c4fbf49e3871387d850f253d6626bbabf9aec7",
+      "last_ingested": "2026-10-26T06:08:48.385869+00:00",
+      "pages_produced": [
+        "digital-government-uiux-guideline",
+        "korean-public-mobile-app-compliance"
+      ]
+    },
+    "_raw/_archived/디지털 정부서비스 UIUX 가이드라인(2024.02).pdf": {
+      "content_hash": "701ea58db275cb7790715f0efd9daaa7a2e8a6adc3c6786ab80b21c73a8de8a9",
+      "last_ingested": "2026-10-26T06:08:48.555080+00:00",
+      "pages_produced": [
+        "digital-government-uiux-guideline",
+        "korean-public-mobile-app-compliance"
+      ]
+    },
+    "_raw/_archived/디지털 정부 서비스 UIUX 가이드라인 자체 검증 체크리스트.pdf": {
+      "content_hash": "af6cc8a981d0b9590dcc16e5a4a4f009c3dba7effd7de402eb4c9822cf61ba6e",
+      "last_ingested": "2026-10-26T06:08:48.715586+00:00",
+      "pages_produced": [
+        "digital-government-uiux-guideline",
+        "korean-public-mobile-app-compliance"
+      ]
+    },
+    "_raw/_archived/[붙임2] 「디지털 정부 UIUX 가이드라인」 개정본(25.8.).pdf": {
+      "content_hash": "a3edec995dac140d066469a5e072652c9b20c0ef0a3d77bf9277998b0dee8f30",
+      "last_ingested": "2026-10-26T06:08:48.861760+00:00",
+      "pages_produced": [
+        "digital-government-uiux-guideline",
+        "korean-public-mobile-app-compliance"
+      ]
+    },
+    "_raw/_archived/(KSX3253)모바일애플리케이션콘텐츠접근성지침2.0.pdf": {
+      "content_hash": "1c03291d278c6e4c53793c459d46f89117e43b5ddbcfb83f66d06838fe1a028c",
+      "last_ingested": "2026-10-26T06:08:49.045043+00:00",
+      "pages_produced": [
+        "korean-mobile-app-accessibility-guidelines",
+        "korean-public-mobile-app-compliance"
+      ]
+    },
+    "_raw/_archived/(KSX3253)모바일애플리케이션콘텐츠접근성지침2.0.docx": {
+      "content_hash": "802948d2f34496e14b5d0ad1358005c6c042d1cb16a324c2b334f040d4db1af8",
+      "last_ingested": "2026-10-26T06:08:49.188739+00:00",
+      "pages_produced": [
+        "korean-mobile-app-accessibility-guidelines",
+        "korean-public-mobile-app-compliance"
+      ]
+    },
+    "_raw/_archived/모바일 애플리케이션 접근성 지침(미래창조과학부고시제2013-107호).pdf": {
+      "content_hash": "ba3127d97eb6c297eaa6e8a8f36b6a593d64dd1caec70d9353321583f1cb1a34",
+      "last_ingested": "2026-10-26T06:08:49.344372+00:00",
+      "pages_produced": [
+        "korean-mobile-app-accessibility-guidelines",
+        "korean-public-mobile-app-compliance"
+      ]
+    },
+    "_raw/_archived/iOS모바일어플리케이션 접근성지침2.0.pdf": {
+      "content_hash": "ac6ed3055e932192e2e30593cd616f88e98328bcb613765f1166d781a0308f7e",
+      "last_ingested": "2026-10-26T06:08:49.486118+00:00",
+      "pages_produced": [
+        "korean-mobile-app-accessibility-guidelines",
+        "korean-public-mobile-app-compliance"
+      ]
+    },
+    "_raw/_archived/Android모바일어플리케이션 접근성지침2.0.pdf": {
+      "content_hash": "3ff18d8db1ca6f2b0c7ee6d9d27b38ed1b6629dbdd64a78c7213248c32516399",
+      "last_ingested": "2026-10-26T06:08:49.636165+00:00",
+      "pages_produced": [
+        "korean-mobile-app-accessibility-guidelines",
+        "korean-public-mobile-app-compliance"
+      ]
+    },
+    "_raw/_archived/한국형웹콘텐츠접근성지침2.2.pdf": {
+      "content_hash": "4a05c0c2032c78ee2c072a68a43448ea6365f17b2292ffc4fd0020824a032289",
+      "last_ingested": "2026-10-26T06:08:49.779597+00:00",
+      "pages_produced": [
+        "kwcag-2-2",
+        "korean-public-mobile-app-compliance"
+      ]
+    },
+    "_raw/_archived/웹 접근성을 고려한 콘텐츠 제작기법 2.2 개정판_KWCAG 2.2 기반.pdf": {
+      "content_hash": "d214ef950c06200a76f3226f82756e2ef7d4a44444d2ac3c7c9b420af3cfa625",
+      "last_ingested": "2026-10-26T06:08:49.917434+00:00",
+      "pages_produced": [
+        "kwcag-2-2",
+        "korean-public-mobile-app-compliance"
+      ]
+    },
+    "_raw/_archived/20220110 모바일_대민서비스_보안취약점_점검_가이드.pdf": {
+      "content_hash": "8b2306e61e6da5b781224f98b3a290ce8dbd6c5df0415233cfa93e4a9f8c9d56",
+      "last_ingested": "2026-10-26T06:08:50.075241+00:00",
+      "pages_produced": [
+        "public-security-vulnerability-check-guides",
+        "korean-public-mobile-app-compliance"
+      ]
+    },
+    "_raw/_archived/공개SW를_활용한_소프트웨어_개발보안_점검가이드.pdf": {
+      "content_hash": "5c91014755c7bcaeefdb6739a3a46003fc7c257fc4af8a7753b92c47aa24cade",
+      "last_ingested": "2026-10-26T06:08:50.223863+00:00",
+      "pages_produced": [
+        "public-security-vulnerability-check-guides",
+        "korean-public-mobile-app-compliance"
+      ]
+    },
+    "_raw/_archived/(붙임1) 주요정보통신기반시설_기술적_취약점_분석_평가_방법_상세가이드.pdf": {
+      "content_hash": "1577e827fda26b8f5f0e290b85bced7836a561efca60c2487bcad4c7e067b48e",
+      "last_ingested": "2026-10-26T06:08:50.372317+00:00",
+      "pages_produced": [
+        "public-security-vulnerability-check-guides",
+        "korean-public-mobile-app-compliance"
+      ]
+    },
+    "_raw/_archived/3) 주요정보통신기반시설 기술적 취약점 분석·평가 방법 상세가이드_웹서비스.pdf": {
+      "content_hash": "fd516da35f405184a7f9167dfeeeb825fec2e2a78c3b1f6b28d222e5706c7456",
+      "last_ingested": "2026-10-26T06:08:50.526316+00:00",
+      "pages_produced": [
+        "public-security-vulnerability-check-guides",
+        "korean-public-mobile-app-compliance"
+      ]
+    },
+    "slack:#001_air_nsdk_dev": {
+      "ingested_at": "2026-10-26T19:30:00+09:00",
+      "source_type": "data",
+      "stub": false,
+      "project": "inavi-air",
+      "period": "2022-07-17~2026-10-26",
+      "pages_created": [
+        "projects/inavi-air/references/air-nsdk-dev-slack-2022.md",
+        "projects/inavi-air/references/air-nsdk-dev-slack-2023-h1.md",
+        "projects/inavi-air/references/air-nsdk-dev-slack-2023-h2.md",
+        "projects/inavi-air/references/air-nsdk-dev-slack-2024-h1.md",
+        "projects/inavi-air/references/air-nsdk-dev-slack-2024-h2.md",
+        "projects/inavi-air/references/air-nsdk-dev-slack-2025.md",
+        "projects/inavi-air/references/air-nsdk-dev-slack-2026.md"
+      ],
+      "pages_updated": [
+        "projects/inavi-air/inavi-air.md"
+      ]
+    }
+  }
+}

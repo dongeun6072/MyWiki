@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>지하철역 난이도 등급체계 정의서</title>
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#141A24;
+  --ink-2:#3A4452;
+  --ink-3:#6B7686;
+  --paper:#F4F6F8;
+  --card:#FFFFFF;
+  --line:#E2E7ED;
+  --line-2:#CBD3DC;
+  --rail:#1B2330;
+
+  /* 등급 히트 스케일 (난이도 高→低) */
+  --g-teuk:#7048E8;
+  --g-a:#E03131;
+  --g-b:#F76707;
+  --g-c:#F08C00;
+  --g-d:#2F9E44;
+  --g-e:#1971C2;
+
+  --teuk-soft:#EDE7FD; --a-soft:#FCE6E6; --b-soft:#FDEADB; --c-soft:#FCEBCF; --d-soft:#E3F5E8; --e-soft:#DEEBF7;
+
+  --mono:'JetBrains Mono',ui-monospace,monospace;
+  --sans:'Pretendard','Pretendard Variable',-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+  --maxw:1000px;
+}
+
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--sans);line-height:1.7;letter-spacing:-0.01em;
+  -webkit-font-smoothing:antialiased;font-feature-settings:"tnum";
+}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px;}
+
+/* ───────── 사인 헤더 ───────── */
+.signage{
+  background:var(--rail);color:#fff;position:relative;overflow:hidden;
+}
+.signage::before{
+  content:"";position:absolute;inset:0;
+  background:
+    repeating-linear-gradient(90deg,rgba(255,255,255,.035) 0 1px,transparent 1px 64px);
+  pointer-events:none;
+}
+.signage .wrap{padding-top:54px;padding-bottom:48px;position:relative;}
+.kicker{
+  display:inline-flex;align-items:center;gap:9px;
+  font-family:var(--mono);font-size:12.5px;font-weight:600;letter-spacing:.14em;
+  text-transform:uppercase;color:#9FB0C4;margin-bottom:22px;
+}
+.kicker .dot{width:9px;height:9px;border-radius:50%;background:#FFD43B;box-shadow:0 0 0 4px rgba(255,212,59,.18);}
+.signage h1{
+  font-size:clamp(30px,5.4vw,52px);font-weight:800;line-height:1.12;margin:0 0 18px;
+  letter-spacing:-0.025em;
+}
+.signage h1 .accent{color:#FFD43B;}
+.sub{color:#B9C4D2;font-size:clamp(15px,1.9vw,17.5px);max-width:680px;margin:0 0 30px;line-height:1.65;}
+.meta{
+  display:flex;flex-wrap:wrap;gap:8px 22px;font-family:var(--mono);font-size:12.5px;color:#8E9CAE;
+  border-top:1px solid rgba(255,255,255,.12);padding-top:18px;
+}
+.meta b{color:#D6DEE8;font-weight:600;}
+
+/* 등급 룬델 (지하철 라인넘버 스타일) */
+.roundel{
+  display:inline-flex;align-items:center;justify-content:center;
+  border-radius:50%;color:#fff;font-weight:800;font-family:var(--sans);
+  flex:none;line-height:1;letter-spacing:0;
+}
+.r-teuk{background:var(--g-teuk);} .r-a{background:var(--g-a);} .r-b{background:var(--g-b);}
+.r-c{background:var(--g-c);} .r-d{background:var(--g-d);} .r-e{background:var(--g-e);}
+
+.scale-strip{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px;}
+.scale-item{display:flex;flex-direction:column;align-items:center;gap:9px;min-width:74px;}
+.scale-item .roundel{width:56px;height:56px;font-size:24px;box-shadow:0 6px 18px rgba(0,0,0,.35);}
+.scale-item .lbl{font-size:12.5px;color:#AEB9C7;text-align:center;line-height:1.3;font-weight:500;}
+.scale-arrow{
+  display:flex;align-items:center;justify-content:space-between;width:100%;
+  margin-top:18px;font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;color:#7C8A9C;
+}
+.scale-arrow .bar{flex:1;height:3px;margin:0 14px;border-radius:2px;
+  background:linear-gradient(90deg,var(--g-e),var(--g-d),var(--g-c),var(--g-b),var(--g-a));}
+
+/* ───────── 섹션 공통 ───────── */
+section{padding:64px 0 8px;}
+.sec-head{display:flex;align-items:baseline;gap:16px;margin-bottom:8px;}
+.sec-no{
+  font-family:var(--mono);font-weight:800;font-size:15px;color:#fff;background:var(--ink);
+  width:38px;height:38px;border-radius:9px;display:flex;align-items:center;justify-content:center;flex:none;
+}
+.sec-head h2{font-size:clamp(23px,3.3vw,31px);font-weight:800;margin:0;letter-spacing:-0.025em;line-height:1.2;}
+.sec-desc{color:var(--ink-2);font-size:16px;max-width:760px;margin:14px 0 0;padding-left:54px;}
+@media(max-width:560px){.sec-desc{padding-left:0;}}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px;margin-top:24px;
+  box-shadow:0 1px 2px rgba(20,26,36,.03),0 8px 24px rgba(20,26,36,.04);}
+
+/* 한줄요약 배너 */
+.tldr{
+  margin-top:28px;background:linear-gradient(180deg,#fff, #FBFCFD);
+  border:1px solid var(--line);border-left:5px solid #FFD43B;border-radius:14px;padding:24px 26px;
+}
+.tldr .tag{font-family:var(--mono);font-size:11.5px;font-weight:700;letter-spacing:.14em;color:#B08900;}
+.tldr p{margin:8px 0 0;font-size:17.5px;line-height:1.7;color:var(--ink);font-weight:500;}
+.tldr p .hl{background:#FFF3BF;padding:1px 6px;border-radius:5px;font-weight:700;}
+
+/* 등급 라벨 표 */
+.label-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;margin-top:24px;}
+.label-row{display:flex;align-items:center;gap:16px;background:var(--card);border:1px solid var(--line);
+  border-radius:13px;padding:15px 18px;}
+.label-row .roundel{width:46px;height:46px;font-size:21px;}
+.label-row .txt b{display:block;font-size:15px;}
+.label-row .txt span{font-size:13.5px;color:var(--ink-3);}
+
+/* ───────── 결정 흐름도 ───────── */
+.flow-wrap{margin-top:24px;background:var(--card);border:1px solid var(--line);border-radius:18px;
+  padding:30px 20px;overflow-x:auto;box-shadow:0 8px 24px rgba(20,26,36,.04);}
+.flow-svg{display:block;margin:0 auto;min-width:640px;}
+
+/* ───────── 변수 카드 ───────── */
+.var-card{margin-top:22px;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--card);
+  box-shadow:0 8px 24px rgba(20,26,36,.04);}
+.var-head{display:flex;align-items:center;gap:16px;padding:20px 26px;border-bottom:1px solid var(--line);}
+.var-icon{width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;flex:none;}
+.var-icon svg{width:26px;height:26px;}
+.var-head .vt b{display:block;font-size:18.5px;font-weight:800;letter-spacing:-0.02em;}
+.var-head .vt span{font-size:13.5px;color:var(--ink-3);font-family:var(--mono);}
+.var-body{padding:22px 26px;}
+.deflist{display:grid;gap:14px;}
+.def{display:grid;grid-template-columns:118px 1fr;gap:16px;align-items:start;}
+.def dt{font-size:13px;font-weight:700;color:var(--ink-2);display:flex;align-items:center;gap:7px;}
+.def dt .n{font-family:var(--mono);font-size:11px;font-weight:700;color:#fff;background:var(--ink-3);
+  width:20px;height:20px;border-radius:6px;display:inline-flex;align-items:center;justify-content:center;flex:none;}
+.def dd{margin:0;font-size:14.5px;color:var(--ink);line-height:1.65;}
+.def dd .src{font-family:var(--mono);font-size:12.5px;color:var(--ink-3);}
+@media(max-width:560px){.def{grid-template-columns:1fr;gap:5px;}}
+
+.note{background:#F1F4F8;border-radius:11px;padding:13px 16px;font-size:13.5px;color:var(--ink-2);
+  margin-top:8px;line-height:1.6;border-left:3px solid var(--line-2);}
+.note b{color:var(--ink);}
+
+/* 점수 시그널바 (1~5) */
+.signal{display:inline-flex;gap:3px;vertical-align:middle;}
+.signal i{width:7px;border-radius:2px;background:var(--line-2);display:inline-block;}
+.signal i:nth-child(1){height:9px;} .signal i:nth-child(2){height:13px;}
+.signal i:nth-child(3){height:17px;} .signal i:nth-child(4){height:21px;} .signal i:nth-child(5){height:25px;}
+
+/* 면적 임계 차트 */
+.area-chart{margin-top:6px;}
+.area-bars{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;align-items:end;height:200px;}
+.area-col{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;gap:0;}
+.area-col .val{font-family:var(--mono);font-weight:800;font-size:15px;color:var(--ink);margin-bottom:6px;}
+.area-col .bar{width:100%;max-width:62px;min-height:8px;border-radius:8px 8px 0 0;background:#4C6EF5;
+  transition:transform .25s ease,filter .25s ease;}
+.area-col .bar:hover{transform:translateY(-4px);filter:brightness(1.08);}
+.area-axis{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:11px;}
+.area-tick{text-align:center;}
+.area-tick .sc{display:inline-flex;width:30px;height:30px;border-radius:50%;color:#fff;font-weight:800;
+  align-items:center;justify-content:center;font-size:14px;margin-bottom:6px;}
+.area-tick .rg{font-family:var(--mono);font-size:11.5px;color:var(--ink-2);display:block;line-height:1.35;}
+
+/* 미니 룬델 점수 */
+.pip{display:inline-flex;width:26px;height:26px;border-radius:50%;color:#fff;font-weight:800;font-size:12.5px;
+  align-items:center;justify-content:center;font-family:var(--mono);flex:none;}
+/* 점수값 색: 값 클수록 따뜻한 색 = 난이도↑ (문서 전체 일관) */
+.sv1{background:var(--g-e)!important;} .sv2{background:var(--g-d)!important;}
+.sv3{background:var(--g-c)!important;} .sv4{background:var(--g-b)!important;} .sv5{background:var(--g-a)!important;}
+
+/* 일반 표 */
+.tbl{width:100%;border-collapse:collapse;margin-top:6px;font-size:14px;}
+.tbl th,.tbl td{padding:11px 12px;text-align:left;border-bottom:1px solid var(--line);}
+.tbl thead th{font-size:12px;font-weight:700;color:var(--ink-3);text-transform:uppercase;letter-spacing:.05em;
+  background:#F7F9FB;border-bottom:1.5px solid var(--line-2);}
+.tbl td.num,.tbl th.num{font-family:var(--mono);text-align:center;}
+.tbl tbody tr:hover{background:#FAFBFC;}
+.tbl-scroll{overflow-x:auto;margin-top:18px;border:1px solid var(--line);border-radius:14px;background:#fff;}
+.tbl-scroll .tbl{min-width:560px;}
+.tbl-scroll .tbl th:first-child,.tbl-scroll .tbl td:first-child{padding-left:20px;}
+.tbl-scroll .tbl th:last-child,.tbl-scroll .tbl td:last-child{padding-right:20px;}
+.tbl tbody tr:last-child td{border-bottom:none;}
+
+/* 루브릭 3분할 */
+.rubric{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:24px;}
+.rubric-card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;
+  box-shadow:0 8px 24px rgba(20,26,36,.04);}
+.rubric-card h4{margin:0 0 4px;font-size:16px;font-weight:800;display:flex;align-items:center;gap:9px;}
+.rubric-card .cap{font-size:12.5px;color:var(--ink-3);font-family:var(--mono);margin-bottom:16px;}
+.rb-row{display:flex;align-items:center;gap:12px;padding:9px 0;border-bottom:1px dashed var(--line);}
+.rb-row:last-child{border-bottom:none;}
+.rb-row .pip{width:30px;height:30px;font-size:13px;background:var(--ink-3);}
+.rb-row .desc{font-size:13.5px;color:var(--ink);line-height:1.45;}
+.rb-row .desc small{display:block;color:var(--ink-3);font-size:12px;font-family:var(--mono);}
+
+/* 산정 머신 */
+.machine{margin-top:24px;background:var(--rail);border-radius:20px;padding:30px 26px;color:#fff;
+  box-shadow:0 14px 40px rgba(20,26,36,.18);}
+.machine h4{margin:0 0 22px;font-size:14px;font-family:var(--mono);letter-spacing:.12em;color:#9FB0C4;
+  text-transform:uppercase;font-weight:600;}
+.calc-row{display:grid;grid-template-columns:90px 1fr;gap:20px;align-items:center;padding:16px 0;
+  border-top:1px solid rgba(255,255,255,.1);}
+.calc-row:first-of-type{border-top:none;}
+.calc-station{font-size:18px;font-weight:800;}
+.calc-station small{display:block;font-family:var(--mono);font-size:11px;color:#8E9CAE;font-weight:500;margin-top:2px;}
+.calc-eq{display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
+.calc-eq .term{display:flex;flex-direction:column;align-items:center;gap:5px;}
+.calc-eq .term .pip{width:34px;height:34px;font-size:15px;}
+.calc-eq .term .nm{font-size:10.5px;color:#9FB0C4;font-family:var(--mono);}
+.calc-eq .op{font-family:var(--mono);font-size:18px;color:#7C8A9C;font-weight:700;align-self:center;margin-top:-14px;}
+.calc-eq .sum{display:flex;flex-direction:column;align-items:center;gap:5px;margin-left:4px;}
+.calc-eq .sum .val{font-family:var(--mono);font-size:24px;font-weight:800;color:#FFD43B;}
+.calc-eq .sum .nm{font-size:10.5px;color:#9FB0C4;font-family:var(--mono);}
+.calc-eq .arrow{color:#7C8A9C;font-size:20px;margin:0 2px;align-self:center;margin-top:-14px;}
+.calc-eq .result{display:flex;flex-direction:column;align-items:center;gap:5px;}
+.calc-eq .result .roundel{width:40px;height:40px;font-size:18px;box-shadow:0 4px 14px rgba(0,0,0,.4);}
+.calc-eq .result .nm{font-size:10.5px;color:#9FB0C4;font-family:var(--mono);}
+@media(max-width:600px){.calc-row{grid-template-columns:1fr;gap:12px;}}
+
+/* 등급 구간 표 */
+.cut-grid{display:grid;gap:10px;margin-top:24px;}
+.cut-row{display:grid;grid-template-columns:54px 110px 1fr 86px;gap:16px;align-items:center;
+  background:var(--card);border:1px solid var(--line);border-radius:13px;padding:14px 18px;}
+.cut-row .roundel{width:42px;height:42px;font-size:19px;}
+.cut-row .score{font-family:var(--mono);font-weight:700;font-size:15px;color:var(--ink);}
+.cut-row .mean{font-size:14px;color:var(--ink-2);}
+.cut-row .cnt{font-family:var(--mono);font-weight:700;font-size:15px;text-align:right;color:var(--ink);}
+.cut-row .cnt small{font-size:11px;color:var(--ink-3);font-weight:400;display:block;}
+@media(max-width:600px){.cut-row{grid-template-columns:42px 1fr 70px;}.cut-row .mean{display:none;}}
+
+/* 분포 피라미드 */
+.pyramid{margin-top:24px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:30px 26px;
+  box-shadow:0 8px 24px rgba(20,26,36,.04);}
+.py-row{display:grid;grid-template-columns:54px 1fr;gap:16px;align-items:center;margin-bottom:11px;}
+.py-row .roundel{width:42px;height:42px;font-size:18px;}
+.py-bar-track{display:flex;align-items:center;gap:11px;}
+.py-bar{height:34px;border-radius:8px;display:flex;align-items:center;justify-content:flex-end;
+  padding-right:12px;color:#fff;font-family:var(--mono);font-weight:800;font-size:14px;min-width:42px;
+  transition:transform .3s cubic-bezier(.2,.7,.3,1);transform-origin:left;}
+.py-bar:hover{transform:scaleX(1.01);}
+.py-cap{font-size:12.5px;color:var(--ink-3);flex:none;}
+.py-teuk{margin-top:18px;padding-top:18px;border-top:1px dashed var(--line-2);}
+.py-foot{margin-top:20px;font-size:13.5px;color:var(--ink-2);background:#F1F4F8;border-radius:11px;
+  padding:13px 16px;line-height:1.6;border-left:3px solid var(--line-2);}
+
+/* 검증표 행 룬델 */
+.verify .gcell{display:inline-flex;align-items:center;gap:8px;}
+.verify .gcell .roundel{width:30px;height:30px;font-size:14px;}
+
+/* 한계 리스트 */
+.limit-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:14px;margin-top:24px;}
+.limit-item{display:flex;gap:14px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;}
+.limit-item .ln{font-family:var(--mono);font-weight:800;font-size:15px;color:#fff;background:var(--ink-3);
+  width:30px;height:30px;border-radius:8px;display:flex;align-items:center;justify-content:center;flex:none;}
+.limit-item .lt b{display:block;font-size:14.5px;margin-bottom:3px;}
+.limit-item .lt span{font-size:13px;color:var(--ink-2);line-height:1.55;}
+
+/* 출처 종합 */
+.src-list{margin-top:24px;display:grid;gap:12px;}
+.src-row{display:grid;grid-template-columns:120px 1fr;gap:18px;background:var(--card);border:1px solid var(--line);
+  border-radius:14px;padding:18px 20px;align-items:start;}
+.src-row .var-name{font-weight:800;font-size:15px;display:flex;align-items:center;gap:9px;}
+.src-row .var-name .dotc{width:11px;height:11px;border-radius:3px;flex:none;}
+.src-row .det{font-size:13.5px;color:var(--ink-2);line-height:1.6;}
+.src-row .det .main{color:var(--ink);font-weight:600;}
+.src-row .det .aux{font-family:var(--mono);font-size:12px;color:var(--ink-3);}
+@media(max-width:560px){.src-row{grid-template-columns:1fr;gap:7px;}}
+
+/* 부록 */
+.appendix{margin-top:24px;background:#EEF1F5;border-radius:16px;padding:24px 26px;}
+.appendix h4{margin:0 0 14px;font-size:13px;font-family:var(--mono);letter-spacing:.1em;color:var(--ink-3);text-transform:uppercase;}
+.appendix ul{margin:0;padding:0;list-style:none;display:grid;gap:9px;}
+.appendix li{display:flex;gap:11px;font-size:13.5px;color:var(--ink-2);align-items:baseline;}
+.appendix li code{font-family:var(--mono);font-size:12.5px;background:#fff;border:1px solid var(--line);
+  border-radius:6px;padding:2px 8px;color:var(--ink);}
+.appendix li b{color:var(--ink);font-weight:600;min-width:84px;flex:none;}
+
+footer{margin-top:60px;background:var(--rail);color:#8E9CAE;padding:36px 0;text-align:center;font-family:var(--mono);font-size:12.5px;}
+footer .wrap{padding-top:0;padding-bottom:0;}
+footer b{color:#D6DEE8;}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease;}
+.reveal.in{opacity:1;transform:none;}
+@media(prefers-reduced-motion:reduce){
+  .reveal{opacity:1;transform:none;transition:none;}
+  html{scroll-behavior:auto;}
+  .py-bar,.area-col .bar{transition:none;}
+}
+</style>
+</head>
+<body>
+
+<!-- ════════ 헤더 / 사인 ════════ -->
+<header class="signage">
+  <div class="wrap">
+    <div class="kicker"><span class="dot"></span>SEOUL METRO · 실내내비 데이터 구축 난이도</div>
+    <h1>지하철역 난이도<br><span class="accent">등급체계</span> 정의서</h1>
+    <p class="sub">서울 지하철 310개 역의 실내 내비게이션 데이터 구축 난이도를, <b>면적·환승·지하상가</b> 세 기준으로 점수화해 <b>특·A·B·C·D·E</b> 여섯 등급으로 분류한다. 등급이 어떤 근거로 매겨졌는지 제3자가 검증할 수 있게 한다.</p>
+
+    <div class="scale-strip">
+      <div class="scale-item"><div class="roundel r-teuk">특</div><div class="lbl">복합역사<br>별도분류</div></div>
+      <div class="scale-item"><div class="roundel r-a">A</div><div class="lbl">난이도 최상</div></div>
+      <div class="scale-item"><div class="roundel r-b">B</div><div class="lbl">중상</div></div>
+      <div class="scale-item"><div class="roundel r-c">C</div><div class="lbl">중</div></div>
+      <div class="scale-item"><div class="roundel r-d">D</div><div class="lbl">중하</div></div>
+      <div class="scale-item"><div class="roundel r-e">E</div><div class="lbl">최저</div></div>
+    </div>
+    <div class="scale-arrow">
+      <span>난이도 높음 (거대 복합역)</span>
+      <span class="bar"></span>
+      <span>난이도 낮음 (작은 단독역)</span>
+    </div>
+
+    <div class="meta">
+      <span><b>대상</b> 서울 지하철역 310역</span>
+      <span><b>산출물</b> 지하철역_등급표_v3.csv</span>
+      <span><b>작성</b> 2026-06-24</span>
+      <span><b>개정</b> 2026-06-25 (면적 절대기준 · 5등급)</span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<!-- ════════ 0. 개요 ════════ -->
+<section id="overview">
+  <div class="sec-head reveal"><div class="sec-no">0</div><h2>개요 — 왜 등급을 나누는가</h2></div>
+  <p class="sec-desc reveal">역마다 실내 내비게이션용 데이터를 구축하는 <b>현장 작업 난이도</b>가 크게 다르다. 작은 단독역과 거대 환승역을 같은 비용·일정으로 다룰 수 없다. 그래서 난이도에 따라 등급을 나누고, 이후 <b>등급별 표준 단가 산정</b>의 토대를 만든다. 본 문서는 1차 목표인 <b>등급 분류</b>의 방법과 근거를 정리한다.</p>
+
+  <div class="tldr reveal">
+    <span class="tag">▎한 줄 요약</span>
+    <p>역의 <span class="hl">면적·환승·지하상가</span> 세 기준으로 점수를 매겨 <span class="hl">A·B·C·D·E</span> 다섯 등급으로 나누되, 백화점·터미널과 한 덩어리로 붙어 성격이 다른 역은 <span class="hl">'특(복합역사)'</span>으로 따로 분류했다.</p>
+  </div>
+
+  <div class="label-grid reveal">
+    <div class="label-row"><div class="roundel r-teuk">특</div><div class="txt"><b>복합역사</b><span>백화점·터미널·공항과 일체화</span></div></div>
+    <div class="label-row"><div class="roundel r-a">A</div><div class="txt"><b>일반역 최상</b><span>큰 면적 + 다환승 + 대형상가</span></div></div>
+    <div class="label-row"><div class="roundel r-b">B</div><div class="txt"><b>중상</b><span>두세 인자가 높은 역</span></div></div>
+    <div class="label-row"><div class="roundel r-c">C</div><div class="txt"><b>중</b><span>한두 인자가 중간 이상</span></div></div>
+    <div class="label-row"><div class="roundel r-d">D</div><div class="txt"><b>중하</b><span>한 인자만 최소 위</span></div></div>
+    <div class="label-row"><div class="roundel r-e">E</div><div class="txt"><b>최저</b><span>작은 단독역, 순수 최소조합</span></div></div>
+  </div>
+</section>
+
+<!-- ════════ 1. 두 단계 ════════ -->
+<section id="flow">
+  <div class="sec-head reveal"><div class="sec-no">1</div><h2>등급 체계 — 두 단계로 나눕니다</h2></div>
+  <p class="sec-desc reveal"><b>1단계</b>에서 경계조차 긋기 어려운 복합역사를 먼저 빼내고, <b>2단계</b>에서 나머지 일반역만 세 기준으로 점수를 매겨 A~E로 줄 세운다. 성격이 다른 것을 먼저 분리해야 등급이 왜곡되지 않는다.</p>
+
+  <div class="flow-wrap reveal">
+    <svg class="flow-svg" viewBox="0 0 720 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="등급 분류 2단계 흐름도">
+      <defs>
+        <marker id="ah" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+          <path d="M0,0 L6,3 L0,6 Z" fill="#3A4452"/>
+        </marker>
+      </defs>
+
+      <!-- 시작 노드 -->
+      <rect x="248" y="18" width="224" height="52" rx="12" fill="#141A24"/>
+      <text x="360" y="42" text-anchor="middle" fill="#fff" font-family="Pretendard,sans-serif" font-size="15" font-weight="800">서울 지하철역 전체</text>
+      <text x="360" y="60" text-anchor="middle" fill="#FFD43B" font-family="'JetBrains Mono',monospace" font-size="13" font-weight="700">310 역</text>
+
+      <!-- 라인 시작→다이아 -->
+      <path d="M360,70 L360,104" stroke="#3A4452" stroke-width="2.5" fill="none" marker-end="url(#ah)"/>
+
+      <!-- 결정 다이아몬드 -->
+      <polygon points="360,108 452,158 360,208 268,158" fill="#FFF3BF" stroke="#E8B800" stroke-width="2"/>
+      <text x="360" y="150" text-anchor="middle" fill="#7A5C00" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700">1단계</text>
+      <text x="360" y="170" text-anchor="middle" fill="#141A24" font-family="Pretendard,sans-serif" font-size="14" font-weight="800">복합역사인가?</text>
+
+      <!-- YES 좌 -->
+      <path d="M268,158 L150,158 L150,196" stroke="#7048E8" stroke-width="2.5" fill="none" marker-end="url(#ah)"/>
+      <text x="206" y="150" text-anchor="middle" fill="#7048E8" font-family="'JetBrains Mono',monospace" font-size="12" font-weight="800">YES</text>
+
+      <!-- 특 노드 -->
+      <rect x="64" y="200" width="172" height="84" rx="14" fill="#EDE7FD" stroke="#7048E8" stroke-width="2"/>
+      <circle cx="98" cy="234" r="19" fill="#7048E8"/>
+      <text x="98" y="241" text-anchor="middle" fill="#fff" font-family="Pretendard,sans-serif" font-size="18" font-weight="800">특</text>
+      <text x="128" y="230" fill="#141A24" font-family="Pretendard,sans-serif" font-size="14" font-weight="800">복합역사</text>
+      <text x="128" y="248" fill="#5A4AA8" font-family="'JetBrains Mono',monospace" font-size="12" font-weight="700">10 역 · 별도</text>
+      <text x="150" y="272" text-anchor="middle" fill="#6B5BB5" font-family="Pretendard,sans-serif" font-size="11.5">역별 개별 단가 산정</text>
+
+      <!-- NO 우 -->
+      <path d="M452,158 L570,158 L570,196" stroke="#1B2330" stroke-width="2.5" fill="none" marker-end="url(#ah)"/>
+      <text x="514" y="150" text-anchor="middle" fill="#3A4452" font-family="'JetBrains Mono',monospace" font-size="12" font-weight="800">NO</text>
+
+      <!-- 일반역 점수화 노드 -->
+      <rect x="450" y="200" width="240" height="84" rx="14" fill="#fff" stroke="#CBD3DC" stroke-width="2"/>
+      <text x="570" y="226" text-anchor="middle" fill="#6B7686" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700">2단계 · 일반역 300</text>
+      <text x="570" y="248" text-anchor="middle" fill="#141A24" font-family="Pretendard,sans-serif" font-size="14.5" font-weight="800">면적 + 환승 + 지하상가</text>
+      <text x="570" y="268" text-anchor="middle" fill="#3A4452" font-family="Pretendard,sans-serif" font-size="12.5">점수 합계로 줄 세움</text>
+
+      <!-- 점수화 → 등급 버스라인 -->
+      <path d="M570,284 L570,312" stroke="#3A4452" stroke-width="2.5" fill="none"/>
+      <path d="M250,312 L630,312" stroke="#CBD3DC" stroke-width="2" fill="none"/>
+      <g stroke="#CBD3DC" stroke-width="2" fill="none">
+        <path d="M250,312 L250,358"/>
+        <path d="M345,312 L345,358"/>
+        <path d="M440,312 L440,358"/>
+        <path d="M535,312 L535,358"/>
+        <path d="M630,312 L630,358"/>
+      </g>
+
+      <!-- 등급 룬델 5개 -->
+      <g font-family="Pretendard,sans-serif" font-weight="800" font-size="17" fill="#fff" text-anchor="middle">
+        <circle cx="250" cy="381" r="22" fill="#E03131"/><text x="250" y="388">A</text>
+        <circle cx="345" cy="381" r="22" fill="#F76707"/><text x="345" y="388">B</text>
+        <circle cx="440" cy="381" r="22" fill="#F08C00"/><text x="440" y="388">C</text>
+        <circle cx="535" cy="381" r="22" fill="#2F9E44"/><text x="535" y="388">D</text>
+        <circle cx="630" cy="381" r="22" fill="#1971C2"/><text x="630" y="388">E</text>
+      </g>
+    </svg>
+  </div>
+</section>
+
+<!-- ════════ 2. 변수 4종 ════════ -->
+<section id="vars">
+  <div class="sec-head reveal"><div class="sec-no">2</div><h2>분류 변수 4종</h2></div>
+  <p class="sec-desc reveal">각 변수를 <b>① 정의 → ② 측정·데이터 → ③ 점수화 → ④ 난이도 연관 → ⑤ 출처 → ⑥ 한계</b> 순으로 설명한다. 면적·환승·지하상가는 점수화 대상, 복합역사는 1단계 분리 기준이다.</p>
+
+  <!-- 2.1 면적 -->
+  <div class="var-card reveal">
+    <div class="var-head">
+      <div class="var-icon" style="background:var(--a-soft);color:var(--g-a)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 3v18"/></svg>
+      </div>
+      <div class="vt"><b>2.1 · 면적</b><span>역사 연면적 (역사 + 연결 지하상가, 전 노선 합산)</span></div>
+    </div>
+    <div class="var-body">
+      <dl class="deflist">
+        <div class="def"><dt><span class="n">1</span>정의</dt><dd>사람이 다니는 전체 실내 공간의 넓이. 대합실+승강장에 연결된 지하상가까지 포함하고, 환승역은 <b>모든 노선 면적을 합산</b>한 값.</dd></div>
+        <div class="def"><dt><span class="n">2</span>측정</dt><dd><b></b> 9호선·신분당선·경전철·코레일 포함 전 노선이 반영된 건물 총연면적.</dd></div>
+        <div class="def"><dt><span class="n">3</span>점수화</dt><dd>사람이 읽기 좋은 <b>절대 기준(만㎡ 단위 고정 임계값)</b>으로 1~5점. <span class="src">&lt;1만=1 / 1~2만=2 / 2~3만=3 / 3~4만=4 / ≥4만㎡=5</span>
+          <div class="note">개정 경위: 당초 역 개수 균등 5분위(경계 8,208·10,541㎡)는 상위 압축·경계 절벽 문제가 있어 만㎡ 절대 기준으로 전환. 점수가 하위에 쏠리는 것은 왜곡이 아니라 <b>난이도의 사실</b>이며, 거대역 8역은 깔끔히 5점으로 변별된다.</div>
+        </dd></div>
+        <div class="def"><dt><span class="n">4</span>난이도</dt><dd>현장 인력이 직접 구축하므로 <b>작업 대상 범위(=면적)가 곧 구축 부담</b>. 넓을수록 측량·검증할 공간이 많다.</dd></div>
+        <div class="def"><dt><span class="n">5</span>출처</dt><dd class="src">서울교통공사 역사면적정보 (공공데이터포털 ID 15060120)</dd></div>
+        <div class="def"><dt><span class="n">6</span>한계</dt><dd>누락 4역(반포·불암산·장암·지축) 면적 미산정. 잠실(특)은 8호선 23,561㎡로 보강했으나 2호선·롯데 일체 범위 미합산.</dd></div>
+      </dl>
+    </div>
+  </div>
+
+  <!-- 2.2 환승 -->
+  <div class="var-card reveal">
+    <div class="var-head">
+      <div class="var-icon" style="background:var(--d-soft);color:var(--g-d)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="6" cy="6" r="3"/><circle cx="18" cy="18" r="3"/><path d="M6 9v6a3 3 0 0 0 3 3h6M18 15V9a3 3 0 0 0-3-3H9"/></svg>
+      </div>
+      <div class="vt"><b>2.2 · 환승</b><span>환승 노선 수</span></div>
+    </div>
+    <div class="var-body">
+      <dl class="deflist">
+        <div class="def"><dt><span class="n">1</span>정의</dt><dd>그 역에서 갈아탈 수 있는 <b>노선의 개수</b>. (예: 종로3가 = 1·3·5호선 → 3개)</dd></div>
+        <div class="def"><dt><span class="n">2</span>측정</dt><dd>자체 보유 데이터의 노선 정보에서 노선 수를 셌다. 전 운영사 포함하되 KTX·SRT 같은 일반철도는 지하철 환승이 아니므로 제외.</dd></div>
+        <div class="def"><dt><span class="n">3</span>점수화</dt><dd>노선 수를 그대로 점수로. <b>단독 1점 · 2개 2점 · 3개 3점 · 4개 4점 · 5개+ 5점.</b></dd></div>
+        <div class="def"><dt><span class="n">4</span>난이도</dt><dd>노선이 많을수록 <b>갈아타는 통로·분기 동선이 복잡</b>해진다. 안내할 경로가 늘어 구축이 어렵다.</dd></div>
+        <div class="def"><dt><span class="n">5</span>출처</dt><dd class="src">서울교통공사 환승유입순위 (ID 15003169)</dd></div>
+        <div class="def"><dt><span class="n">6</span>한계</dt><dd>노선 '수'만 보고 환승 '거리·동선 복잡성'은 별도 반영 안 함(면적이 공간 규모를 일부 대신함).</dd></div>
+      </dl>
+    </div>
+  </div>
+
+  <!-- 2.3 지하상가 -->
+  <div class="var-card reveal">
+    <div class="var-head">
+      <div class="var-icon" style="background:var(--b-soft);color:var(--g-b)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l1-5h16l1 5M4 9h16v11H4zM9 20v-6h6v6"/></svg>
+      </div>
+      <div class="vt"><b>2.3 · 지하상가</b><span>연결 지하상가 활성도</span></div>
+    </div>
+    <div class="var-body">
+      <dl class="deflist">
+        <div class="def"><dt><span class="n">1</span>정의</dt><dd>역과 직접 연결된 <b>지하상가의 규모·활성도</b>.</dd></div>
+        <div class="def"><dt><span class="n">2</span>측정</dt><dd>서울시설공단 공식 지하도상가 목록(25개)과 보유 맵데이터로 역별 연결 여부·규모를 검증.</dd></div>
+        <div class="def"><dt><span class="n">3</span>점수화</dt><dd>활성도 3단계:
+          <div style="margin-top:10px;display:grid;gap:8px">
+            <div style="display:flex;align-items:center;gap:11px"><span class="pip sv5">5</span><span style="font-size:13.5px"><b>대형 직결</b> — 여러 출구·블록에 점포가 길게 이어짐 · <span class="src">강남·회현·을지로3가·동대문</span></span></div>
+            <div style="display:flex;align-items:center;gap:11px"><span class="pip sv3">3</span><span style="font-size:13.5px"><b>소규모 직결</b> — 역 한쪽에 점포 일부 연결 · <span class="src">충무로·사당·신촌</span></span></div>
+            <div style="display:flex;align-items:center;gap:11px"><span class="pip sv1">1</span><span style="font-size:13.5px"><b>없음</b> — 순수 지하철역 · <span class="src">대부분 외곽·주택가 역</span></span></div>
+          </div>
+        </dd></div>
+        <div class="def"><dt><span class="n">4</span>난이도</dt><dd>큰 지하상가가 붙을수록 통로가 많아 <b>동선이 복잡</b>해지고 역·상가 경계가 넓게 얽혀 범위가 늘어난다.
+          <div class="note">면적에도 지하상가가 일부 포함되지만, <b>"동일 규모라도 더 어렵다"</b>를 추가 반영하기 위해 별도 기준으로 한 번 더 가중한다(의도적 이중 강조).</div>
+        </dd></div>
+        <div class="def"><dt><span class="n">5</span>출처</dt><dd class="src">서울시설공단 지하도상가 목록(sisul.or.kr) / 보조: 서울시 지하도 공간정보 (OA-21213)</dd></div>
+        <div class="def"><dt><span class="n">6</span>한계</dt><dd>활성도 3단계는 규모를 거칠게 구분. '면적' 실수치는 일부 역만 확보(전수 아님).</dd></div>
+      </dl>
+    </div>
+  </div>
+
+  <!-- 2.4 복합역사 -->
+  <div class="var-card reveal">
+    <div class="var-head">
+      <div class="var-icon" style="background:var(--teuk-soft);color:var(--g-teuk)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4M9 11h.01M15 11h.01"/></svg>
+      </div>
+      <div class="vt"><b>2.4 · 복합역사</b><span>1단계 분리 기준 (점수화하지 않음)</span></div>
+    </div>
+    <div class="var-body">
+      <dl class="deflist">
+        <div class="def"><dt><span class="n">1</span>정의</dt><dd>백화점·터미널·공항·민자청사 등 <b>대규모 비교통시설과 일체화</b>되어 역사의 물리적 범위를 명확히 구획하기 어려운 역.</dd></div>
+        <div class="def"><dt><span class="n">2</span>판정</dt><dd>"광역 일체화(가장 엄격)" 기준으로 후보를 추리고 <b>사용자 검증</b>으로 확정. 지하상가만 연결된 역(강남 등)은 일반역으로 남김.</dd></div>
+        <div class="def"><dt><span class="n">3</span>처리</dt><dd>점수화하지 않고 <b>'특' 등급으로 별도 분류</b>. 단가도 <b>역별 개별 산정</b>(표준 단가 부적합).</dd></div>
+        <div class="def"><dt><span class="n">4</span>난이도</dt><dd>단순히 '더 큰 역'이 아니라 <b>작업 공정 자체가 다르다.</b> 발주처·시설사·백화점·터미널 협의, 다출처 도면, 시설별 출입·승인 단계가 추가된다.</dd></div>
+        <div class="def"><dt><span class="n">5</span>출처</dt><dd class="src">복합역사_별도분류_근거_v2.md(5근거) / 선정매트릭스 '순수지하철역(기준9)'</dd></div>
+        <div class="def"><dt><span class="n">6</span>확정 10역</dt><dd style="display:flex;flex-wrap:wrap;gap:6px">
+          <span style="background:var(--teuk-soft);color:var(--g-teuk);font-size:12.5px;font-weight:700;padding:3px 9px;border-radius:6px">서울역</span>
+          <span style="background:var(--teuk-soft);color:var(--g-teuk);font-size:12.5px;font-weight:700;padding:3px 9px;border-radius:6px">고속터미널</span>
+          <span style="background:var(--teuk-soft);color:var(--g-teuk);font-size:12.5px;font-weight:700;padding:3px 9px;border-radius:6px">잠실</span>
+          <span style="background:var(--teuk-soft);color:var(--g-teuk);font-size:12.5px;font-weight:700;padding:3px 9px;border-radius:6px">김포공항</span>
+          <span style="background:var(--teuk-soft);color:var(--g-teuk);font-size:12.5px;font-weight:700;padding:3px 9px;border-radius:6px">청량리</span>
+          <span style="background:var(--teuk-soft);color:var(--g-teuk);font-size:12.5px;font-weight:700;padding:3px 9px;border-radius:6px">왕십리</span>
+          <span style="background:var(--teuk-soft);color:var(--g-teuk);font-size:12.5px;font-weight:700;padding:3px 9px;border-radius:6px">용산</span>
+          <span style="background:var(--teuk-soft);color:var(--g-teuk);font-size:12.5px;font-weight:700;padding:3px 9px;border-radius:6px">영등포</span>
+          <span style="background:var(--teuk-soft);color:var(--g-teuk);font-size:12.5px;font-weight:700;padding:3px 9px;border-radius:6px">수서 (SRT)</span>
+          <span style="background:var(--teuk-soft);color:var(--g-teuk);font-size:12.5px;font-weight:700;padding:3px 9px;border-radius:6px">신도림 (디큐브)</span>
+        </dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- ════════ 3. 산정 방식 ════════ -->
+<section id="rubric">
+  <div class="sec-head reveal"><div class="sec-no">3</div><h2>등급 산정 방식</h2></div>
+  <p class="sec-desc reveal">세 기준의 채점표(루브릭)다. 이 표만 있으면 누구나 같은 방식으로 어떤 역이든 등급을 매기고 검증할 수 있다. 가중치 없이 그대로 더해 총점을 낸 뒤 고정 구간으로 등급을 준다.</p>
+
+  <!-- 면적 임계 차트 -->
+  <div class="card reveal">
+    <h4 style="margin:0 0 4px;font-size:16px;font-weight:800;display:flex;align-items:center;gap:9px"><span style="width:11px;height:11px;border-radius:3px;background:var(--g-a)"></span>① 면적 — 절대 기준 (만㎡ 단위 고정 임계값)</h4>
+    <p style="font-size:13px;color:var(--ink-3);margin:0 0 22px">막대 높이 = 해당 점수에 속한 일반역 수. 서울 지하철역 다수가 소형(1·2점)이라 하위에 쏠린다.</p>
+    <div class="area-chart">
+      <div class="area-bars">
+        <div class="area-col"><span class="val">8</span><div class="bar" style="height:6.3%"></div></div>
+        <div class="area-col"><span class="val">22</span><div class="bar" style="height:17.3%"></div></div>
+        <div class="area-col"><span class="val">38</span><div class="bar" style="height:29.9%"></div></div>
+        <div class="area-col"><span class="val">127</span><div class="bar" style="height:100%"></div></div>
+        <div class="area-col"><span class="val">101</span><div class="bar" style="height:79.5%"></div></div>
+      </div>
+      <div class="area-axis">
+        <div class="area-tick"><span class="sc sv5">5</span><span class="rg">≥ 4만㎡<br>거대역</span></div>
+        <div class="area-tick"><span class="sc sv4">4</span><span class="rg">3~4만㎡</span></div>
+        <div class="area-tick"><span class="sc sv3">3</span><span class="rg">2~3만㎡</span></div>
+        <div class="area-tick"><span class="sc sv2">2</span><span class="rg">1~2만㎡</span></div>
+        <div class="area-tick"><span class="sc sv1">1</span><span class="rg">&lt; 1만㎡<br>소형</span></div>
+      </div>
+    </div>
+    <p style="font-size:11.5px;color:var(--ink-3);margin:18px 0 0;text-align:center;font-family:var(--mono)">※ 막대 = 점수별 일반역 수(분포) · 점수원 색은 값이 클수록 난이도↑ 표시</p>
+  </div>
+
+  <!-- 환승 · 지하상가 루브릭 -->
+  <div class="rubric reveal">
+    <div class="rubric-card">
+      <h4><span style="width:11px;height:11px;border-radius:3px;background:var(--g-d)"></span>② 환승</h4>
+      <div class="cap">노선 수 = 점수 (5개+ 상한)</div>
+      <div class="rb-row"><span class="pip sv5">5</span><div class="desc">5개 이상<small>5+ lines</small></div></div>
+      <div class="rb-row"><span class="pip sv4">4</span><div class="desc">4개<small>4 lines</small></div></div>
+      <div class="rb-row"><span class="pip sv3">3</span><div class="desc">3개<small>3 lines</small></div></div>
+      <div class="rb-row"><span class="pip sv2">2</span><div class="desc">2개 환승<small>2 lines</small></div></div>
+      <div class="rb-row"><span class="pip sv1">1</span><div class="desc">단독역<small>1 line</small></div></div>
+    </div>
+    <div class="rubric-card">
+      <h4><span style="width:11px;height:11px;border-radius:3px;background:var(--g-b)"></span>③ 지하상가</h4>
+      <div class="cap">활성도 3단계 (의도적 이중 강조)</div>
+      <div class="rb-row"><span class="pip sv5">5</span><div class="desc">대형 지하상가 직결<small>강남 · 회현 · 동대문</small></div></div>
+      <div class="rb-row"><span class="pip sv3">3</span><div class="desc">소규모 직결<small>충무로 · 사당 · 신촌</small></div></div>
+      <div class="rb-row"><span class="pip sv1">1</span><div class="desc">없음 (순수 지하철역)<small>대부분 외곽 · 주택가</small></div></div>
+    </div>
+    <div class="rubric-card" style="background:var(--rail);border-color:var(--rail)">
+      <h4 style="color:#fff"><span style="width:11px;height:11px;border-radius:3px;background:#FFD43B"></span>합산 규칙</h4>
+      <div class="cap" style="color:#9FB0C4">세 점수를 그대로 더함 · 가중치 없음</div>
+      <div style="color:#D6DEE8;font-size:14px;line-height:1.7;margin-top:6px">
+        총점 범위는 <b style="color:#FFD43B;font-family:var(--mono)">최소 3 ~ 최대 15</b>(실측 3~13).
+        <div style="margin-top:14px;padding-top:14px;border-top:1px solid rgba(255,255,255,.12);font-size:13px;color:#9FB0C4;line-height:1.65">면적이 극단적으로 큰 역은 이미 1단계(복합역사)에서 빠지므로, 남은 일반역에서는 세 기준을 동등하게 더해도 한쪽으로 쏠리지 않는다.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 산정 머신 (예시) -->
+  <div class="machine reveal">
+    <h4>▎총점 → 등급 · 산정 예시</h4>
+    <div class="calc-row">
+      <div class="calc-station">강남<small>GANGNAM</small></div>
+      <div class="calc-eq">
+        <div class="term"><span class="pip sv5">5</span><span class="nm">면적</span></div>
+        <span class="op">+</span>
+        <div class="term"><span class="pip sv2">2</span><span class="nm">환승</span></div>
+        <span class="op">+</span>
+        <div class="term"><span class="pip sv5">5</span><span class="nm">지하상가</span></div>
+        <div class="sum"><span class="val">= 12</span><span class="nm">총점</span></div>
+        <span class="arrow">▶</span>
+        <div class="result"><span class="roundel r-a">A</span><span class="nm">최상</span></div>
+      </div>
+    </div>
+    <div class="calc-row">
+      <div class="calc-station">마들<small>MADEUL</small></div>
+      <div class="calc-eq">
+        <div class="term"><span class="pip sv2">2</span><span class="nm">면적</span></div>
+        <span class="op">+</span>
+        <div class="term"><span class="pip sv1">1</span><span class="nm">환승</span></div>
+        <span class="op">+</span>
+        <div class="term"><span class="pip sv1">1</span><span class="nm">지하상가</span></div>
+        <div class="sum"><span class="val">= 4</span><span class="nm">총점</span></div>
+        <span class="arrow">▶</span>
+        <div class="result"><span class="roundel r-d">D</span><span class="nm">중하</span></div>
+      </div>
+    </div>
+    <div class="calc-row">
+      <div class="calc-station">남영<small>NAMYEONG</small></div>
+      <div class="calc-eq">
+        <div class="term"><span class="pip sv1">1</span><span class="nm">면적</span></div>
+        <span class="op">+</span>
+        <div class="term"><span class="pip sv1">1</span><span class="nm">환승</span></div>
+        <span class="op">+</span>
+        <div class="term"><span class="pip sv1">1</span><span class="nm">지하상가</span></div>
+        <div class="sum"><span class="val">= 3</span><span class="nm">총점</span></div>
+        <span class="arrow">▶</span>
+        <div class="result"><span class="roundel r-e">E</span><span class="nm">최저</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 등급 구간 -->
+  <h3 style="margin:38px 0 0;font-size:18px;font-weight:800" class="reveal">합계 → 등급 (총점 절대 구간 · 5등급)</h3>
+  <div class="cut-grid reveal">
+    <div class="cut-row" style="border-left:4px solid var(--g-a)"><div class="roundel r-a">A</div><div class="score">9점 이상</div><div class="mean">최상 — 큰 면적 + 다환승 + 대형상가 복합</div><div class="cnt">17<small>일반역</small></div></div>
+    <div class="cut-row" style="border-left:4px solid var(--g-b)"><div class="roundel r-b">B</div><div class="score">7 ~ 8점</div><div class="mean">중상</div><div class="cnt">29<small>일반역</small></div></div>
+    <div class="cut-row" style="border-left:4px solid var(--g-c)"><div class="roundel r-c">C</div><div class="score">5 ~ 6점</div><div class="mean">중</div><div class="cnt">45<small>일반역</small></div></div>
+    <div class="cut-row" style="border-left:4px solid var(--g-d)"><div class="roundel r-d">D</div><div class="score">4점</div><div class="mean">중하 — 한 인자만 최소 위</div><div class="cnt">110<small>일반역</small></div></div>
+    <div class="cut-row" style="border-left:4px solid var(--g-e)"><div class="roundel r-e">E</div><div class="score">3점</div><div class="mean">최하 — 순수 최소조합(작은 단독역)</div><div class="cnt">95<small>일반역</small></div></div>
+    <div class="cut-row" style="border-left:4px solid var(--g-teuk)"><div class="roundel r-teuk">특</div><div class="score">점수 무관</div><div class="mean">1단계에서 복합역사로 분리</div><div class="cnt">10<small>별도</small></div></div>
+  </div>
+
+  <div class="note reveal" style="margin-top:18px;font-size:14px;border-left-color:#FFD43B;background:#FFFBEB">
+    <b>왜 5등급인가:</b> 총점이 3점(95역)·4점(110역)에 크게 몰린다 — 서울 지하철역 다수가 작은 단독역이기 때문이다. 5등급은 바닥을 <b>E(순수 최소)·D(한 인자만 상승)</b> 두 단가티어로 나누면서 상위 꼬리도 C·B·A로 잘게 가른다. 등급별 표준단가 5단 + 면적 보정 운영에 적합하다.
+  </div>
+</section>
+
+<!-- ════════ 5. 결과 요약 ════════ -->
+<section id="result">
+  <div class="sec-head reveal"><div class="sec-no">4</div><h2>결과 요약 — 등급 분포</h2></div>
+  <p class="sec-desc reveal">D·E가 가장 많은 것(합 205역, 69%)은 서울 지하철역 다수가 작은 단독역이라는 <b>현실의 반영</b>이다. 거대·복합역일수록 위 등급으로 갈수록 가파르게 줄어든다(피라미드형).</p>
+
+  <div class="pyramid reveal">
+    <div class="py-row"><div class="roundel r-a">A</div><div class="py-bar-track"><div class="py-bar" style="width:15.5%;background:var(--g-a)">17</div><span class="py-cap">최상 · 5.5%</span></div></div>
+    <div class="py-row"><div class="roundel r-b">B</div><div class="py-bar-track"><div class="py-bar" style="width:26%;background:var(--g-b)">29</div><span class="py-cap">중상 · 9.4%</span></div></div>
+    <div class="py-row"><div class="roundel r-c">C</div><div class="py-bar-track"><div class="py-bar" style="width:41%;background:var(--g-c)">45</div><span class="py-cap">중 · 14.5%</span></div></div>
+    <div class="py-row"><div class="roundel r-d">D</div><div class="py-bar-track"><div class="py-bar" style="width:100%;background:var(--g-d)">110</div><span class="py-cap">중하 · 35.5%</span></div></div>
+    <div class="py-row"><div class="roundel r-e">E</div><div class="py-bar-track"><div class="py-bar" style="width:86%;background:var(--g-e)">95</div><span class="py-cap">최저 · 30.6%</span></div></div>
+    <div class="py-row py-teuk"><div class="roundel r-teuk">특</div><div class="py-bar-track"><div class="py-bar" style="width:9%;background:var(--g-teuk)">10</div><span class="py-cap">복합역사 별도 · 4역 면적누락</span></div></div>
+    <div class="py-foot">총 <b>310역</b> = 특 10 + A 17 + B 29 + C 45 + D 110 + E 95 + 누락 4. 하위 두 등급(D·E)이 전체의 약 69%를 차지하는 피라미드 구조.</div>
+  </div>
+
+  <h3 style="margin:38px 0 0;font-size:18px;font-weight:800" class="reveal">대표역 검증 — 직관과 일치하는가</h3>
+  <div class="tbl-scroll reveal verify">
+    <table class="tbl">
+      <thead><tr><th>역</th><th class="num">면적</th><th class="num">환승</th><th class="num">지하상가</th><th class="num">총점</th><th>등급</th><th>설명</th></tr></thead>
+      <tbody>
+        <tr><td><b>강남</b></td><td class="num">5</td><td class="num">2</td><td class="num">5</td><td class="num">12</td><td><span class="gcell"><span class="roundel r-a">A</span></span></td><td>큰 면적(4.2만㎡) + 대형 지하상가</td></tr>
+        <tr><td><b>사당</b></td><td class="num">4</td><td class="num">2</td><td class="num">3</td><td class="num">9</td><td><span class="gcell"><span class="roundel r-a">A</span></span></td><td>큰 환승역</td></tr>
+        <tr><td><b>신논현</b></td><td class="num">5</td><td class="num">2</td><td class="num">1</td><td class="num">8</td><td><span class="gcell"><span class="roundel r-b">B</span></span></td><td>면적 최상(4.7만㎡)이나 상가 적어 B</td></tr>
+        <tr><td><b>삼성</b></td><td class="num">1</td><td class="num">1</td><td class="num">5</td><td class="num">7</td><td><span class="gcell"><span class="roundel r-b">B</span></span></td><td>역사는 작지만 코엑스 지하상가로 난이도↑</td></tr>
+        <tr><td><b>월드컵경기장</b></td><td class="num">2</td><td class="num">1</td><td class="num">1</td><td class="num">4</td><td><span class="gcell"><span class="roundel r-d">D</span></span></td><td>중간 면적(2만㎡ 직하), 단독역</td></tr>
+        <tr><td><b>마들</b></td><td class="num">2</td><td class="num">1</td><td class="num">1</td><td class="num">4</td><td><span class="gcell"><span class="roundel r-d">D</span></span></td><td>한 인자(면적)만 최소 위</td></tr>
+        <tr><td><b>봉천</b></td><td class="num">1</td><td class="num">1</td><td class="num">1</td><td class="num">3</td><td><span class="gcell"><span class="roundel r-e">E</span></span></td><td>작은 단독역(순수 최소조합)</td></tr>
+        <tr><td><b>남영</b></td><td class="num">1</td><td class="num">1</td><td class="num">1</td><td class="num">3</td><td><span class="gcell"><span class="roundel r-e">E</span></span></td><td>가장 작은 단독역</td></tr>
+        <tr><td><b>고속터미널</b></td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td><span class="gcell"><span class="roundel r-teuk">특</span></span></td><td>신세계·고투몰·터미널 일체</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ════════ 데이터 출처 ════════ -->
+<section id="source">
+  <div class="sec-head reveal"><div class="sec-no">5</div><h2>데이터 출처 종합</h2></div>
+  <p class="sec-desc reveal">각 변수의 핵심 출처와 보조 출처. 제3자가 동일 데이터로 등급을 재현·검증할 수 있도록 명시한다.</p>
+
+  <div class="src-list reveal">
+    <div class="src-row">
+      <div class="var-name"><span class="dotc" style="background:var(--g-a)"></span>면적</div>
+      <div class="det"><span class="main"></span> — 역사+지하상가 전노선 연면적. <span class="aux">보조: 서울교통공사 역사면적정보 (ID 15060120)</span> → 절대기준(1·2·3·4만㎡) 점수</div>
+    </div>
+    <div class="src-row">
+      <div class="var-name"><span class="dotc" style="background:var(--g-d)"></span>환승</div>
+      <div class="det"><span class="main"></span>. <span class="aux">보조: 서울교통공사 환승유입순위 (ID 15003169)</span> → 노선 수 점수</div>
+    </div>
+    <div class="src-row">
+      <div class="var-name"><span class="dotc" style="background:var(--g-b)"></span>지하상가</div>
+      <div class="det"><span class="main">서울시설공단 지하도상가 목록 (sisul.or.kr)</span>. <span class="aux">보조: 서울시 지하도 공간정보 (OA-21213)</span> → 활성도 3단계 점수</div>
+    </div>
+    <div class="src-row">
+      <div class="var-name"><span class="dotc" style="background:var(--g-teuk)"></span>복합역사</div>
+      <div class="det"><span class="main">복합역사_별도분류_근거_v2.md</span>. <span class="aux">보조: 선정매트릭스 기준9(순수지하철역)</span> → '특' 분리 판정</div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════ 한계 ════════ -->
+<section id="limit">
+  <div class="sec-head reveal"><div class="sec-no">6</div><h2>한계 · 유의사항</h2></div>
+  <div class="limit-grid reveal">
+    <div class="limit-item"><div class="ln">1</div><div class="lt"><b>누락 4역</b><span>반포·불암산·장암·지축은 자체 데이터에 없어 면적 미산정. 잠실(특)은 8호선 면적으로 보강(2호선·롯데 미합산).</span></div></div>
+    <div class="limit-item"><div class="ln">2</div><div class="lt"><b>데이터 시점</b><span>연장 구간은 미반영 가능.</span></div></div>
+    <div class="limit-item"><div class="ln">3</div><div class="lt"><b>경기권 제외</b><span>'서울특별시' 데이터 기준이라 미사·하남·모란 등 경기 소재 역은 대상 제외(정상).</span></div></div>
+    <div class="limit-item"><div class="ln">4</div><div class="lt"><b>지하상가 분류</b><span>활성도 3단계 구분이라 중간 규모를 세밀히 가르지 못한다.</span></div></div>
+    <div class="limit-item"><div class="ln">5</div><div class="lt"><b>환승은 '수'만</b><span>환승 거리·동선 복잡성은 별도 변수로 두지 않았다.</span></div></div>
+    <div class="limit-item"><div class="ln">6</div><div class="lt"><b>하위 등급 분류</b><span>일반역 69%가 총점 3·4점에 몰린다. E(95역)는 3인자로 더 변별 불가 — 등급 내 면적 보정으로 흡수.</span></div></div>
+  </div>
+
+  <div class="appendix reveal">
+
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">지하철역 난이도 등급체계 정의서 · PAPAYA · 작성 2026-06-24 / 개정 2026-06-25 · <b>면적 절대기준화 · 5등급 확장</b></div>
+</footer>
+
+<script>
+(function(){
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }});
+  },{threshold:0.12,rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+})();
+</script>
+</body>
+</html>

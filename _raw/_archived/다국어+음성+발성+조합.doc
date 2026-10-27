@@ -1,0 +1,830 @@
+Message-ID: <2066323399.11.1749080505026@84b55955988e>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_10_1020507034.1749080505025"
+
+------=_Part_10_1020507034.1749080505025
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=EB=8B=A4=EA=B5=AD=EC=96=B4 =EC=9D=8C=EC=84=B1 =EB=B0=9C=EC=84=
+=B1 =EC=A1=B0=ED=95=A9</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=EB=8B=A4=EA=B5=AD=EC=96=B4 =EC=9D=8C=EC=84=B1 =EB=B0=9C=EC=84=B1 =
+=EC=A1=B0=ED=95=A9</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"id-=EB=8B=A4=EA=B5=AD=EC=96=B4=EC=9D=8C=EC=84=B1=EB=B0=9C=
+=EC=84=B1=EC=A1=B0=ED=95=A9-=ED=95=9C=EA=B5=AD=EC=96=B4">=ED=95=9C=EA=B5=AD=
+=EC=96=B4</h1>
+<ul>
+<li>
+<p>=EC=95=BD %d =EB=AF=B8=ED=84=B0 =EC=95=9E =EC=9A=B0=ED=9A=8C=EC=A0=84=EC=
+=9E=85=EB=8B=88=EB=8B=A4. / <span style=3D"background-color: rgb(220,223,22=
+8);">audio_m_a + audio_right</span></p></li>
+<li>
+<p>=EC=95=BD %d =EB=AF=B8=ED=84=B0 =EC=95=9E =EC=A2=8C=ED=9A=8C=EC=A0=84=EC=
+=9E=85=EB=8B=88=EB=8B=A4. / <span style=3D"background-color: rgb(220,223,22=
+8);">audio_m_a + audio_left</span></p></li>
+<li>
+<p>=EC=95=BD %d =EB=AF=B8=ED=84=B0 =EC=95=9E =EC=98=A4=EB=A5=B8=EC=AA=BD =
+=EB=8F=84=EB=A1=9C=EC=9E=85=EB=8B=88=EB=8B=A4. / <span style=3D"background-=
+color: rgb(220,223,228);">audio_m_a + audio_right_way</span></p></li>
+<li>
+<p>=EC=95=BD %d =EB=AF=B8=ED=84=B0 =EC=95=9E =EC=99=BC=EC=AA=BD =EB=8F=84=
+=EB=A1=9C=EC=9E=85=EB=8B=88=EB=8B=A4. / <span style=3D"background-color: rg=
+b(220,223,228);">audio_m_a + audio_left_way</span></p></li>
+<li>
+<p>=EC=95=BD %d =EB=AF=B8=ED=84=B0 =EC=95=9E =EC=A7=81=EC=A7=84=EC=9E=85=EB=
+=8B=88=EB=8B=A4. / <span style=3D"background-color: rgb(220,223,228);">audi=
+o_m_a + audio_straight_2</span></p></li>
+<li>
+<p>=EC=95=BD %d =EB=AF=B8=ED=84=B0 =EC=95=9E =EC=9C=A0=ED=84=B4=ED=95=98=EC=
+=84=B8=EC=9A=94. / <span style=3D"background-color: rgb(220,223,228);">audi=
+o_m_a + audio_u_turn_1</span></p></li>
+<li>
+<p>=EC=95=BD %d =EB=AF=B8=ED=84=B0 =EC=95=9E =ED=9A=8C=EC=A0=84=EA=B5=90=EC=
+=B0=A8=EB=A1=9C=EC=97=90 =EC=A7=84=EC=9E=85=ED=95=98=EC=84=B8=EC=9A=94. / <=
+span style=3D"background-color: rgb(220,223,228);">audio_m_a + audio_round<=
+/span></p></li>
+<li>
+<p>=EC=95=BD %d =EB=AF=B8=ED=84=B0 =EC=95=9E =EC=B6=9C=EA=B5=AC=EB=A1=9C =
+=EC=A7=84=EC=B6=9C=ED=95=98=EC=84=B8=EC=9A=94. / <span style=3D"background-=
+color: rgb(220,223,228);">audio_m_a + audio_exit_2</span></p></li>
+<li>
+<p>=EC=95=BD %d =EB=AF=B8=ED=84=B0 =EC=95=9E =ED=86=A8=EA=B2=8C=EC=9D=B4=ED=
+=8A=B8=EC=9E=85=EB=8B=88=EB=8B=A4. / <span style=3D"background-color: rgb(2=
+20,223,228);">audio_m_a + audio_gate</span></p></li>
+<li>
+<p>=EC=95=BD %d =EB=AF=B8=ED=84=B0 =EC=95=9E =EA=B3=A0=EA=B0=80 =EB=8F=84=
+=EB=A1=9C=EC=97=90 =EC=A7=84=EC=9E=85=ED=95=98=EC=84=B8=EC=9A=94. / <span s=
+tyle=3D"background-color: rgb(220,223,228);">audio_m_a + audio_ramp</span><=
+/p></li>
+<li>
+<p>=EC=95=BD %d =EB=AF=B8=ED=84=B0 =EC=95=9E =EA=B3=A0=EC=86=8D=EB=8F=84=EB=
+=A1=9C=EC=97=90 =EC=A7=84=EC=9E=85=ED=95=98=EC=84=B8=EC=9A=94. / <span styl=
+e=3D"background-color: rgb(220,223,228);">audio_m_a + audio_highway</span><=
+/p></li>
+<li>
+<p>=EC=95=BD %d =EB=AF=B8=ED=84=B0 =EC=95=9E =ED=8F=89=ED=96=89 =EB=8F=84=
+=EB=A1=9C=EC=97=90 =EC=A7=84=EC=9E=85=ED=95=98=EC=84=B8=EC=9A=94. / <span s=
+tyle=3D"background-color: rgb(220,223,228);">audio_m_a + audio_paralled</sp=
+an></p></li>
+<li>
+<p>=EC=9D=B4=EC=96=B4=EC=84=9C %d =EB=AF=B8=ED=84=B0 =EC=95=9E =EC=9A=B0=ED=
+=9A=8C=EC=A0=84=EC=9E=85=EB=8B=88=EB=8B=A4. / <span style=3D"background-col=
+or: rgb(220,223,228);">audio_and + audio_m_a + audio_right</span></p></li>
+<li>
+<p>=EC=9D=B4=EC=96=B4=EC=84=9C %d =EB=AF=B8=ED=84=B0 =EC=95=9E =EC=A7=81=EC=
+=A7=84=EC=9E=85=EB=8B=88=EB=8B=A4. / <span style=3D"background-color: rgb(2=
+20,223,228);">audio_and + audio_m_a + audio_straight_2</span></p></li>
+<li>
+<p>=EC=9D=B4=EC=96=B4=EC=84=9C %d =EB=AF=B8=ED=84=B0 =EC=95=9E =ED=86=A8=EA=
+=B2=8C=EC=9D=B4=ED=8A=B8=EC=9E=85=EB=8B=88=EB=8B=A4. / <span style=3D"backg=
+round-color: rgb(220,223,228);">audio_and + audio_m_a +audio_gate</span></p=
+></li>
+<li>
+<p>=EC=9D=B4=EC=96=B4=EC=84=9C %d=EB=AF=B8=ED=84=B0=EA=B9=8C=EC=A7=80 =EC=
+=A7=81=EC=A7=84=EC=9E=85=EB=8B=88=EB=8B=A4. / <span style=3D"background-col=
+or: rgb(220,223,228);">audio_and + audio_for_m + audio_straight_2</span></p=
+></li>
+<li>
+<p>=EC=9D=B4=EC=96=B4=EC=84=9C %s=EB=B0=A9=EB=A9=B4=EC=9C=BC=EB=A1=9C =EC=
+=9A=B0=ED=9A=8C=EC=A0=84=EC=9E=85=EB=8B=88=EB=8B=A4. / <span style=3D"backg=
+round-color: rgb(220,223,228);">audio_and + audio_toward + audio_right</spa=
+n></p></li>
+<li>
+<p>=EC=9D=B4=EC=96=B4=EC=84=9C =EC=B2=AB=EB=B2=88=EC=A7=B8 =EC=B6=9C=EA=B5=
+=AC=EB=A1=9C =EC=A7=84=EC=B6=9C=ED=95=98=EC=84=B8=EC=9A=94. / <span style=
+=3D"background-color: rgb(220,223,228);">audio_and + audio_exit_first</span=
+></p></li>
+<li>
+<p>=EC=9D=B4=EC=96=B4=EC=84=9C =EC=B2=AB=EB=B2=88=EC=A7=B8 =EC=9A=B0=ED=9A=
+=8C=EC=A0=84=EC=9E=85=EB=8B=88=EB=8B=A4. / <span style=3D"background-color:=
+ rgb(220,223,228);">audio_and + audio_right_first</span></p></li>
+<li>
+<p>=EC=9D=B4=EC=96=B4=EC=84=9C =EB=AA=A9=EC=A0=81=EC=A7=80 =EB=B6=80=EA=B7=
+=BC=EC=9E=85=EB=8B=88=EB=8B=A4. / <span style=3D"background-color: rgb(220,=
+223,228);">audio_and + audio_arrive_near</span></p></li>
+<li>
+<p>=EC=9D=B4=EC=96=B4=EC=84=9C =EA=B2=BD=EC=9C=A0=EC=A7=80 =EB=B6=80=EA=B7=
+=BC=EC=9E=85=EB=8B=88=EB=8B=A4. / <span style=3D"background-color: rgb(220,=
+223,228);">audio_and + audio_waypoint</span></p></li>
+<li>
+<p>=EC=9E=A0=EC=8B=9C=ED=9B=84 =EC=9A=B0=ED=9A=8C=EC=A0=84=EC=9E=85=EB=8B=
+=88=EB=8B=A4. / <span style=3D"background-color: rgb(220,223,228);">audio_s=
+oon + audio_right</span></p></li>
+<li>
+<p>=EC=9E=A0=EC=8B=9C=ED=9B=84 =EC=98=A4=EB=A5=B8=EC=AA=BD =EB=8F=84=EB=A1=
+=9C=EC=9E=85=EB=8B=88=EB=8B=A4. / <span style=3D"background-color: rgb(220,=
+223,228);">audio_soon + audio_right_way</span></p></li>
+<li>
+<p>=EC=9E=A0=EC=8B=9C=ED=9B=84 =EC=9C=A0=ED=84=B4=ED=95=98=EC=84=B8=EC=9A=
+=94. / <span style=3D"background-color: rgb(220,223,228);">audio_soon + aud=
+io_u_turn_1</span></p></li>
+<li>
+<p>=EC=9E=A0=EC=8B=9C=ED=9B=84 =ED=9A=8C=EC=A0=84=EA=B5=90=EC=B0=A8=EB=A1=
+=9C=EC=97=90 =EC=A7=84=EC=9E=85=ED=95=98=EC=84=B8=EC=9A=94. / <span style=
+=3D"background-color: rgb(220,223,228);">audio_soon + audio_round</span></p=
+></li>
+<li>
+<p>=EC=9E=A0=EC=8B=9C=ED=9B=84 =ED=95=9C=EC=8B=9C =EB=B0=A9=ED=96=A5 =EC=9A=
+=B0=ED=9A=8C=EC=A0=84=EC=9E=85=EB=8B=88=EB=8B=A4. / <span style=3D"backgrou=
+nd-color: rgb(220,223,228);">audio_soon + audio_right_one</span></p></li>
+<li>
+<p>=EC=9E=A0=EC=8B=9C=ED=9B=84 =EA=B3=A0=EA=B0=80 =EB=8F=84=EB=A1=9C=EC=97=
+=90 =EC=A7=84=EC=9E=85=ED=95=98=EC=84=B8=EC=9A=94. / <span style=3D"backgro=
+und-color: rgb(220,223,228);">audio_soon + audio_ramp</span></p></li>
+<li>
+<p>=EC=9E=A0=EC=8B=9C=ED=9B=84 =EB=AA=A9=EC=A0=81=EC=A7=80 =EB=B6=80=EA=B7=
+=BC=EC=9E=85=EB=8B=88=EB=8B=A4. / <span style=3D"background-color: rgb(220,=
+223,228);">audio_soon + audio_arrive_near</span></p></li>
+<li>
+<p>=EC=9E=A0=EC=8B=9C=ED=9B=84 =EA=B2=BD=EC=9C=A0=EC=A7=80 =EB=B6=80=EA=B7=
+=BC=EC=9E=85=EB=8B=88=EB=8B=A4. / <span style=3D"background-color: rgb(220,=
+223,228);">audio_soon + audio_waypoint</span></p></li>
+<li>
+<p>=EC=9E=A0=EC=8B=9C=ED=9B=84 =EB=8F=84=EB=A1=9C =EB=81=9D=EC=97=90=EC=84=
+=9C =EC=9A=B0=ED=9A=8C=EC=A0=84=EC=9E=85=EB=8B=88=EB=8B=A4. / <span style=
+=3D"background-color: rgb(220,223,228);">audio_soon + audio_end_road + audi=
+o_right</span></p></li>
+</ul>
+<p></p>
+<h1 id=3D"id-=EB=8B=A4=EA=B5=AD=EC=96=B4=EC=9D=8C=EC=84=B1=EB=B0=9C=EC=84=
+=B1=EC=A1=B0=ED=95=A9-=EC=98=81=EB=AC=B8(English)">=EC=98=81=EB=AC=B8(Engli=
+sh)</h1>
+<ul>
+<li>
+<p>After %d meters, Turn right / <span style=3D"background-color: rgb(220,2=
+23,228);">audio_m_a + audio_right</span></p></li>
+<li>
+<p>After %d meters, Turn left / <span style=3D"background-color: rgb(220,22=
+3,228);">audio_m_a + audio_left</span></p></li>
+<li>
+<p>After %d meters, Keep right / <span style=3D"background-color: rgb(220,2=
+23,228);">audio_m_a + audio_right_way</span></p></li>
+<li>
+<p>After %d meters, Keep left / <span style=3D"background-color: rgb(220,22=
+3,228);">audio_m_a + audio_left_way</span></p></li>
+<li>
+<p>After %d meters, Continue straight for now / <span style=3D"background-c=
+olor: rgb(220,223,228);">audio_m_a + audio_straight_2</span></p></li>
+<li>
+<p>After %d meters, Make a U-turn / <span style=3D"background-color: rgb(22=
+0,223,228);">audio_m_a + audio_u_turn_1</span></p></li>
+<li>
+<p>After %d meters, Enter the roundabout. / <span style=3D"background-color=
+: rgb(220,223,228);">audio_m_a + audio_round</span></p></li>
+<li>
+<p>After %d meters, Take the exit. / <span style=3D"background-color: rgb(2=
+20,223,228);">audio_m_a + audio_exit_2</span></p></li>
+<li>
+<p>After %d meters, Pass through the tollgate. / <span style=3D"background-=
+color: rgb(220,223,228);">audio_m_a + audio_gate</span></p></li>
+<li>
+<p>After %d meters, Take the entrance ramp. / <span style=3D"background-col=
+or: rgb(220,223,228);">audio_m_a + audio_ramp</span></p></li>
+<li>
+<p>After %d meters, Take the highway. / <span style=3D"background-color: rg=
+b(220,223,228);">audio_m_a + audio_highway</span></p></li>
+<li>
+<p>After %d meters, Switch to the parallel road. / <span style=3D"backgroun=
+d-color: rgb(220,223,228);">audio_m_a + audio_paralled</span></p></li>
+<li>
+<p>Then After %d meters, Turn right. / <span style=3D"background-color: rgb=
+(220,223,228);">audio_and + audio_m_a + audio_right</span></p></li>
+<li>
+<p>Then After %d meters, Continue straight for now. / <span style=3D"backgr=
+ound-color: rgb(220,223,228);">audio_and + audio_m_a + audio_straight_2</sp=
+an></p></li>
+<li>
+<p>Then After %d meters, Pass through the tollgate. / <span style=3D"backgr=
+ound-color: rgb(220,223,228);">audio_and + audio_m_a +audio_gate</span></p>=
+</li>
+<li>
+<p>Then For %d meters, Continue straight for now. / <span style=3D"backgrou=
+nd-color: rgb(220,223,228);">audio_and + audio_for_m + audio_straight_2</sp=
+an></p></li>
+<li>
+<p>Then Toward %s, Turn right / <span style=3D"background-color: rgb(220,22=
+3,228);">audio_and + audio_toward + audio_right</span></p></li>
+<li>
+<p>Then Take the first exit. / <span style=3D"background-color: rgb(220,223=
+,228);">audio_and + audio_exit_first</span></p></li>
+<li>
+<p>Then Take the first right. / <span style=3D"background-color: rgb(220,22=
+3,228);">audio_and + audio_right_first</span></p></li>
+<li>
+<p>Then You have reached your destination. / <span style=3D"background-colo=
+r: rgb(220,223,228);">audio_and + audio_arrive_near</span></p></li>
+<li>
+<p>Then You have reached your waypoint. / <span style=3D"background-color: =
+rgb(220,223,228);">audio_and + audio_waypoint</span></p></li>
+<li>
+<p>Soon Turn right / <span style=3D"background-color: rgb(220,223,228);">au=
+dio_soon + audio_right</span></p></li>
+<li>
+<p>Soon Keep right / <span style=3D"background-color: rgb(220,223,228);">au=
+dio_soon + audio_right_way</span></p></li>
+<li>
+<p>Soon Make a U-turn. / <span style=3D"background-color: rgb(220,223,228);=
+">audio_soon + audio_u_turn_1</span></p></li>
+<li>
+<p>Soon Enter the roundabout. / <span style=3D"background-color: rgb(220,22=
+3,228);">audio_soon + audio_round</span></p></li>
+<li>
+<p>Soon Slight right / <span style=3D"background-color: rgb(220,223,228);">=
+audio_soon + audio_right_one</span></p></li>
+<li>
+<p>Soon Take the entrance ramp. / <span style=3D"background-color: rgb(220,=
+223,228);">audio_soon + audio_ramp</span></p></li>
+<li>
+<p>Soon You have reached your destination. / <span style=3D"background-colo=
+r: rgb(220,223,228);">audio_soon + audio_arrive_near</span></p></li>
+<li>
+<p>Soon You have reached your waypoint. / <span style=3D"background-color: =
+rgb(220,223,228);">audio_soon + audio_waypoint</span></p></li>
+<li>
+<p>Soon At the end of the road, Turn right / <span style=3D"background-colo=
+r: rgb(220,223,228);">audio_soon + audio_end_road + audio_right</span></p><=
+/li>
+</ul>
+<p></p>
+<p></p>
+<h1 id=3D"id-=EB=8B=A4=EA=B5=AD=EC=96=B4=EC=9D=8C=EC=84=B1=EB=B0=9C=EC=84=
+=B1=EC=A1=B0=ED=95=A9-=EB=B2=88=EC=B2=B4(TraditionalChinese)">=EB=B2=88=EC=
+=B2=B4(Traditional Chinese)</h1>
+<ul>
+<li>
+<p>=E5=9C=A8%d=E7=B1=B3=E4=B9=8B=E5=BE=8C =E5=8F=B3=E8=BD=89 / <span style=
+=3D"background-color: rgb(220,223,228);">audio_m_a + audio_right</span></p>=
+</li>
+<li>
+<p>=E5=9C=A8%d=E7=B1=B3=E4=B9=8B=E5=BE=8C =E5=B7=A6=E8=BD=89 / <span style=
+=3D"background-color: rgb(220,223,228);">audio_m_a + audio_left</span></p><=
+/li>
+<li>
+<p>=E5=9C=A8%d=E7=B1=B3=E4=B9=8B=E5=BE=8C =E8=AB=8B=E9=9D=A0=E5=8F=B3=E8=A1=
+=8C=E9=A7=9B / <span style=3D"background-color: rgb(220,223,228);">audio_m_=
+a + audio_right_way</span></p></li>
+<li>
+<p>=E5=9C=A8%d=E7=B1=B3=E4=B9=8B=E5=BE=8C =E9=9D=A0=E5=B7=A6=E8=A1=8C=E9=A7=
+=9B / <span style=3D"background-color: rgb(220,223,228);">audio_m_a + audio=
+_left_way</span></p></li>
+<li>
+<p>=E5=9C=A8%d=E7=B1=B3=E4=B9=8B=E5=BE=8C =E8=AB=8B=E6=9A=AB=E6=99=82=E7=9B=
+=B4=E8=A1=8C / <span style=3D"background-color: rgb(220,223,228);">audio_m_=
+a + audio_straight_2</span></p>
+<ul>
+<li>
+<p>=E5=9C=A8%d=E7=B1=B3=E4=B9=8B=E5=BE=8C =E7=B9=BC=E7=BA=8C=E7=9B=B4=E8=A1=
+=8C / <span style=3D"background-color: rgb(220,223,228);">audio_m_a + </spa=
+n><span style=3D"background-color: rgb(253,208,236);">audio_straight_3</spa=
+n></p></li>
+</ul></li>
+<li>
+<p>=E5=9C=A8%d=E7=B1=B3=E4=B9=8B=E5=BE=8C =E8=AB=8B=E8=BF=B4=E8=BD=89 / <sp=
+an style=3D"background-color: rgb(220,223,228);">audio_m_a + audio_u_turn_1=
+</span></p></li>
+<li>
+<p>=E5=9C=A8%d=E7=B1=B3=E4=B9=8B=E5=BE=8C =E9=80=B2=E5=85=A5=E5=9C=93=E7=92=
+=B0 / <span style=3D"background-color: rgb(220,223,228);">audio_m_a + audio=
+_round</span></p></li>
+<li>
+<p>=E5=9C=A8%d=E7=B1=B3=E4=B9=8B=E5=BE=8C =E8=AB=8B=E5=BE=9E=E5=87=BA=E5=8F=
+=A3=E9=9B=A2=E9=96=8B / <span style=3D"background-color: rgb(220,223,228);"=
+>audio_m_a + audio_exit_2</span></p>
+<ul>
+<li>
+<p>=E5=9C=A8%d=E7=B1=B3=E4=B9=8B=E5=BE=8C =E5=BE=9E=E5=87=BA=E5=8F=A3=E9=A7=
+=9B=E5=87=BA / <span style=3D"background-color: rgb(220,223,228);">audio_m_=
+a +</span><span style=3D"background-color: rgb(253,208,236);"> audio_exit_3=
+</span></p></li>
+</ul></li>
+<li>
+<p>=E5=9C=A8%d=E7=B1=B3=E4=B9=8B=E5=BE=8C =E9=80=9A=E9=81=8E=E6=94=B6=E8=B2=
+=BB=E7=AB=99 / <span style=3D"background-color: rgb(220,223,228);">audio_m_=
+a + audio_gate</span></p></li>
+<li>
+<p>=E5=9C=A8%d=E7=B1=B3=E4=B9=8B=E5=BE=8C =E9=80=B2=E5=85=A5=E5=8C=9D=E9=81=
+=93 / <span style=3D"background-color: rgb(220,223,228);">audio_m_a + audio=
+_ramp</span></p></li>
+<li>
+<p>=E5=9C=A8%d=E7=B1=B3=E4=B9=8B=E5=BE=8C =E8=A1=8C=E9=A7=9B=E9=AB=98=E9=80=
+=9F=E5=85=AC=E8=B7=AF / <span style=3D"background-color: rgb(220,223,228);"=
+>audio_m_a + audio_highway</span></p></li>
+<li>
+<p>=E5=9C=A8%d=E7=B1=B3=E4=B9=8B=E5=BE=8C =E5=88=87=E5=88=B0=E5=B9=B3=E8=A1=
+=8C=E9=81=93=E8=B7=AF / <span style=3D"background-color: rgb(220,223,228);"=
+>audio_m_a + audio_paralled</span></p></li>
+<li>
+<p>=E7=84=B6=E5=BE=8C =E5=9C=A8%d=E7=B1=B3=E4=B9=8B=E5=BE=8C =E5=8F=B3=E8=
+=BD=89 / <span style=3D"background-color: rgb(220,223,228);">audio_and + au=
+dio_m_a + audio_right</span></p></li>
+<li>
+<p>=E7=84=B6=E5=BE=8C =E5=9C=A8%d=E7=B1=B3=E4=B9=8B=E5=BE=8C =E8=AB=8B=E6=
+=9A=AB=E6=99=82=E7=9B=B4=E8=A1=8C / <span style=3D"background-color: rgb(22=
+0,223,228);">audio_and + audio_m_a + audio_straight_2</span></p>
+<ul>
+<li>
+<p>=E7=84=B6=E5=BE=8C =E5=9C=A8%d=E7=B1=B3=E4=B9=8B=E5=BE=8C<strong> </stro=
+ng>=E7=B9=BC=E7=BA=8C=E7=9B=B4=E8=A1=8C / <span style=3D"background-color: =
+rgb(220,223,228);">audio_and + audio_m_a + </span><span style=3D"background=
+-color: rgb(253,208,236);">audio_straight_3</span></p></li>
+</ul></li>
+<li>
+<p>=E7=84=B6=E5=BE=8C =E5=9C=A8%d=E7=B1=B3=E4=B9=8B=E5=BE=8C =E9=80=9A=E9=
+=81=8E=E6=94=B6=E8=B2=BB=E7=AB=99 / <span style=3D"background-color: rgb(22=
+0,223,228);">audio_and + audio_m_a +audio_gate</span></p></li>
+<li>
+<p>=E7=84=B6=E5=BE=8C =E5=86=8D %d =E5=85=AC=E5=B0=BA =E8=AB=8B=E6=9A=AB=E6=
+=99=82=E7=9B=B4=E8=A1=8C / <span style=3D"background-color: rgb(220,223,228=
+);">audio_and + audio_for_m + audio_straight_2</span></p></li>
+<li>
+<p>=E7=84=B6=E5=BE=8C =E6=9C=9D %s =E6=96=B9=E5=90=91 =E5=8F=B3=E8=BD=89 / =
+<span style=3D"background-color: rgb(220,223,228);">audio_and + audio_towar=
+d + audio_right</span></p></li>
+<li>
+<p>=E7=84=B6=E5=BE=8C =E8=B5=B0=E7=AC=AC=E4=B8=80=E5=80=8B=E5=87=BA=E5=8F=
+=A3 / <span style=3D"background-color: rgb(220,223,228);">audio_and + audio=
+_exit_first</span></p></li>
+<li>
+<p>=E7=84=B6=E5=BE=8C =E7=AC=AC=E4=B8=80=E5=80=8B=E8=B7=AF=E5=8F=A3=E5=8F=
+=B3=E8=BD=89 / <span style=3D"background-color: rgb(220,223,228);">audio_an=
+d + audio_right_first</span></p></li>
+<li>
+<p>=E7=84=B6=E5=BE=8C =E6=82=A8=E5=B7=B2=E5=88=B0=E9=81=94=E7=9B=AE=E7=9A=
+=84=E5=9C=B0 / <span style=3D"background-color: rgb(220,223,228);">audio_an=
+d + audio_arrive_near</span></p></li>
+<li>
+<p>=E7=84=B6=E5=BE=8C =E6=82=A8=E5=B7=B2=E6=8A=B5=E9=81=94=E9=80=94=E7=B6=
+=93=E9=BB=9E / <span style=3D"background-color: rgb(220,223,228);">audio_an=
+d + audio_waypoint</span></p></li>
+<li>
+<p>=E5=BF=AB=E5=88=B0=E4=BA=86 =E5=8F=B3=E8=BD=89 / <span style=3D"backgrou=
+nd-color: rgb(220,223,228);">audio_soon + audio_right</span></p>
+<ul>
+<li>
+<p>=E5=89=8D=E6=96=B9 =E5=8F=B3=E8=BD=89 / <span style=3D"background-color:=
+ rgb(253,208,236);">audio_soon_2</span><span style=3D"background-color: rgb=
+(220,223,228);"> + audio_right</span></p></li>
+</ul></li>
+<li>
+<p>=E5=BF=AB=E5=88=B0=E4=BA=86 =E8=AB=8B=E9=9D=A0=E5=8F=B3=E8=A1=8C=E9=A7=
+=9B / <span style=3D"background-color: rgb(220,223,228);">audio_soon + audi=
+o_right_way</span></p></li>
+<li>
+<p>=E5=BF=AB=E5=88=B0=E4=BA=86 =E8=AB=8B=E8=BF=B4=E8=BD=89 / <span style=3D=
+"background-color: rgb(220,223,228);">audio_soon + audio_u_turn_1</span></p=
+></li>
+<li>
+<p>=E5=BF=AB=E5=88=B0=E4=BA=86 =E9=80=B2=E5=85=A5=E5=9C=93=E7=92=B0 / <span=
+ style=3D"background-color: rgb(220,223,228);">audio_soon + audio_round</sp=
+an></p></li>
+<li>
+<p>=E5=BF=AB=E5=88=B0=E4=BA=86 =E5=BE=AE=E5=90=91=E5=8F=B3=E8=BD=89 / <span=
+ style=3D"background-color: rgb(220,223,228);">audio_soon + audio_right_one=
+</span></p>
+<ul>
+<li>
+<p>=E5=89=8D=E6=96=B9 =E7=A8=8D=E5=90=91=E5=8F=B3=E8=BD=89 / <span style=3D=
+"background-color: rgb(253,208,236);">audio_soon_2</span> + <span style=3D"=
+background-color: rgb(253,208,236);">audio_right_one_2</span></p></li>
+</ul></li>
+<li>
+<p>=E5=BF=AB=E5=88=B0=E4=BA=86 =E9=80=B2=E5=85=A5=E5=8C=9D=E9=81=93 / <span=
+ style=3D"background-color: rgb(220,223,228);">audio_soon + audio_ramp</spa=
+n></p></li>
+<li>
+<p>=E5=BF=AB=E5=88=B0=E4=BA=86 =E6=82=A8=E5=B7=B2=E5=88=B0=E9=81=94=E7=9B=
+=AE=E7=9A=84=E5=9C=B0 / <span style=3D"background-color: rgb(220,223,228);"=
+>audio_soon + audio_arrive_near</span></p></li>
+<li>
+<p>=E5=BF=AB=E5=88=B0=E4=BA=86 =E6=82=A8=E5=B7=B2=E6=8A=B5=E9=81=94=E9=80=
+=94=E7=B6=93=E9=BB=9E / <span style=3D"background-color: rgb(220,223,228);"=
+>audio_soon + audio_waypoint</span></p></li>
+<li>
+<p>=E5=BF=AB=E5=88=B0=E4=BA=86 =E5=9C=A8=E9=81=93=E8=B7=AF=E7=9A=84=E7=9B=
+=A1=E9=A0=AD =E5=8F=B3=E8=BD=89 / <span style=3D"background-color: rgb(220,=
+223,228);">audio_soon + audio_end_road + audio_right</span></p>
+<ul>
+<li>
+<p>=E5=89=8D=E6=96=B9 =E9=81=93=E8=B7=AF=E7=9B=A1=E9=A0=AD =E5=8F=B3=E8=BD=
+=89 / <span style=3D"background-color: rgb(253,208,236);">audio_soon_2</spa=
+n> + <span style=3D"background-color: rgb(253,208,236);">audio_end_road_2</=
+span> + <span style=3D"background-color: rgb(220,223,228);">audio_right</sp=
+an></p></li>
+</ul></li>
+</ul>
+<p></p>
+<p></p>
+<h1 id=3D"id-=EB=8B=A4=EA=B5=AD=EC=96=B4=EC=9D=8C=EC=84=B1=EB=B0=9C=EC=84=
+=B1=EC=A1=B0=ED=95=A9-=EA=B0=84=EC=B2=B4(SimplifiedChinese)">=EA=B0=84=EC=
+=B2=B4(Simplified Chinese)</h1>
+<ul>
+<li>
+<p>=E5=9C=A8 %d =E7=B1=B3=E5=90=8E =E5=8F=B3=E8=BD=AC / <span style=3D"back=
+ground-color: rgb(220,223,228);">audio_m_a + audio_right</span></p>
+<ul>
+<li>
+<p>=E5=89=8D=E6=96=B9 %d =E7=B1=B3 =E5=8F=B3=E8=BD=AC / <span style=3D"back=
+ground-color: rgb(253,208,236);">audio_m_a_2</span><span style=3D"backgroun=
+d-color: rgb(220,223,228);"> + audio_right</span></p></li>
+</ul></li>
+<li>
+<p>=E5=9C=A8 %d =E7=B1=B3=E5=90=8E =E5=B7=A6=E8=BD=AC / <span style=3D"back=
+ground-color: rgb(220,223,228);">audio_m_a + audio_left</span></p></li>
+<li>
+<p>=E5=9C=A8 %d =E7=B1=B3=E5=90=8E =E9=9D=A0=E5=8F=B3=E8=A1=8C=E9=A9=B6 / <=
+span style=3D"background-color: rgb(220,223,228);">audio_m_a + audio_right_=
+way</span></p></li>
+<li>
+<p>=E5=9C=A8 %d =E7=B1=B3=E5=90=8E =E9=9D=A0=E5=B7=A6=E8=A1=8C=E9=A9=B6 / <=
+span style=3D"background-color: rgb(220,223,228);">audio_m_a + audio_left_w=
+ay</span></p></li>
+<li>
+<p>=E5=9C=A8 %d =E7=B1=B3=E5=90=8E =E6=9A=82=E6=97=B6=E7=BB=A7=E7=BB=AD=E7=
+=9B=B4=E8=A1=8C / <span style=3D"background-color: rgb(220,223,228);">audio=
+_m_a + audio_straight_2</span></p>
+<ul>
+<li>
+<p>=E5=9C=A8 %d =E7=B1=B3=E5=90=8E =E7=BB=A7=E7=BB=AD=E7=9B=B4=E8=A1=8C / <=
+span style=3D"background-color: rgb(220,223,228);">audio_m_a +</span><span =
+style=3D"background-color: rgb(253,208,236);">audio_straight_3</span></p></=
+li>
+</ul></li>
+<li>
+<p>=E5=9C=A8 %d =E7=B1=B3=E5=90=8E =E6=8E=89=E5=A4=B4 / <span style=3D"back=
+ground-color: rgb(220,223,228);">audio_m_a + audio_u_turn_1</span></p></li>
+<li>
+<p>=E5=9C=A8 %d =E7=B1=B3=E5=90=8E =E8=BF=9B=E5=85=A5=E7=8E=AF=E5=B2=9B / <=
+span style=3D"background-color: rgb(220,223,228);">audio_m_a + audio_round<=
+/span></p></li>
+<li>
+<p>=E5=9C=A8 %d =E7=B1=B3=E5=90=8E =E4=BB=8E=E5=87=BA=E5=8F=A3=E9=A9=B6=E5=
+=87=BA / <span style=3D"background-color: rgb(220,223,228);">audio_m_a + au=
+dio_exit_2</span></p></li>
+<li>
+<p>=E5=9C=A8 %d =E7=B1=B3=E5=90=8E =E9=80=9A=E8=BF=87=E6=94=B6=E8=B4=B9=E7=
+=AB=99 / <span style=3D"background-color: rgb(220,223,228);">audio_m_a + au=
+dio_gate</span></p></li>
+<li>
+<p>=E5=9C=A8 %d =E7=B1=B3=E5=90=8E =E9=A9=B6=E5=85=A5=E5=85=A5=E5=8F=A3=E5=
+=8C=9D=E9=81=93 / <span style=3D"background-color: rgb(220,223,228);">audio=
+_m_a + audio_ramp</span></p>
+<ul>
+<li>
+<p>=E5=9C=A8 %d =E7=B1=B3=E5=90=8E =E9=A9=B6=E5=85=A5=E5=8C=9D=E9=81=93 / <=
+span style=3D"background-color: rgb(220,223,228);">audio_m_a + </span><span=
+ style=3D"background-color: rgb(253,208,236);">audio_ramp_2</span></p></li>
+</ul></li>
+<li>
+<p>=E5=9C=A8 %d =E7=B1=B3=E5=90=8E =E9=A9=B6=E5=85=A5=E9=AB=98=E9=80=9F=E5=
+=85=AC=E8=B7=AF / <span style=3D"background-color: rgb(220,223,228);">audio=
+_m_a + audio_highway</span></p></li>
+<li>
+<p>=E5=9C=A8%d=E7=B1=B3=E4=B9=8B=E5=BE=8C =E5=88=87=E6=8D=A2=E5=88=B0=E5=B9=
+=B3=E8=A1=8C=E9=81=93=E8=B7=AF / <span style=3D"background-color: rgb(220,2=
+23,228);">audio_m_a + audio_paralled</span></p>
+<ul>
+<li>
+<p>=E5=89=8D=E6=96=B9 %d =E7=B1=B3 =E5=88=87=E6=8D=A2=E5=88=B0=E5=B9=B3=E8=
+=A1=8C=E9=81=93=E8=B7=AF / <span style=3D"background-color: rgb(253,208,236=
+);">audio_m_a_2</span> + <span style=3D"background-color: rgb(220,223,228);=
+">audio_paralled</span></p></li>
+</ul></li>
+<li>
+<p>=E7=84=B6=E5=90=8E =E5=9C=A8 %d =E7=B1=B3=E5=90=8E =E5=8F=B3=E8=BD=AC / =
+<span style=3D"background-color: rgb(220,223,228);">audio_and + audio_m_a +=
+ audio_right</span></p></li>
+<li>
+<p>=E7=84=B6=E5=90=8E =E5=9C=A8 %d =E7=B1=B3=E5=90=8E =E6=9A=82=E6=97=B6=E7=
+=BB=A7=E7=BB=AD=E7=9B=B4=E8=A1=8C / <span style=3D"background-color: rgb(22=
+0,223,228);">audio_and + audio_m_a + audio_straight_2</span></p>
+<ul>
+<li>
+<p>=E7=84=B6=E5=90=8E =E5=9C=A8 %d =E7=B1=B3=E5=90=8E =E7=BB=A7=E7=BB=AD=E7=
+=9B=B4=E8=A1=8C / <span style=3D"background-color: rgb(220,223,228);">audio=
+_and + audio_m_a</span> + <span style=3D"background-color: rgb(253,208,236)=
+;">audio_straight_3</span></p></li>
+</ul></li>
+<li>
+<p>=E7=84=B6=E5=90=8E =E5=9C=A8 %d =E7=B1=B3=E5=90=8E =E9=80=9A=E8=BF=87=E6=
+=94=B6=E8=B4=B9=E7=AB=99 / <span style=3D"background-color: rgb(220,223,228=
+);">audio_and + audio_m_a +audio_gate</span></p></li>
+<li>
+<p>=E7=84=B6=E5=90=8E =E5=9C=A8 %d =E7=B1=B3=E5=86=85 =E6=9A=82=E6=97=B6=E7=
+=BB=A7=E7=BB=AD=E7=9B=B4=E8=A1=8C / <span style=3D"background-color: rgb(22=
+0,223,228);">audio_and + audio_for_m + audio_straight_2</span></p>
+<ul>
+<li>
+<p>=E7=84=B6=E5=90=8E =E5=9C=A8 %d =E7=B1=B3=E5=90=8E =E7=BB=A7=E7=BB=AD=E7=
+=9B=B4=E8=A1=8C / <span style=3D"background-color: rgb(220,223,228);">audio=
+_and + audio_for_m + </span><span style=3D"background-color: rgb(253,208,23=
+6);">audio_straight_3</span></p></li>
+</ul></li>
+<li>
+<p>=E7=84=B6=E5=90=8E =E6=9C=9D=E5=90=91 %s =E5=8F=B3=E8=BD=AC / <span styl=
+e=3D"background-color: rgb(220,223,228);">audio_and + audio_toward + audio_=
+right</span></p></li>
+<li>
+<p>=E7=84=B6=E5=90=8E =E4=BB=8E=E7=AC=AC=E4=B8=80=E5=87=BA=E5=8F=A3=E9=A9=
+=B6=E5=87=BA / <span style=3D"background-color: rgb(220,223,228);">audio_an=
+d + audio_exit_first</span></p></li>
+<li>
+<p>=E7=84=B6=E5=90=8E =E5=9C=A8=E7=AC=AC=E4=B8=80=E4=B8=AA=E8=B7=AF=E5=8F=
+=A3=E5=8F=B3=E8=BD=AC / <span style=3D"background-color: rgb(220,223,228);"=
+>audio_and + audio_right_first</span></p></li>
+<li>
+<p>=E7=84=B6=E5=90=8E =E6=82=A8=E5=B7=B2=E5=88=B0=E8=BE=BE=E7=9B=AE=E7=9A=
+=84=E5=9C=B0 / <span style=3D"background-color: rgb(220,223,228);">audio_an=
+d + audio_arrive_near</span></p></li>
+<li>
+<p>=E7=84=B6=E5=90=8E =E6=82=A8=E5=B7=B2=E6=8A=B5=E8=BE=BE=E9=80=94=E7=BB=
+=8F=E7=82=B9 / <span style=3D"background-color: rgb(220,223,228);">audio_an=
+d + audio_waypoint</span></p></li>
+<li>
+<p>=E5=8D=B3=E5=B0=86 =E5=8F=B3=E8=BD=AC / <span style=3D"background-color:=
+ rgb(220,223,228);">audio_soon + audio_right</span></p></li>
+<li>
+<p>=E5=8D=B3=E5=B0=86 =E9=9D=A0=E5=8F=B3=E8=A1=8C=E9=A9=B6 / <span style=3D=
+"background-color: rgb(220,223,228);">audio_soon + audio_right_way</span></=
+p></li>
+<li>
+<p>=E5=8D=B3=E5=B0=86 =E6=8E=89=E5=A4=B4 / <span style=3D"background-color:=
+ rgb(220,223,228);">audio_soon + audio_u_turn_1</span></p></li>
+<li>
+<p>=E5=8D=B3=E5=B0=86 =E8=BF=9B=E5=85=A5=E7=8E=AF=E5=B2=9B / <span style=3D=
+"background-color: rgb(220,223,228);">audio_soon + audio_round</span></p></=
+li>
+<li>
+<p>=E5=8D=B3=E5=B0=86 =E7=A8=8D=E5=90=91=E5=8F=B3=E8=BD=AC / <span style=3D=
+"background-color: rgb(220,223,228);">audio_soon + audio_right_one</span></=
+p>
+<ul>
+<li>
+<p>=E5=8D=B3=E5=B0=86 =E7=A8=8D=E5=BE=AE=E5=8F=B3=E8=BD=AC / <span style=3D=
+"background-color: rgb(220,223,228);">audio_soon + </span><span style=3D"ba=
+ckground-color: rgb(253,208,236);">audio_right_one_2</span></p></li>
+</ul></li>
+<li>
+<p>=E5=8D=B3=E5=B0=86 =E9=A9=B6=E5=85=A5=E5=85=A5=E5=8F=A3=E5=8C=9D=E9=81=
+=93 / <span style=3D"background-color: rgb(220,223,228);">audio_soon + audi=
+o_ramp</span></p></li>
+<li>
+<p>=E5=8D=B3=E5=B0=86 =E6=82=A8=E5=B7=B2=E5=88=B0=E8=BE=BE=E7=9B=AE=E7=9A=
+=84=E5=9C=B0 / <span style=3D"background-color: rgb(220,223,228);">audio_so=
+on + audio_arrive_near</span></p>
+<ul>
+<li>
+<p>=E5=8D=B3=E5=B0=86 =E5=88=B0=E8=BE=BE=E7=9B=AE=E7=9A=84=E5=9C=B0 / <span=
+ style=3D"background-color: rgb(220,223,228);">audio_soon + </span><span st=
+yle=3D"background-color: rgb(253,208,236);">audio_arrive_near_2</span></p><=
+/li>
+</ul></li>
+<li>
+<p>=E5=8D=B3=E5=B0=86 =E6=82=A8=E5=B7=B2=E6=8A=B5=E8=BE=BE=E9=80=94=E7=BB=
+=8F=E7=82=B9 / <span style=3D"background-color: rgb(220,223,228);">audio_so=
+on + audio_waypoint</span></p>
+<ul>
+<li>
+<p>=E5=8D=B3=E5=B0=86 =E5=88=B0=E8=BE=BE=E9=80=94=E7=BB=8F=E7=82=B9 / <span=
+ style=3D"background-color: rgb(220,223,228);">audio_soon + </span><span st=
+yle=3D"background-color: rgb(253,208,236);">audio_waypoint_2</span></p></li=
+>
+</ul></li>
+<li>
+<p>=E5=8D=B3=E5=B0=86 =E5=9C=A8=E9=81=93=E8=B7=AF=E7=9A=84=E5=B0=BD=E5=A4=
+=B4 =E5=8F=B3=E8=BD=AC / <span style=3D"background-color: rgb(220,223,228);=
+">audio_soon + audio_end_road + audio_right</span></p>
+<ul>
+<li>
+<p>=E5=8D=B3=E5=B0=86 =E5=88=B0=E8=BE=BE=E8=B7=AF=E7=9A=84=E5=B0=BD=E5=A4=
+=B4 =E5=8F=B3=E8=BD=AC / <span style=3D"background-color: rgb(220,223,228);=
+">audio_soon + </span><span style=3D"background-color: rgb(253,208,236);">a=
+udio_end_road_2</span><span style=3D"background-color: rgb(220,223,228);"> =
++ audio_right</span></p></li>
+</ul></li>
+</ul>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_10_1020507034.1749080505025--

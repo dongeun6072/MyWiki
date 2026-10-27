@@ -54,6 +54,11 @@ generated_by: obsidian-wiki memory index
 - [[references/job-description-2023-2026]] — 2023-06과 2026-09에 작성한 직무기술서 비교. 담당 업무가 에어 앱 유지보수에서 KMP 기반 SDK 개발과 앱 개발로 확장된 과정과 직무 요건을 정리했다. ( #career #job-description #android #visibility/pii)
 - [[references/team-vietnam-onboarding]] — 2025-11~2026-07 모빌리티개발셀이 팀 베트남 개발자를 채용하고 온보딩한 과정. 첫 프로젝트 선정, 코딩 과제 대신 인터뷰 플랫폼 검토, 4/13 합류 후 리뷰 일정. ( #company #hiring #onboarding #vietnam #visibility/internal)
 
+## Journal
+
+- [[journal/2026-10-26]] — 2026-10-26 업무 기록. 서울동행맵 앱 GUI 시안 반영과 실내지도 테스트 적용, 컨소시엄 일정 협의, 에어 규격서 Confluence 이관 공지. ( #journal #daily-ingest #seoul-donghaengmap #inavi-air #visibility/internal)
+- [[journal/2026-10-27]] — 2026-10-27 업무 기록(17시까지). 실내지도 테스트 적용 PR #45 병합, 컨소시엄 SDK 일정·음성 안내 사양 논의, 파파야 Fusion SDK 검토 결과 공유, 한진 App-to-App 백그라운드 안내 검토. ( #journal #daily-ingest #seoul-donghaengmap #inavi-air #visibility/internal)
+
 ## Projects
 
 - [[projects/inavi-air/references/air-2025-plan]] — 2025년 에어 앱의 분기·월별 사업/QA/개발 계획 표 전체. 아바티, 황금티켓, 전기차 할인율, 시간제 통행규제, AIR/NSDK 서버분리, Firebase Dynamic Links 대응, 블랙아이스 연동 등. ( #inavi-air #roadmap #2025 #plan #visibility/internal)
@@ -269,6 +274,12 @@ generated_by: obsidian-wiki memory index
 - [[projects/inavi-air/references/air-apptech-survey-meetings-2024]] — 에어 사용자가 앱테크에 관심 있는지 파악하는 설문 목표 회의록 2건. 지표 설정, 퀴즈 문항 수정, 출석체크+룰렛 등 리워드 확장 아이디어와 조치 항목 상태. ( #inavi-air #survey #aircash #meeting #visibility/internal)
 - [[projects/inavi-air/references/air-app-tech-research-2024-11]] — 앱테크 사용자 구성(성별·연령, 유형), 버즈빌 리워드 광고 트렌드, 아이지에이웍스 유형 분류, 레퍼런스 리워드앱 7종, 4050 연령대 관심사(밴드)를 정리한 리서치(2024-11-13 수정). ( #air #app-tech #research #reward-app #visibility/internal)
 - [[projects/inavi-air/references/air-ai-crosswalk-scrums-2023]] — 2023년 여름 AI 안전통합 횡단보도 플랫폼, 하단 공지 팝업, 후면 카메라 안내를 다룬 스크럼 4회분과 횡단보도 시나리오 개정 이력. 8월 지도 연동 보호구역 안내, 룰렛 횟수 변경 포함. ( #air #scrum #crosswalk #rear-camera #2023 #visibility/internal)
+- [[projects/inavi-air/references/air-aos-commit-history-2022]] — 에어 AOS 앱 본인 커밋 236건(2022-07 ~ 2022-12)의 주제별 이력. 커밋 메시지 기준이며 diff는 검증하지 않았다. ( #inavi-air #android #bitbucket #commit-history #visibility/internal)
+- [[projects/inavi-air/references/air-aos-commit-history-2023-h1]] — 에어 AOS 앱 본인 커밋 451건(2023-01 ~ 2023-06)의 주제별 이력. 커밋 메시지 기준이며 diff는 검증하지 않았다. ( #inavi-air #android #bitbucket #commit-history #visibility/internal)
+- [[projects/inavi-air/references/air-aos-commit-history-2023-h2]] — 에어 AOS 앱 본인 커밋 601건(2023-07 ~ 2023-12)의 주제별 이력. 커밋 메시지 기준이며 diff는 검증하지 않았다. ( #inavi-air #android #bitbucket #commit-history #visibility/internal)
+- [[projects/inavi-air/references/air-aos-commit-history-2024]] — 에어 AOS 앱 본인 커밋 399건(2024-01 ~ 2024-12)의 주제별 이력. 커밋 메시지 기준이며 diff는 검증하지 않았다. ( #inavi-air #android #bitbucket #commit-history #visibility/internal)
+- [[projects/inavi-air/references/air-aos-commit-history-2025-2026]] — 에어 AOS 앱 본인 커밋 367건(2025-01 ~ 2026-10)의 주제별 이력. 커밋 메시지 기준이며 diff는 검증하지 않았다. ( #inavi-air #android #bitbucket #commit-history #visibility/internal)
+- [[projects/inavi-air/references/air-aos-commit-history]] — 에어 AOS 앱(Bitbucket inaviair_aos) 본인 커밋 2,054건(2022-07~2026-10)의 연도별 이력 허브. 커밋 메시지 기준이며 diff는 검증하지 않았다. ( #inavi-air #android #bitbucket #commit-history #hub #visibility/internal)
 - [[projects/inavi-air/references/air-hud-data-class-and-bluetooth-spec]] — 아이나비 에어가 HUD 단말로 넘기는 NaviHUDData 클래스(기본·TBT·안전운전·구간단속 필드), 외주사 전달용 축약본, 회전·안전운전 코드표, HUD 쪽 Bluetooth 프레임 구성과 2025년 TBT 이미지 전송 라이브러리 계획을 정리했다. ( #inavi-air #hud #bluetooth #spec #visibility/internal)
 - [[projects/inavi-air/references/air-hud-launch-stabilization-scrums-2024]] — HUD 정식 서비스와 에어 안정화를 안건으로 한 스크럼 5회. 신규 음성(발랄한/차분한/클래식) 검토, 상품구매 Admin, 할인 정책, 스텝형 주소검색 지하 추가, 스마트 재탐색 로직 검토 포함. ( #air #scrum #hud #voice #2024 #visibility/internal)
 - [[projects/inavi-air/references/air-skp-ad-scrums-2024]] — 2024년 2~3월 SKP 광고 적용, HUD 3월 서비스, 에어 퀴즈 사용자 분석을 안건으로 한 스크럼 5회. 차량/경로선 사이즈 검토(90%), 경로선 화살표 개선, SKP 포인트 서버 연동, ADAS 검토 포함. ( #air #scrum #skp #advertising #2024 #visibility/internal)

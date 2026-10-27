@@ -1316,6 +1316,18 @@
       ],
       "source_type": "data",
       "project": "seoul-donghaengmap"
+    },
+    "_raw/_archived/Bitbucket_inaviair_aos_커밋목록_dongeun.md": {
+      "content_hash": "7b99f87e7372ffae870986464c1235320366a3681a6679e5d4480e6a5d638c3b",
+      "last_ingested": "2026-10-27T07:55:56.003350+00:00",
+      "pages_produced": [
+        "projects/inavi-air/references/air-aos-commit-history.md",
+        "projects/inavi-air/references/air-aos-commit-history-2022.md",
+        "projects/inavi-air/references/air-aos-commit-history-2023-h1.md",
+        "projects/inavi-air/references/air-aos-commit-history-2023-h2.md",
+        "projects/inavi-air/references/air-aos-commit-history-2024.md",
+        "projects/inavi-air/references/air-aos-commit-history-2025-2026.md"
+      ]
     }
   }
 }

@@ -39,3 +39,6 @@ title: Wiki Log
 - [2026-10-27T13:30:01+09:00] INGEST source="slack:#011_삼성생명_드로잉런_dev 전체(2026-02~10)" pages_created=2 pages_updated=2 mode=full
 - [2026-10-27T13:41:49+09:00] INGEST source="slack:#10_prj-flutter-sdk-dev 전체(2026-05~07)" pages_created=1 pages_updated=2 mode=full
 - [2026-10-27T15:30:49+09:00] INGEST source="slack:#005_서울동행맵_dev·#10_prj-서울동행맵고도화·#ext-서울동행맵-컨소시엄-협업·#ext-서울동행맵-파파야-협업 전체(2026-07~10)" pages_created=5 pages_updated=1 mode=full
+- [2026-10-27T16:56:07+09:00] INGEST source="bitbucket:mobility-tech/inaviair_aos 본인 커밋 2054건(2022-07~2026-10)" pages_created=6 pages_updated=1 mode=full
+- [2026-10-27T17:11:21+09:00] INGEST source="daily-ingest 2026-10-26T08:00~2026-10-27T17:07" pages_created=2 pages_updated=1 mode=append
+- [2026-10-28T08:12:03+09:00] INGEST source="daily-ingest 2026-10-27T17:07~2026-10-28T08:10" pages_created=0 pages_updated=1 mode=append

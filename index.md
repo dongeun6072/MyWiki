@@ -16,11 +16,16 @@ generated_by: obsidian-wiki memory index
 - [[concepts/digital-government-uiux-guideline]] — 행정·공공기관의 웹, 모바일 웹·앱이 따라야 하는 UI/UX 가이드라인의 구성, 2024.02판과 2025.08판의 차이(KRDS·디자인 토큰·서비스 패턴 추가), 모바일 앱 적용 시 주의점, 자체 검증 체크리스트의 단계별 범위를 정리했다. ( #compliance #ui-ux #public-sector #krds #seoul-donghaengmap)
 - [[concepts/korean-mobile-app-accessibility-guidelines]] — KS X 3253:2016의 4원칙 18개 검사항목을 앱 개발자가 쓰는 체크리스트로 정리하고, 2013년 고시와의 관계, iOS·Android 제작기법 문서의 구현 포인트(대체 텍스트, 초점, 컨트롤 크기, 글꼴)를 요약했다. ( #compliance #accessibility #mobile #public-sector #seoul-donghaengmap)
 - [[concepts/ai-doc-first-development]] — AI에게 코드를 바로 요청하던 방식에서 기능 스펙과 ADR을 먼저 문서화하고 AI와 협업하는 방식으로 바꾼 사례와 그 효과, 팀 표준화 과제. ( #ai #documentation #adr #workflow #visibility/internal)
+- [[concepts/claude-code-team-practices]] — 모빌리티개발셀이 2026-04부터 공식 도입한 AI Oriented Development의 규칙, Claude Code 사용 팁, ADR+superpowers 워크플로, M.Tech Dev Wiki, 사용량·크레딧 운영 방식. ( #company #ai #claude-code #workflow #adr #visibility/internal)
+- [[concepts/cell-security-lessons]] — 모빌리티개발셀에서 공유된 보안 사고와 조치(타사 AWS 키 탈취 사고 전달, SDK 앱 키 포함 배포 제거, 오르다 서버 침입, 방화벽·접근 정리)에서 뽑은 실무 원칙. ( #company #security #incident #secrets #visibility/internal)
+- [[concepts/cell-performance-and-workreport-process]] — 모빌리티개발셀에서 운영하는 목표 등록, 월간 레몬베이스 체크인, 분기·반기 성과점검, 공수(PAMS) 등록, 휴가·유연근무 결재 절차와 마감 규칙. ( #company #process #lemonbase #evaluation #workflow #visibility/internal)
+- [[concepts/cell-budget-and-expense-policy]] — 모빌리티개발셀의 전도금(택시·야식·외근 교통비) 기록 방식, 야근 교통비 한도, 소모품·도서 신청, 세미나 참석 품의 절차(2025-10~2026-07 공지 기준). ( #company #budget #expense #policy #visibility/internal)
 - [[concepts/map-black-screen-lifecycle]] — Android 내비 앱의 지도가 검게 나오는 흑화 현상의 재현 시나리오와 대응 방법(EGL 컨텍스트 유지, FG 전환 알림, onResume 점검, 뷰모드 재적용). 2022 MXI 사례에서 정리했다. ( #android #opengl #lifecycle #map #visibility/internal)
 - [[concepts/kwcag-2-2]] — WCAG 2.1 기반 KWCAG 2.2의 4원칙, 14지침, 33검사항목 구조와 2.1 대비 추가된 항목(단일 포인터, 포인터 취소, 레이블과 네임, 동작기반 작동, 접근 가능한 인증, 반복 입력 정보)을 정리했다. 서울동행맵 웹(관리자·웹뷰)에 적용할 때의 포인트도 적었다. ( #compliance #accessibility #web #public-sector #seoul-donghaengmap)
 
 ## Entities
 
+- [[entities/모빌리티개발셀]] — 아이나비시스템즈 프로덕트개발부문 소속 모빌리티개발셀(앱 개발 셀)의 허브. 슬랙 비공개 채널 기록(2023-02~2026-10)에서 정리한 조직 연혁, 운영 방식, 하위 정리 페이지 안내. ( #company #organization #cell #mobility #visibility/internal)
 - [[entities/이동은]] — 아이나비시스템즈 모빌리티개발셀 Android 개발자 이동은의 경력 프로필. 2022년부터의 담당 프로젝트 타임라인, 기술 역량, 직급 변화를 정리했다. ( #person #career #android #kmp #visibility/pii)
 
 ## Skills
@@ -38,8 +43,16 @@ generated_by: obsidian-wiki memory index
 - [[references/2026-goals-and-checkins]] — 2026년 연간 목표 3개와 주요업무 2개의 진척도와 2~6월 체크인 요약. 모빌리티개발셀 상위 목표와의 연결도 포함한다. ( #career #goals #okr #visibility/internal)
 - [[references/2026-performance-review-selfeval]] — 2026년 1분기와 상반기 성과점검 자체 평가 내용. 세 성과(고객사 대응, KMP/CMP, AI 도입)별 달성 현황, 잘된 점, 부족한 점, 계획과 팀 리더의 1차 평가 요지. ( #career #performance-review #goals #visibility/pii)
 - [[references/inavi-2026-mail-overview]] — 2026-01~10월 받은편지함 업무 메일(약 108통)의 주제별 지도. 대만 경로 서버 v1.7~v2.31, 에어 운영·통합회원, 서울 동행맵 수주, 삼성중공업·삼성생명 건을 담았다. ( #mail #2026 #operations #orbis-sdk #inavi-air #seoul-donghaengmap #visibility/internal)
+- [[references/mobility-tech-talk-kmp-android-ios]] — tech_talk 채널의 KMP/CMP·Android·iOS 소식(2026)과 셀이 만든 CMP 지도 SDK 0.4.0 변경점, 표준 아키텍처 데모, Firebase iOS 크래시 이슈 정리. ( #company #kmp #cmp #android #ios #tech-radar #visibility/internal)
 - [[references/nav-service-features-2025]] — 2025년 메일에서 에어·하이브리드·KGM·티머니 등에 공통으로 영향을 준 기능 변경: 시간제 통행제한 표출, 스마트 재탐색 오류와 개선, 스쿨존·결빙 안내, 아파트명 주기, 소수점 교통정보, 재난 정보 연계. ( #navigation #routing #display-engine #safety-data #2025 #visibility/internal)
+- [[references/mobility-tech-talk-channel]] — 2026-01-13에 열린 셀 기술 공유 채널의 성격, 시기별 흐름, AI 모델·도구 출시 연표, 컨퍼런스 일정. 사람 이름과 링크는 수록하지 않았다. ( #company #slack #tech-talk #ai #conference #visibility/internal)
+- [[references/mobility-dev-cell-timeline-2023-2026]] — 슬랙 #모빌리티개발셀에서 추린 조직 개편, 인원 변동, 사무실 이동, 정책 공지 연표(2023-02~2026-10). 사람 이름은 역할로 대체했다. ( #company #organization #timeline #slack #visibility/internal)
+- [[references/cell-ai-tools-and-licenses]] — 모빌리티개발셀의 유료 라이선스 목록, Claude 팀플랜 도입·결제 이력, AI TF 가설 검증, MCP·슬랙봇 거버넌스 문제, Confluence·Notion 변경(2025-07~2026-10). ( #company #ai #claude #license #tooling #visibility/internal)
+- [[references/cell-tech-radar-2023-2026]] — 모빌리티개발셀 채널에서 공유된 KMP·Kotlin·Android 정책 변경(target SDK 35, 16KB 페이지), Firebase Dynamic Links 종료, 개발 도구 소식 등 기술 동향 연표. ( #company #kmp #android #ios #tech-radar #visibility/internal)
+- [[references/cell-dev-infra-and-build-env]] — 모빌리티개발셀이 쓰는 빌드 서버(빌드맨), Gradle 원격 캐시, SDK 저장소, 앱 배포 그룹, 공용 개발 계정 운영 이력과 주의점. 서버 주소·계정은 수록하지 않는다. ( #company #build #ci #infrastructure #distribution #visibility/internal)
+- [[references/cell-assets-and-test-devices]] — 모빌리티개발셀의 테스트 단말 대여 방식, 단말 관리 사이트 현행화, 2026년 자산실사와 스티커 부착, 사무실 이동에 따른 자리·짐 정리 규칙. ( #company #assets #devices #office #visibility/internal)
 - [[references/job-description-2023-2026]] — 2023-06과 2026-09에 작성한 직무기술서 비교. 담당 업무가 에어 앱 유지보수에서 KMP 기반 SDK 개발과 앱 개발로 확장된 과정과 직무 요건을 정리했다. ( #career #job-description #android #visibility/pii)
+- [[references/team-vietnam-onboarding]] — 2025-11~2026-07 모빌리티개발셀이 팀 베트남 개발자를 채용하고 온보딩한 과정. 첫 프로젝트 선정, 코딩 과제 대신 인터뷰 플랫폼 검토, 4/13 합류 후 리뷰 일정. ( #company #hiring #onboarding #vietnam #visibility/internal)
 
 ## Projects
 

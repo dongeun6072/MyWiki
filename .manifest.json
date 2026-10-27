@@ -1235,6 +1235,33 @@
         "projects/orbis-sdk/references/navisdk-prj-slack-2026-h1a.md",
         "projects/orbis-sdk/references/navisdk-prj-slack-2026-h1b.md"
       ]
+    },
+    "slack:#모빌리티개발셀": {
+      "last_ingested": "2026-10-27T02:03:44.437806+00:00",
+      "pages_produced": [
+        "entities/모빌리티개발셀.md",
+        "references/mobility-dev-cell-timeline-2023-2026.md",
+        "concepts/cell-performance-and-workreport-process.md",
+        "concepts/cell-budget-and-expense-policy.md",
+        "references/cell-ai-tools-and-licenses.md",
+        "references/cell-dev-infra-and-build-env.md",
+        "concepts/cell-security-lessons.md",
+        "references/cell-tech-radar-2023-2026.md",
+        "references/team-vietnam-onboarding.md",
+        "references/cell-assets-and-test-devices.md"
+      ],
+      "source_type": "data",
+      "project": null
+    },
+    "slack:#모빌리티개발셀_tech_talk": {
+      "last_ingested": "2026-10-27T04:22:20.372593+00:00",
+      "pages_produced": [
+        "references/mobility-tech-talk-channel.md",
+        "concepts/claude-code-team-practices.md",
+        "references/mobility-tech-talk-kmp-android-ios.md"
+      ],
+      "source_type": "data",
+      "project": null
     }
   }
 }

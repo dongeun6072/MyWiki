@@ -34,3 +34,5 @@ title: Wiki Log
 - [2026-10-27T09:25:54+09:00] QUERY query="air_nsdk_dev 배너 param_yn T일 때 전송 값" result_pages=3 mode=normal escalated=true candidates_seen=7 candidates_used=3 dropped=4
 - [2026-10-27T09:42:28+09:00] INGEST source="slack:#10_prj-inaviair 전체(2022-07~2026-10)" pages_created=8 pages_updated=1 mode=full
 - [2026-10-27T09:58:20+09:00] INGEST source="slack:#10_prj-orbis-navisdk 전체(2025-02~2026-10)" pages_created=5 pages_updated=1 mode=full
+- [2026-10-27T11:03:38+09:00] INGEST source="slack:#모빌리티개발셀 전체(2023-02~2026-10)" pages_created=10 pages_updated=1 mode=full
+- [2026-10-27T13:22:20+09:00] INGEST source="slack:#모빌리티개발셀_tech_talk 전체(2026-01~10)" pages_created=3 pages_updated=3 mode=full

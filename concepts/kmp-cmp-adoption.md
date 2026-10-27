@@ -58,6 +58,10 @@ snapshots:
 
 - 공통 모듈 비율, 빌드 시간 같은 정량 수치는 원본에 없다.
 
+## 관련
+
+- 셀 채널에서 공유된 KMP 동향과 CMP 지도 라이브러리 배포(2026-07-22): [[references/cell-tech-radar-2023-2026]], [[references/cell-dev-infra-and-build-env]]. 조직 맥락은 [[entities/모빌리티개발셀]].
+
 ## Sources
 
 - [[_raw/_archived/2026_상반기_목표_주요업무_정리.md]] — 목표 1 체크인

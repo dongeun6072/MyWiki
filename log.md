@@ -37,3 +37,4 @@ title: Wiki Log
 - [2026-10-27T11:03:38+09:00] INGEST source="slack:#모빌리티개발셀 전체(2023-02~2026-10)" pages_created=10 pages_updated=1 mode=full
 - [2026-10-27T13:22:20+09:00] INGEST source="slack:#모빌리티개발셀_tech_talk 전체(2026-01~10)" pages_created=3 pages_updated=3 mode=full
 - [2026-10-27T13:30:01+09:00] INGEST source="slack:#011_삼성생명_드로잉런_dev 전체(2026-02~10)" pages_created=2 pages_updated=2 mode=full
+- [2026-10-27T13:41:49+09:00] INGEST source="slack:#10_prj-flutter-sdk-dev 전체(2026-05~07)" pages_created=1 pages_updated=2 mode=full

@@ -53,6 +53,7 @@ snapshots:
 - **v1.0.4** (예정, 2026-06 기준): 경로 변경 시 교통정보 색상 미반영 이슈 수정, Style 기반 지도 다국어와 `setLanguage` API, Web 인증 Style 연동
 - **Maps SDK v1.0.1** (예정): 웹 인증 기반 Style 연동, 다국어 동적 적용
 - Maps SDK 출시 때 API 레퍼런스, Demo 앱, IMPS 페이지 연동 가이드를 함께 만들었다.
+- **Flutter Plugin pub.dev 배포**: 해외향 Navi/Maps v1.0.0은 2026-05-22, 국내향 Navi/Maps는 2026-07-23(Navi는 README 정정 재배포로 1.0.1). 상세는 [[flutter-sdk-dev-slack-2026]].
 
 ## 서버 구조와 규격 문서
 
@@ -98,6 +99,7 @@ snapshots:
 - [[navisdk-inavicontroller-unimplemented-status]] — 해외향 SDK API 미구현 현황 전체 표
 - [[orbis-navisdk-kdoc-and-mkdocs-guide]] — KDoc과 MkDocs 문서 발행 가이드
 - [[navisdk-scrum-snapshots-2024-10-to-2025-12]] — NSDK 스크럼 보충(초기 환경, Architecture, DEMO #5, 상품화 #7·#9)
+- [[flutter-sdk-dev-slack-2026]] — Flutter SDK 개발 슬랙 채널(2026-05~07): 해외향 선행 배포 방향, pub.dev publisher 인증 절차, 패키지명, 샘플앱 Android/iOS 차이, 배포 기록
 
 - 대만 FTO 검토: [[taiwan-navisdk-fto-patent-review-2025]]
 - TomTom 교통 흐름(OpenLR) 질의응답: [[tomtom-traffic-flow-openlr-inquiries-2024]]

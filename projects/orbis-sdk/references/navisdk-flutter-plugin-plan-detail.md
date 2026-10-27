@@ -113,6 +113,8 @@ Android에서 확립된 Dart Public API를 iOS에서도 그대로 사용할 수 
 
 ## Milestone 3: pub.dev 공개 배포 (대기)
 
+> 2026-10-27 보충: 슬랙 기록상 국내향 Navi/Maps Flutter Plugin은 2026-07-23에 pub.dev에 배포됐다(Navi는 1.0.1). 아래 표는 2026-04 계획 시점 그대로다. 배포 이력과 publisher 절차는 [[flutter-sdk-dev-slack-2026]].
+
 ### 목표
 pub.dev에 직접 공개 배포한다. 레포 관리는 Bitbucket 단일 운영을 유지하며 pub.dev `homepage` 필드는 회사 URL을 사용한다. README 보강도 이 Milestone에서 함께 진행한다.
 

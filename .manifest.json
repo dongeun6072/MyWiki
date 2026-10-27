@@ -1273,6 +1273,16 @@
       ],
       "source_type": "data",
       "project": "drawing-run-sdk"
+    },
+    "slack:#10_prj-flutter-sdk-dev": {
+      "last_ingested": "2026-10-27T04:41:48.988307+00:00",
+      "pages_produced": [
+        "projects/orbis-sdk/references/flutter-sdk-dev-slack-2026.md",
+        "projects/orbis-sdk/orbis-sdk.md",
+        "projects/orbis-sdk/references/navisdk-flutter-plugin-plan-detail.md"
+      ],
+      "source_type": "data",
+      "project": "orbis-sdk"
     }
   }
 }

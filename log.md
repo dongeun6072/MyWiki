@@ -32,3 +32,4 @@ title: Wiki Log
 - [2026-10-27T09:20:30+09:00] INGEST source=url:https://inavisystems.atlassian.net/wiki/spaces/AS/pages/2262305475 pages_created=27 pages_updated=2 mode=full
 - [2026-10-27T09:21:25+09:00] INGEST source="slack:#01_inavi_air 전체(2022-07~2026-10)" pages_created=8 pages_updated=1 mode=full
 - [2026-10-27T09:25:54+09:00] QUERY query="air_nsdk_dev 배너 param_yn T일 때 전송 값" result_pages=3 mode=normal escalated=true candidates_seen=7 candidates_used=3 dropped=4
+- [2026-10-27T09:42:28+09:00] INGEST source="slack:#10_prj-inaviair 전체(2022-07~2026-10)" pages_created=8 pages_updated=1 mode=full

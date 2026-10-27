@@ -74,6 +74,7 @@ snapshots:
 - SDK 쪽 개발 기록은 [[orbis-sdk]]에서 이어진다.
 - 개발 Slack 채널(#001_air_nsdk_dev) 대화: [[air-nsdk-dev-slack-2022]] → [[air-nsdk-dev-slack-2023-h1]] → [[air-nsdk-dev-slack-2023-h2]] → [[air-nsdk-dev-slack-2024-h1]] → [[air-nsdk-dev-slack-2024-h2]] → [[air-nsdk-dev-slack-2025]] → [[air-nsdk-dev-slack-2026]]
 - 에어 앱 채널(#01_inavi_air) 대화: [[air-channel-slack-2022]] → [[air-channel-slack-2023-h1]] → [[air-channel-slack-2023-h2]] → [[air-channel-slack-2024-h1]] → [[air-channel-slack-2024-h2]] → [[air-channel-slack-2025-h1]] → [[air-channel-slack-2025-h2]] → [[air-channel-slack-2026]]
+- 에어 프로젝트 채널(#10_prj-inaviair) 대화: [[air-prj-slack-2022]] → [[air-prj-slack-2023-h1]] → [[air-prj-slack-2023-h2]] → [[air-prj-slack-2024-h1]] → [[air-prj-slack-2024-h2]] → [[air-prj-slack-2025-h1]] → [[air-prj-slack-2025-h2]] → [[air-prj-slack-2026]]
 
 ## 상세 문서 (Confluence 전체 반영)
 

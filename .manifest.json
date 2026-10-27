@@ -1203,6 +1203,24 @@
       "pages_updated": [
         "projects/inavi-air/inavi-air.md"
       ]
+    },
+    "slack:#10_prj-inaviair": {
+      "ingested_at": "2026-10-27T10:30:00+09:00",
+      "source_type": "data",
+      "stub": false,
+      "project": "inavi-air",
+      "period": "2022-07-20~2026-10-21",
+      "pages_created": [
+        "projects/inavi-air/references/air-prj-slack-2022.md",
+        "projects/inavi-air/references/air-prj-slack-2023-h1.md",
+        "projects/inavi-air/references/air-prj-slack-2023-h2.md",
+        "projects/inavi-air/references/air-prj-slack-2024-h1.md",
+        "projects/inavi-air/references/air-prj-slack-2024-h2.md",
+        "projects/inavi-air/references/air-prj-slack-2025-h1.md",
+        "projects/inavi-air/references/air-prj-slack-2025-h2.md",
+        "projects/inavi-air/references/air-prj-slack-2026.md"
+      ],
+      "pages_updated": []
     }
   }
 }

@@ -75,6 +75,7 @@ snapshots:
 - 2025년 개발 흐름(경로 서버·맵매칭 라이브러리 릴리즈, 디스플레이, 샘플 앱): [[orbis-navisdk-development-2025]]
 - 2025년 사업·법무 검토(TomTom 파트너십, 특허, 현지 업체, 싱가포르 서버): [[orbis-taiwan-business-2025]]
 - 2026년 개발 흐름(경로 서버 v1.7~v2.31, Horizon 서버, 맵매칭, Admin 통계): [[orbis-taiwan-development-2026]]
+- 프로젝트 채널(#10_prj-orbis-navisdk, 2025-02~2026-10) 대화: [[navisdk-prj-slack-2025-h1]] → [[navisdk-prj-slack-2025-q3]] → [[navisdk-prj-slack-2025-q4]] → [[navisdk-prj-slack-2026-h1a]] → [[navisdk-prj-slack-2026-h1b]]
 
 ## 개발 방식
 

@@ -1221,6 +1221,20 @@
         "projects/inavi-air/references/air-prj-slack-2026.md"
       ],
       "pages_updated": []
+    },
+    "slack:#10_prj-orbis-navisdk": {
+      "ingested_at": "2026-10-27T12:00:00+09:00",
+      "source_type": "data",
+      "stub": false,
+      "project": "orbis-sdk",
+      "period": "2025-02-03~2026-10-08",
+      "pages_created": [
+        "projects/orbis-sdk/references/navisdk-prj-slack-2025-h1.md",
+        "projects/orbis-sdk/references/navisdk-prj-slack-2025-q3.md",
+        "projects/orbis-sdk/references/navisdk-prj-slack-2025-q4.md",
+        "projects/orbis-sdk/references/navisdk-prj-slack-2026-h1a.md",
+        "projects/orbis-sdk/references/navisdk-prj-slack-2026-h1b.md"
+      ]
     }
   }
 }

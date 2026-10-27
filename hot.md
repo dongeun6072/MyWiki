@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-27T09:42:28+09:00
-pages: 267
+updated: 2026-10-27T09:58:21+09:00
+pages: 272
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-27] INGEST source=slack:#01_inavi_air 전체(2022-07~2026-10) pages_created=8 pages_updated=1 ...
 - [2026-10-27] QUERY query=air_nsdk_dev 배너 param_yn T일 때 전송 값 result_pages=3 mode=normal ...
 - [2026-10-27] INGEST source=slack:#10_prj-inaviair 전체(2022-07~2026-10) pages_created=8 pages_updated=1 ...
+- [2026-10-27] INGEST source=slack:#10_prj-orbis-navisdk 전체(2025-02~2026-10) pages_created=5 pages_updated=1 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-에어 프로젝트 채널(#10_prj-inaviair) 2022-07~2026-10 전체를 반기별 8개 페이지로 반영했다. 기존 #01_inavi_air 채널과 달리 서버·배포·고객사 연동 이슈가 스레드 중심으로 이어진다.
+orbis-sdk 프로젝트 채널(#10_prj-orbis-navisdk)을 5개 기간 페이지로 반영: TomTom Orbis 대만 POC가 NMEA·교통정보 검증에서 상용화(iOS, 준상용/상용 서버, Flutter, 법적고지, 과금 점검)로 이어진 흐름.
 
 ## Flagged Contradictions
 

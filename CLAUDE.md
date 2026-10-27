@@ -95,7 +95,7 @@ Obsidian Git 플러그인의 "vault backup" 커밋(`94e3181`, 10:17)이 검사 �
 
 ### 자동 차단 (git 훅)
 
-`pre-commit`과 `pre-push` 훅이 `_meta/security-scan.py`를 실행하고, 통과하지 못하면 **커밋과 push를 막는다.** Obsidian Git의 "Create backup"도 시스템 git을 쓰므로 똑같이 막힌다. 훅은 `.git` 안에 있어 저장소에 따라오지 않으니, 새 환경에서는 한 번 `sh _meta/install-git-hooks.sh`를 실행한다. `--no-verify`로 우회하지 않는다.
+**사용하지 않는다.** 사용자 지시로 `pre-commit`·`pre-push` 훅을 제거했다(2026-10-27). 검사가 1~2분 걸려 Obsidian Git 커밋·push가 멈춘 것처럼 보였고, GUI 앱 PATH에 `pdftotext`가 없어 PDF가 "검사 불가"(종료코드 2)로 막히기도 했다. 훅을 다시 설치하지 않는다(`_meta/install-git-hooks.sh`는 실행하지 않는다). 보안 검사는 아래 "커밋/푸시 전 필수 절차"대로 사람이 또는 Claude가 직접 실행한다.
 
 ### 커밋/푸시 전 필수 절차
 
@@ -105,6 +105,15 @@ Obsidian Git 플러그인의 "vault backup" 커밋(`94e3181`, 10:17)이 검사 �
 4. 푸시 전에 `git log origin/main..HEAD --stat`로 올라갈 파일을 한 번 더 확인한다.
 5. 점검 결과는 **값을 출력하지 않고** 파일 경로, 항목, 건수만 보고한다. 비밀 값을 대화나 로그에 옮기지 않는다.
 6. 이미 커밋·푸시된 뒤에 발견되면 즉시 사용자에게 알린다. 푸시된 경우 키 교체와 히스토리 정리가 필요하다. **히스토리 재작성과 force-push는 사용자의 명시 지시가 있을 때만** 한다.
+
+### 사용자가 git push를 요청하면 (2026-10-27 사용자 지시)
+
+사용자가 "push 해줘", "git push 진행" 등을 요청하면 **Claude가 보안 검사를 실행한 뒤 push까지 한다.** 이 요청은 push에 필요한 커밋 요청도 포함하는 것으로 본다(전역 "커밋 금지" 규칙의 예외).
+
+1. `python3 _meta/security-scan.py`를 실행한다. 종료 코드가 0이 아니면 **push하지 않고** 위 원칙대로 처리(마스킹·삭제·`MANUAL_OK`)한 뒤 다시 검사한다.
+2. 커밋되지 않은 변경이 있으면 위 "커밋/푸시 전 필수 절차" 2~3번대로 경로를 지정해 스테이징하고 커밋한다.
+3. `git log origin/main..HEAD --stat`로 올라갈 파일을 확인하고 `git push origin main`을 실행한다(force-push 금지).
+4. 결과(검사 결과, 커밋 해시, push 성공 여부)를 보고한다. 권한 문제로 push가 막히면 사용자에게 `! git push origin main`을 입력하도록 안내한다.
 
 ### `.gitignore`
 

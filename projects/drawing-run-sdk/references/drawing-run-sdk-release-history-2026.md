@@ -42,6 +42,13 @@ updated: 2026-10-26T15:20:00+09:00
 - 1.0.1에서 `stop`과 `pause`를 분리한 것은 [[drawing-run-sdk]]의 2026-06 이력과 일치한다.
 - 이후 2차(안내데이터, 음성 안내)는 [[drawing-run-phase2-voice-guidance-and-meetings-2026]]에서 협의 중이며 배포 기록은 아직 없다.
 
+## 슬랙 기록과의 대조 (2026-10-27 추가)
+
+- 내부 채널에는 1.0.0 배포 공지가 **2026-05-15**에 올라왔고(Phase 1 기능 구현), 05-20에는 SDK 가이드·라이선스 키·3rd party 라이선스 문서를 고객사에 전달했다. Confluence 표의 05-20은 고객 전달일일 가능성이 있다. ^[ambiguous]
+- 1.0.1(06-25), iOS 1.0.2(07-03)는 두 기록이 일치한다. 1.0.1의 `pause`/`resume` 사양과 연동 이슈는 [[drawing-run-sdk-integration-qna-2026]], 이후 고객 서비스 오픈과 후속 문의는 [[drawing-run-slack-dev-channel-2026]]를 본다.
+- 1.0.2 이후 버전(Kotlin/AGP 최소 버전 하향, 스탠드얼론 제공)은 10-13~15 기준 문의 단계이며 배포 기록은 없다.
+
 ## Sources
 
+- 슬랙 `#011_삼성생명_드로잉런_dev`(2026-05~10) — 배포 공지 대조. 라이선스 키는 미수록
 - [Confluence: 1차 개발 완료](https://inavisystems.atlassian.net/wiki/spaces/2Ozy8QblnTwf/pages/2002649151), [산출물](https://inavisystems.atlassian.net/wiki/spaces/2Ozy8QblnTwf/pages/2003632155) — 가져온 날짜 2026-10-26, 로컬 스냅샷 없음. 라이선스 키는 보안 사유로 미수록

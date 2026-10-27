@@ -1262,6 +1262,17 @@
       ],
       "source_type": "data",
       "project": null
+    },
+    "slack:#011_삼성생명_드로잉런_dev": {
+      "last_ingested": "2026-10-27T04:30:01.130563+00:00",
+      "pages_produced": [
+        "projects/drawing-run-sdk/references/drawing-run-slack-dev-channel-2026.md",
+        "projects/drawing-run-sdk/references/drawing-run-sdk-integration-qna-2026.md",
+        "projects/drawing-run-sdk/references/drawing-run-sdk-release-history-2026.md",
+        "projects/drawing-run-sdk/drawing-run-sdk.md"
+      ],
+      "source_type": "data",
+      "project": "drawing-run-sdk"
     }
   }
 }

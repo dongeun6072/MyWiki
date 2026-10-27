@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-27T13:22:20+09:00
-pages: 285
+updated: 2026-10-27T13:30:01+09:00
+pages: 287
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-27] INGEST source=slack:#10_prj-orbis-navisdk 전체(2025-02~2026-10) pages_created=5 pages_updated=1 ...
 - [2026-10-27] INGEST source=slack:#모빌리티개발셀 전체(2023-02~2026-10) pages_created=10 pages_updated=1 ...
 - [2026-10-27] INGEST source=slack:#모빌리티개발셀_tech_talk 전체(2026-01~10) pages_created=3 pages_updated=3 ...
+- [2026-10-27] INGEST source=slack:#011_삼성생명_드로잉런_dev 전체(2026-02~10) pages_created=2 pages_updated=2 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-tech_talk 채널은 셀의 AI Oriented Development(Claude Code, ADR, Dev Wiki)와 KMP/CMP 기술 공유의 기록으로, 모빌리티개발셀 허브에 연결됐다.
+드로잉런 SDK는 PoC에서 SDK 납품으로, 다시 고객의 건강정보 연동(맞춤형 달리기) 피봇으로 바뀌었고, 후속 수요는 모니모 앱 이식과 삼성화재 맵매칭 SDK로 이어진다.
 
 ## Flagged Contradictions
 

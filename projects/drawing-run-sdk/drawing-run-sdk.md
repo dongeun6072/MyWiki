@@ -22,7 +22,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26
 tier: supporting
 created: 2026-10-26T09:20:33+09:00
-updated: 2026-10-26T15:30:00+09:00
+updated: 2026-10-27T14:00:00+09:00
 snapshots:
   - "[[_raw/_archived/2026_상반기_목표_주요업무_정리|2026_상반기_목표_주요업무_정리]]"
   - "[[_raw/_archived/2026_직무 기술서_이동은.docx|2026_직무 기술서_이동은.docx]]"
@@ -55,6 +55,8 @@ Confluence 스페이스(20페이지)를 주제별로 정리했다. 2026-02 PoC �
 | [[drawing-run-course-guidance-data-flow-2026]] | GPX → 안내데이터 → SDK 주행 15단계 흐름과 API |
 | [[drawing-run-phase2-voice-guidance-and-meetings-2026]] | 2차 개발 항목, 음성 안내 협의, 7월 회의록 |
 | [[drawing-run-sdk-release-history-2026]] | 1.0.0 ~ 1.0.2 배포 이력 |
+| [[drawing-run-slack-dev-channel-2026]] | 내부 슬랙 채널 연표(2~10월): 범위 변경, 배포, 고객 서비스 오픈과 방향 변경, 후속 수요 |
+| [[drawing-run-sdk-integration-qna-2026]] | 고객 연동 문의와 대응: pause/resume 사양, 프로가드, 포그라운드 서비스, iOS 위치 수신, 버전 요건 |
 
 ## 특징
 
@@ -64,10 +66,13 @@ Confluence 스페이스(20페이지)를 주제별로 정리했다. 2026-02 PoC �
 
 ## Open Questions
 
-- 고객사 이슈 내용과 1.0.2 이후 버전 계획은 원본에 없다. 2차(안내데이터, 음성 안내)는 고객사 기획안(8월 예정)에 달려 있다.
+- 고객사 이슈 내용은 슬랙 채널로 확인했다([[drawing-run-sdk-integration-qna-2026]]). 1.0.2 이후 버전 계획은 여전히 없고, 10-13 문의(Kotlin 2.0.0 / AGP 8.7.1 최소 버전, 스탠드얼론 제공)의 회신도 채널에 없다.
+- 2차(안내데이터, 음성 안내)는 10-15까지 진행 기록이 없다. 고객사는 2026-08 말 "맞춤형 달리기"(건강정보 연동) 서비스를 오픈해 방향이 바뀌었다. ^[inferred]
+- 삼성화재의 GPS 수집·맵매칭 SDK 추가 계획은 9월 초 논의 예정이었으나 결과가 채널에 없다.
 
 ## Sources
 
 - [[_raw/_archived/2026_상반기_목표_주요업무_정리.md]] — 월별 체크인
 - [[_raw/_archived/2026_직무 기술서_이동은.docx]] — 프로젝트 요약(수행기간)
+- 슬랙 `#011_삼성생명_드로잉런_dev` 전체(2026-02-23~10-15) — 2026-10-27 반영, 서버·키·라이선스 키 미수록
 - [Confluence 스페이스 삼성생명 드로잉 런](https://inavisystems.atlassian.net/wiki/spaces/2Ozy8QblnTwf/overview) — 가져온 날짜 2026-10-26, 20페이지 전부 반영(상세 문서 7개)

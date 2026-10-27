@@ -1146,6 +1146,63 @@
       "pages_updated": [
         "projects/inavi-air/inavi-air.md"
       ]
+    },
+    "url:https://inavisystems.atlassian.net/wiki/spaces/AS/pages/2262305475": {
+      "content_hash": "sha256:c2b51f629ba2a5e446b55b9fee717a4eb5f81e820a1944855dd2e17adfdae90a",
+      "last_ingested": "2026-10-27T11:10:00+09:00",
+      "pages_produced": [
+        "projects/inavi-air/references/inavi-air-api-air-cash.md",
+        "projects/inavi-air/references/inavi-air-api-air-service.md",
+        "projects/inavi-air/references/inavi-air-api-cash-button.md",
+        "projects/inavi-air/references/inavi-air-api-common.md",
+        "projects/inavi-air/references/inavi-air-api-data.md",
+        "projects/inavi-air/references/inavi-air-api-detail-spec.md",
+        "projects/inavi-air/references/inavi-air-api-etc.md",
+        "projects/inavi-air/references/inavi-air-api-event.md",
+        "projects/inavi-air/references/inavi-air-api-favorites.md",
+        "projects/inavi-air/references/inavi-air-api-group-driving.md",
+        "projects/inavi-air/references/inavi-air-api-hud.md",
+        "projects/inavi-air/references/inavi-air-api-log-air.md",
+        "projects/inavi-air/references/inavi-air-api-log.md",
+        "projects/inavi-air/references/inavi-air-api-main-screen.md",
+        "projects/inavi-air/references/inavi-air-api-my-driving.md",
+        "projects/inavi-air/references/inavi-air-api-onair-voice-ad.md",
+        "projects/inavi-air/references/inavi-air-api-open-poi.md",
+        "projects/inavi-air/references/inavi-air-api-orda.md",
+        "projects/inavi-air/references/inavi-air-api-overview.md",
+        "projects/inavi-air/references/inavi-air-api-report.md",
+        "projects/inavi-air/references/inavi-air-api-route.md",
+        "projects/inavi-air/references/inavi-air-api-rris.md",
+        "projects/inavi-air/references/inavi-air-api-search.md",
+        "projects/inavi-air/references/inavi-air-api-shi-sdk.md",
+        "projects/inavi-air/references/inavi-air-api-shi.md",
+        "projects/inavi-air/references/inavi-air-api-skp.md",
+        "projects/inavi-air/references/inavi-air-api-statistics.md",
+        "projects/inavi-air/references/inavi-air-api-traffic-light.md",
+        "projects/inavi-air/references/inavi-air-api-w3w.md"
+      ],
+      "source_type": "document",
+      "project": "inavi-air"
+    },
+    "slack:#01_inavi_air": {
+      "ingested_at": "2026-10-27T09:40:00+09:00",
+      "source_type": "data",
+      "stub": false,
+      "project": "inavi-air",
+      "period": "2022-07-17~2026-10-27",
+      "pages_created": [
+        "projects/inavi-air/references/air-channel-slack-2022.md",
+        "projects/inavi-air/references/air-channel-slack-2023-h1.md",
+        "projects/inavi-air/references/air-channel-slack-2023-h2.md",
+        "projects/inavi-air/references/air-channel-slack-2024-h1.md",
+        "projects/inavi-air/references/air-channel-slack-2024-h2.md",
+        "projects/inavi-air/references/air-channel-slack-2025-h1.md",
+        "projects/inavi-air/references/air-channel-slack-2025-h2.md",
+        "projects/inavi-air/references/air-channel-slack-2026.md"
+      ],
+      "pages_updated": [
+        "projects/inavi-air/inavi-air.md"
+      ]
     }
   }
 }

@@ -19,14 +19,14 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26
 tier: supporting
 created: 2026-10-26T09:14:00+09:00
-updated: 2026-10-26T09:14:00+09:00
+updated: 2026-10-27T11:00:00+09:00
 snapshots:
   - "[[_raw/_archived/API 명세|API 명세]]"
 ---
 
 # INAVI AIR API 개요
 
-원본은 Notion의 INAVI AIR API 페이지를 2026-06-09에 정리한 요약본이다. 각 API의 필드 단위 스펙은 [[inavi-air-api-detail-spec]]에 있고, 이 페이지는 공통 규칙만 다룬다. 소속 프로젝트: [[inavi-air]].
+원본은 Notion의 INAVI AIR API 페이지를 2026-06-09에 정리한 요약본이다. 이 페이지는 공통 규칙 요약만 다룬다. Confluence 원문 그대로의 전체 명세는 허브 [[inavi-air-api-detail-spec]]에서 영역별로 찾고, Request Header·결과 코드·Push 정보 전문은 [[inavi-air-api-common]], 데이터 객체(POI_DATA, Category Code 등)는 [[inavi-air-api-data]]에 있다(2026-10-27 반영). 소속 프로젝트: [[inavi-air]].
 
 ## 서버 연동
 
@@ -77,7 +77,7 @@ snapshots:
 | `910`~`921` | 외부 서버 연동 | 유고, 유가, 안내, 탐색, 검색, 오르다 |
 | `930`~`938` | 검색 | 보안시설 검색, 좌표/쿼리 오류 등 |
 
-전체 코드 표는 원본 `1.3 결과 코드`에 있다.
+전체 코드 표는 [[inavi-air-api-common#결과 코드]]에 있다.
 
 ## 푸시 관련
 

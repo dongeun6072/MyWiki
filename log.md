@@ -29,3 +29,6 @@ title: Wiki Log
 - [2026-10-27T08:38:42+09:00] QUERY query="001_air_nsdk_dev 하단 팝업 배너 사양" result_pages=4 mode=normal escalated=false candidates_seen=6 candidates_used=4 dropped=2
 - [2026-10-27T08:44:36+09:00] QUERY query="이벤트 웹뷰 param_yn 개인키 의미" result_pages=2 mode=normal escalated=true candidates_seen=6 candidates_used=2 dropped=4
 - [2026-10-27T08:45:49+09:00] QUERY query="AIR API 문서에서 param_yn 정의 확인" result_pages=3 mode=normal escalated=true candidates_seen=3 candidates_used=3 dropped=0
+- [2026-10-27T09:20:30+09:00] INGEST source=url:https://inavisystems.atlassian.net/wiki/spaces/AS/pages/2262305475 pages_created=27 pages_updated=2 mode=full
+- [2026-10-27T09:21:25+09:00] INGEST source="slack:#01_inavi_air 전체(2022-07~2026-10)" pages_created=8 pages_updated=1 mode=full
+- [2026-10-27T09:25:54+09:00] QUERY query="air_nsdk_dev 배너 param_yn T일 때 전송 값" result_pages=3 mode=normal escalated=true candidates_seen=7 candidates_used=3 dropped=4

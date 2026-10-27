@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-26T18:49:53+09:00
-pages: 224
+updated: 2026-10-27T09:21:26+09:00
+pages: 259
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-26] INGEST source=slack:#001_air_nsdk_dev 전수 재확인(2023~2026-10) pages_updated=2
-- [2026-10-26] INGEST source=slack:#001_air_nsdk_dev 2022 재확인 pages_updated=1
-- [2026-10-26] INGEST source=slack:001_air_nsdk_dev pages_updated=3 note=2023~2025 월별 2차 재확인 누락 보충
+- [2026-10-27] QUERY query=AIR API 문서에서 param_yn 정의 확인 result_pages=3 mode=normal ...
+- [2026-10-27] INGEST source=url:https://inavisystems.atlassian.net/wiki/spaces/AS/pages... pages_created=27 pages_updated=2 ...
+- [2026-10-27] INGEST source=slack:#01_inavi_air 전체(2022-07~2026-10) pages_created=8 pages_updated=1 ...
 
 ## Active Threads
 
@@ -21,9 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-2026 메일 반영과 함께 raw 66개를 재수집: 에어 HUD·신호등·MR 규격, 대만 특허검토·TomTom 규격, 동행맵 화면기획 개정이력·디자인 컨셉 변천, 공공 UIUX·접근성·보안 가이드 요지를 기존 허브에 연결. 키·계정·서버 주소는 제외.
-
-Slack #001_air_nsdk_dev 채널 전체(2022-07~2026-10)를 연도별 7개 페이지로 반영: Air3 출시 이후 UI·광고(SKP/포인트홈)·HUD·CarPlay·빌드 도구 이슈, 2024 New NaviSDK(KMP), 2025~2026 대만향 Orbis Global Navi/Maps SDK 배포와 업체 지원. 이름·키·계정·서버 주소는 제외.
+에어 앱 개발 채널(#01_inavi_air) 2022-07부터 현재까지 답글 스레드 전부를 반영했다. 에어캐시·푸시·신호등·음성광고, 앱 버전별 배포 이력, 서버·엔진 이슈 원인이 연도별 기록으로 이어진다.
 
 ## Flagged Contradictions
 

@@ -46,6 +46,7 @@ snapshots:
 - **그룹주행**: 위치를 서로 허용한 사람끼리 목적지까지 함께 이동하는 기능. → [[inavi-air-group-driving-design]], [[group-driving-location-permission]]
 - **푸시 알림**: FCM 기반 6가지 메시지 유형. → [[air-push-notification]]
 - **앱 기능 개발 이력**: 2022~2023년 HUD, 신호등, 음성광고, 에어캐시 스탬프 등과 2026년 월별 정기 업데이트. → [[inavi-air-feature-history]]
+- **AOS 앱 작업 이력(커밋 기준)**: 2022-07~2026-10 본인 커밋 2,054건의 기간별 정리. 커밋 메시지 기준이며 diff 미검증. → [[air-aos-commit-history]]
 
 ## 주요 API 기능 영역
 

@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-28T08:12:04+09:00
-pages: 301
+updated: 2026-10-28T08:58:29+09:00
+pages: 309
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-27] INGEST source=bitbucket:mobility-tech/inaviair_aos 본인 커밋 2054건(2022-07~20... pages_created=6 pages_updated=1 ...
-- [2026-10-27] INGEST source=daily-ingest 2026-10-26T08:00~2026-10-27T17:07 pages_created=2 pages_updated=1 ...
-- [2026-10-28] INGEST source=daily-ingest 2026-10-27T17:07~2026-10-28T08:10 pages_created=0 pages_updated=1 ...
+- [2026-10-28] INGEST source=bitbucket:mobility-tech/seoul-donghaeng 본인 커밋 216건(2026-07~... pages_created=1 pages_updated=1 ...
+- [2026-10-28] CAPTURE type=source page=references/2026-goals-and-checkins.md title=2026 목표와 주요업무 체크인 — 10월 체크인 추가
+- [2026-10-28] INGEST source=bitbucket: inavi-location·mtech-demo·inavi-global-map-sdk-a... pages_created=8 pages_updated=3 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-신규 업무 거의 없음: 에어 계기판 시뮬레이터 테스트 답글 1건, 커밋·메일 반영 0건
+드로잉런 위치 SDK, 글로벌 지도 SDK, 내비게이션 SDK core, mtech-demo의 본인 작업 이력을 커밋 메시지 기준(diff 미검증, draft)으로 정리했다. orbismap-core는 본인 커밋이 없어 제외했다.
 
 ## Flagged Contradictions
 

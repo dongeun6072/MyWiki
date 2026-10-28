@@ -57,6 +57,7 @@ Confluence 스페이스(20페이지)를 주제별로 정리했다. 2026-02 PoC �
 | [[drawing-run-sdk-release-history-2026]] | 1.0.0 ~ 1.0.2 배포 이력 |
 | [[drawing-run-slack-dev-channel-2026]] | 내부 슬랙 채널 연표(2~10월): 범위 변경, 배포, 고객 서비스 오픈과 방향 변경, 후속 수요 |
 | [[drawing-run-sdk-integration-qna-2026]] | 고객 연동 문의와 대응: pause/resume 사양, 프로가드, 포그라운드 서비스, iOS 위치 수신, 버전 요건 |
+| [[inavi-location-commit-history-2026]] | 본인 커밋 219건(2026-04~10) 주제별 이력. 커밋 메시지 기준, diff 미검증 |
 
 ## 특징
 

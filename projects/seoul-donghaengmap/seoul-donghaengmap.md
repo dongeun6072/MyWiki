@@ -55,6 +55,8 @@ snapshots:
 | 앱서버 개발 환경, DB 테이블 | [[seoul-donghaengmap-backend-env]] |
 | LBS테크 협업(보행 경로 서버, 내비 SDK) | [[seoul-donghaengmap-lbs-collaboration]] |
 | 일정(WBS) | [[seoul-donghaengmap-wbs]] |
+| 앱 작업 이력(Bitbucket 커밋 기준, 2026-07~10, diff 미검증) | [[seoul-donghaengmap-app-commit-history-2026]] |
+| 앱 템플릿 mtech-demo 작업 이력(커밋 기준, diff 미검증) | [[mtech-demo-commit-history-2026]] |
 | 지하철역 실내내비 난이도 등급 | [[seoul-subway-station-grade]] |
 | 테스트 케이스 512건 | [[seoul-donghaengmap-testcases]] |
 | 설계단계 감리 결과 | [[seoul-donghaengmap-design-audit]] |

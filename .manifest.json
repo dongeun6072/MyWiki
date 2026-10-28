@@ -1328,6 +1328,45 @@
         "projects/inavi-air/references/air-aos-commit-history-2024.md",
         "projects/inavi-air/references/air-aos-commit-history-2025-2026.md"
       ]
+    },
+    "_raw/_archived/Bitbucket_seoul-donghaeng_커밋목록_dongeun.md": {
+      "content_hash": "8b2a560c00f6e9b4f736bda9f71131038d018c3f99ca2360683b72d42cedf685",
+      "last_ingested": "2026-10-27T23:31:44.338155+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/seoul-donghaengmap.md"
+      ]
+    },
+    "_raw/_archived/Bitbucket_inavi-location_커밋목록_dongeun.md": {
+      "content_hash": "f2276dbf5d4cc28ed2e4b6b066269b068fa8085f91535dd66fd7d55167dd27e9",
+      "last_ingested": "2026-10-27T23:58:28.839524+00:00",
+      "pages_produced": [
+        "projects/drawing-run-sdk/drawing-run-sdk.md"
+      ]
+    },
+    "_raw/_archived/Bitbucket_inavi-global-map-sdk-android_커밋목록_dongeun.md": {
+      "content_hash": "de7667618b200c9983638cd9eee092c9b27361d0557c8852bbae91e231b93ce9",
+      "last_ingested": "2026-10-27T23:58:29.004427+00:00",
+      "pages_produced": [
+        "projects/orbis-sdk/orbis-sdk.md"
+      ]
+    },
+    "_raw/_archived/Bitbucket_mtech-demo_커밋목록_dongeun.md": {
+      "content_hash": "d70b96b1af764578f1ff4189a9b4383acf1ce32db82e62af3cc53f1e8e9a66c3",
+      "last_ingested": "2026-10-27T23:58:29.165382+00:00",
+      "pages_produced": [
+        "projects/seoul-donghaengmap/seoul-donghaengmap.md"
+      ]
+    },
+    "_raw/_archived/Bitbucket_navisdk_core_커밋목록_dongeun.md": {
+      "content_hash": "8b4757e0c7e36d8a266ce64ea2c9446fba6b86296319ad3801d578e8eab2c981",
+      "last_ingested": "2026-10-28T00:00:06.606380+00:00",
+      "pages_produced": [
+        "projects/orbis-sdk/references/navisdk-core-commit-history.md",
+        "projects/orbis-sdk/references/navisdk-core-commit-history-2024-10-to-2025-04.md",
+        "projects/orbis-sdk/references/navisdk-core-commit-history-2025-05-to-09.md",
+        "projects/orbis-sdk/references/navisdk-core-commit-history-2025-10-to-2026-09.md",
+        "projects/orbis-sdk/orbis-sdk.md"
+      ]
     }
   }
 }

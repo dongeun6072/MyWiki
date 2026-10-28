@@ -1,9 +1,11 @@
 {
+  "collapse-filter": true,
   "search": "-path:_raw -path:_archives -path:_staging -path:_meta -path:_readouts -file:index -file:log -file:hot",
   "showTags": false,
-  "showOrphans": true,
-  "showArrow": true,
+  "showAttachments": false,
   "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:concepts",
@@ -54,5 +56,17 @@
         "rgb": 13214247
       }
     }
-  ]
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.37499085155946604,
+  "close": false
 }

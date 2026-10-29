@@ -58,6 +58,7 @@ generated_by: obsidian-wiki memory index
 
 - [[journal/2026-10-26]] — 2026-10-26 업무 기록. 서울동행맵 앱 GUI 시안 반영과 실내지도 테스트 적용, 컨소시엄 일정 협의, 에어 규격서 Confluence 이관 공지. ( #journal #daily-ingest #seoul-donghaengmap #inavi-air #visibility/internal)
 - [[journal/2026-10-27]] — 2026-10-27 업무 기록(17시까지). 실내지도 테스트 적용 PR #45 병합, 컨소시엄 SDK 일정·음성 안내 사양 논의, 파파야 Fusion SDK 검토 결과 공유, 한진 App-to-App 백그라운드 안내 검토. ( #journal #daily-ingest #seoul-donghaengmap #inavi-air #visibility/internal)
+- [[journal/2026-10-28]] — 2026-10-28 업무 기록(10-28 08:00~10-29 08:09). 지하철 11개 역 출구 영역 테스트 화면 배포, 측위 좌표 절삭 적용 후 되돌림, 공통 지도에 다각형·선 오버레이 추가, 11/13 시연 대비 앱 개발 가능·불가 항목 정리, Question 사용 중단, AIR 규격서 Notion→Confluence 이전 안내. ( #journal #daily-ingest #seoul-donghaengmap #inavi-air #visibility/internal)
 
 ## Projects
 

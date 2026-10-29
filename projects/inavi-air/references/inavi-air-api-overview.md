@@ -19,7 +19,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-26
 tier: supporting
 created: 2026-10-26T09:14:00+09:00
-updated: 2026-10-27T11:00:00+09:00
+updated: 2026-10-29T08:30:00+09:00
 snapshots:
   - "[[_raw/_archived/API 명세|API 명세]]"
 ---
@@ -96,6 +96,7 @@ snapshots:
 ## Open Questions
 
 - 원본은 요약본이라 각 API의 Request/Response는 Notion 원본을 보라고 안내한다. 이 위키의 [[inavi-air-api-detail-spec]]가 그 상세판이다.
+- 2026-10-28 Notion 유료 구독 종료로 플랫폼 셀이 Notion API 규격서를 Confluence로 옮기고 있다. 전환 대상은 AIR, 커넥티드, 앱미터이고 같은 날 `INAVI AIR API` Confluence 페이지가 공유됐다. 이후 원본 기준은 Confluence다. ([[2026-10-28]])
 
 ## Sources
 

@@ -24,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-28
 tier: supporting
 created: 2026-10-28T09:00:00+09:00
-updated: 2026-10-28T09:00:00+09:00
+updated: 2026-10-29T08:30:00+09:00
 snapshots:
   - "[[_raw/_archived/Bitbucket_seoul-donghaeng_커밋목록_dongeun|Bitbucket_seoul-donghaeng_커밋목록_dongeun]]"
 ---
@@ -187,6 +187,10 @@ GUI 시안 전량 대조로 화면을 신설·개정한 커밋이다. 09-03 화�
 - `2998d3dd` (09-22) InvNavHost·InvApp 리팩토링
 - `3ce3f629` (09-28) 화면 31개에 Compose Preview 추가
 - `798c7cd7` (10-23) 앱 모듈 코드 정리
+
+## 이후 추가 커밋 (daily-ingest, 위 집계 216건 밖)
+
+- 2026-10-28 (5건, merge 제외): `7f3d91a8` 측위 좌표 소수점 다섯째 자리 절삭·같은 좌표 미방출 → `36a527d1` 같은 날 되돌림(정지 중 10초 뒤 추적 해제 우려, 정지 흔들림 거르기는 `fix/app-map-location-min-move`의 반영 단계 판정으로 대체), `41cae7d0` 지도 화면 배터리 소모 Question 앱 답변, `28e8a2a1` 개발자 옵션 출구 영역 테스트(지하철 11개 역 출구 영역 폴리곤·내 위치 포함 여부), `581e6a13` 릴리즈 브랜치용 빈 커밋. 상세는 [[2026-10-28]].
 
 ## 한계
 

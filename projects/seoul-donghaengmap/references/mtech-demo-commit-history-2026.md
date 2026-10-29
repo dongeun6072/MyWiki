@@ -22,7 +22,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-28
 tier: supporting
 created: 2026-10-28T10:00:00+09:00
-updated: 2026-10-28T10:00:00+09:00
+updated: 2026-10-29T08:30:00+09:00
 snapshots:
   - "[[_raw/_archived/Bitbucket_mtech-demo_커밋목록_dongeun|Bitbucket_mtech-demo_커밋목록_dongeun]]"
 ---
@@ -117,6 +117,10 @@ snapshots:
 - `df21dbc5` (2026-10-26) 권한 요청 이력으로 막힘 여부를 판정한다
 
 포함 해시 전체: 47a168e0, 178b74ee, c124c35f, 14d87445, 53f1d468, 1b618060, df21dbc5
+
+## 이후 추가 커밋 (daily-ingest, 위 집계 54건 밖)
+
+- 2026-10-28 (3건): `e62a3190` 측위 좌표 절삭·같은 좌표 미방출 → `fdd195ce` 같은 날 되돌림(정지 중 측위 끊김으로 추적 해제), `c5ed4824` 지도에 다각형·선 오버레이(`InvMapPolygon`·`InvMapLine`, `InvMap`의 `polygons`·`lines` 인자, 오버레이는 별도 컴포저블). 상세는 [[2026-10-28]].
 
 ## 모호한 커밋
 

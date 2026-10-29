@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-28T08:58:29+09:00
-pages: 309
+updated: 2026-10-29T08:13:00+09:00
+pages: 310
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-28] INGEST source=bitbucket:mobility-tech/seoul-donghaeng 본인 커밋 216건(2026-07~... pages_created=1 pages_updated=1 ...
 - [2026-10-28] CAPTURE type=source page=references/2026-goals-and-checkins.md title=2026 목표와 주요업무 체크인 — 10월 체크인 추가
 - [2026-10-28] INGEST source=bitbucket: inavi-location·mtech-demo·inavi-global-map-sdk-a... pages_created=8 pages_updated=3 ...
+- [2026-10-29] INGEST source=daily-ingest 2026-10-28T08:00+09:00~2026-10-29T08:09+09:00 pages_created=1 pages_updated=6 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-드로잉런 위치 SDK, 글로벌 지도 SDK, 내비게이션 SDK core, mtech-demo의 본인 작업 이력을 커밋 메시지 기준(diff 미검증, draft)으로 정리했다. orbismap-core는 본인 커밋이 없어 제외했다.
+출구 영역 테스트 배포, 측위 좌표 절삭 적용·되돌림, core 지도 다각형·선 오버레이, 11/13 시연 가능·불가 항목 정리, Question 폐지, AIR 규격서 Confluence 이전
 
 ## Flagged Contradictions
 

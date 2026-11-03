@@ -46,3 +46,7 @@ title: Wiki Log
 - [2026-10-28T08:49:41+09:00] CAPTURE type=source page=references/2026-goals-and-checkins.md title="2026 목표와 주요업무 체크인 — 10월 체크인 추가"
 - [2026-10-28T08:58:29+09:00] INGEST source="bitbucket: inavi-location·mtech-demo·inavi-global-map-sdk-android·navisdk_core 본인 커밋 1408건(2024-10~2026-10)" pages_created=8 pages_updated=3 mode=full
 - [2026-10-29T08:13:00+09:00] INGEST source="daily-ingest 2026-10-28T08:00+09:00~2026-10-29T08:09+09:00" pages_created=1 pages_updated=6 mode=append
+- [2026-10-30T08:16:02+09:00] INGEST source="daily-ingest 2026-10-29T08:00~2026-10-30T08:09" pages_created=1 pages_updated=5 mode=append
+- [2026-10-31T08:15:43+09:00] INGEST source="daily-ingest 2026-10-30T08:00+09:00~2026-10-31T08:09+09:00" pages_created=1 pages_updated=7 mode=append
+- [2026-11-03T08:11:58+09:00] INGEST source="daily-ingest 2026-11-02T08:00:00+09:00~2026-11-03T08:08:50+09:00" pages_created=1 pages_updated=1 mode=append
+- [2026-11-04T08:06:55+09:00] INGEST source="daily-ingest 2026-11-03T08:00:00+09:00~2026-11-04T08:02:04+09:00" pages_created=1 pages_updated=7 mode=append

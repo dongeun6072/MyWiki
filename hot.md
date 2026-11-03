@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-10-29T08:13:00+09:00
-pages: 310
+updated: 2026-11-04T08:06:55+09:00
+pages: 314
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-10-28] CAPTURE type=source page=references/2026-goals-and-checkins.md title=2026 목표와 주요업무 체크인 — 10월 체크인 추가
-- [2026-10-28] INGEST source=bitbucket: inavi-location·mtech-demo·inavi-global-map-sdk-a... pages_created=8 pages_updated=3 ...
-- [2026-10-29] INGEST source=daily-ingest 2026-10-28T08:00+09:00~2026-10-29T08:09+09:00 pages_created=1 pages_updated=6 ...
+- [2026-10-31] INGEST source=daily-ingest 2026-10-30T08:00+09:00~2026-10-31T08:09+09:00 pages_created=1 pages_updated=7 ...
+- [2026-11-03] INGEST source=daily-ingest 2026-11-02T08:00:00+09:00~2026-11-03T08:08:50+... pages_created=1 pages_updated=1 ...
+- [2026-11-04] INGEST source=daily-ingest 2026-11-03T08:00:00+09:00~2026-11-04T08:02:04+... pages_created=1 pages_updated=7 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-출구 영역 테스트 배포, 측위 좌표 절삭 적용·되돌림, core 지도 다각형·선 오버레이, 11/13 시연 가능·불가 항목 정리, Question 폐지, AIR 규격서 Confluence 이전
+11-03: 서울동행맵 실외→실내 자동 전환·UX 사양 대조 136건(커밋 27), 에어 03.05.64/03.05.40 오픈·iOS 03.05.41 CarPlay 크래시 긴급 빌드, LBS테크 API camelCase 통일
 
 ## Flagged Contradictions
 

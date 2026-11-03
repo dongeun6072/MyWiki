@@ -18,7 +18,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-27
 tier: supporting
 created: 2026-10-27
-updated: 2026-10-27
+updated: 2026-10-31
 sources:
   - "slack:#모빌리티개발셀"
 ---
@@ -74,6 +74,7 @@ sources:
 - 10-07 Gradle 원격 빌드 캐시 서버 오픈 안내, 모바일 SDK 다운로드 서버(Artifactory) 보안 패치로 다운로드 일시 중단 → [[references/cell-dev-infra-and-build-env]].
 - 10-08 부문 강령 전달: AI 생성 산출물의 1차 책임은 작성자 본인, 기한이 정해진 요청은 지연하지 말 것.
 - 10-19 INAVI MAPS 탐색 장애 의심 공유. 10-26 Claude 표준 시트가 1개 남아 공용 계정에 할당.
+- 10-30 회사가 데이터를 공급하는 KSA 프로젝트 베타 앱(외부 업체 제작) iOS 출시 공유. 다음 주 화·수 올해 업무 목표 부문 면담 예고. tech_talk에 셀장이 만든 광고 없는 Android 모의 위치 앱 공유(INAVI MAPS 검색 연동으로 외부 유출 금지, 링크 미수록). → [[2026-10-30]]
 
 ## Sources
 

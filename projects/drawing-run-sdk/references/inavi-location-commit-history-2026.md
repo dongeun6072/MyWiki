@@ -24,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-10-28
 tier: supporting
 created: 2026-10-28T10:00:00+09:00
-updated: 2026-10-28T10:00:00+09:00
+updated: 2026-11-05T10:30:00+09:00
 snapshots:
   - "[[_raw/_archived/Bitbucket_inavi-location_커밋목록_dongeun|Bitbucket_inavi-location_커밋목록_dongeun]]"
 ---
@@ -243,6 +243,10 @@ snapshots:
 
 - `0adf1e1` (2026-07-03) Logger 표출하도록 수정 (어느 모듈·화면의 Logger인지 메시지에 없음)
 - `a6bee76` (2026-06-10) Location accuarcy, fresh 필드 추가 (필드 추가 대상 모델이 메시지에 없음)
+
+## 이후 추가 커밋 (daily-ingest, 위 집계 219건 밖)
+
+- 2026-11-04 (1건): `06efac3` `feature/monimo_sdk`의 release 버전을 1.0.4로 상향. 같은 날 모니모 전용 SDK 1.0.4(30분 자동 종료, 자동 종료 리스너)가 고객사에 배포됐다 → [[drawing-run-slack-dev-channel-2026]], [[2026-11-04]].
 
 ## 검산
 

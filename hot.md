@@ -1,7 +1,7 @@
 ---
 title: Hot Cache
-updated: 2026-11-07T08:12:59+09:00
-pages: 317
+updated: 2026-11-12T08:14:15+09:00
+pages: 320
 generated_by: obsidian-wiki memory hot
 ---
 
@@ -11,9 +11,9 @@ generated_by: obsidian-wiki memory hot
 
 ## Recent Activity
 
-- [2026-11-05] INGEST source=daily-ingest 2026-11-04T08:00~2026-11-05T09:55 pages_created=1 pages_updated=9 ...
-- [2026-11-06] INGEST source=daily-ingest 2026-11-05T08:00+09:00~2026-11-06T08:01+09:00 pages_created=1 pages_updated=6 ...
-- [2026-11-07] INGEST source=daily-ingest 2026-11-06T08:00+09:00~2026-11-07T08:09+09:00 pages_created=1 pages_updated=4 ...
+- [2026-11-10] INGEST source=daily-ingest 2026-11-09T08:00:00+09:00~2026-11-10T08:09:02+... pages_created=1 pages_updated=8 ...
+- [2026-11-11] INGEST source=daily-ingest 2026-11-10T08:00~2026-11-11T08:09 pages_created=1 pages_updated=5 ...
+- [2026-11-12] INGEST source=daily-ingest 2026-11-11T08:00:00+09:00~2026-11-12T08:09:48+... pages_created=1 pages_updated=6 ...
 
 ## Active Threads
 
@@ -21,7 +21,7 @@ generated_by: obsidian-wiki memory hot
 
 ## Key Takeaways
 
-서울동행맵 실제 주행 기록·주행 재생(개발자 옵션), 11-09 LBS테크 회의 R&R 두 안과 확인 항목(SDK 음성 기준, 버스 실시간 입력 함수), 경로 필터·다국어 문의, 에어 iOS 03.05.41 유입률 73%
+서울동행맵 판교역 현장 시연 모드 커밋·릴리즈, 파파야 시청역 POI 갱신(엘리베이터 명칭 확정), ODsay 역 기준표, LBS테크 연동규격서 v120 회신(인근 편의시설 7종은 데이터 없음)
 
 ## Flagged Contradictions
 
